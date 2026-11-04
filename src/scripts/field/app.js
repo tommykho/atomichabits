@@ -298,7 +298,7 @@ ui.speak.addEventListener('click', async () => {
     ui.audio.hidden = false;
     ui.download.href = audioUrl;
     const stamp = new Date().toISOString().slice(0, 10);
-    ui.download.download = `one-percent-habit-podcast-${stamp}.mp3`;
+    ui.download.download = `hopbit-habit-podcast-${stamp}.mp3`;
     ui.download.hidden = false;
     ui.ttsStatus.textContent = `Ready · ${(blob.size / 1024).toFixed(0)} KB MP3`;
   } catch (err) {

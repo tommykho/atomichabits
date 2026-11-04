@@ -1,9 +1,9 @@
 {
-  "name": "one-percent-field-manual",
+  "name": "hopbit-habits",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "1% Field Manual — an unofficial companion to the ideas in Atomic Habits, turned into practical habit tactics for work, business and personal life, with a BYOK AI Habit Coach and a 30-second podcast generator.",
+  "description": "Hopbit: Micro incremental habits — an unofficial companion to the ideas in Atomic Habits, turned into practical habit tactics for work, business and personal life, with a BYOK AI Habit Coach and a 30-second podcast generator.",
   "scripts": {
     "validate": "node scripts/validate-content.mjs",
     "dev": "astro dev",

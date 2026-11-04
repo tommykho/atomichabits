@@ -1,6 +1,6 @@
-# 1% Field Manual
+# Hopbit: Micro incremental habits
 
-*Tiny habits, applied to real work and life.* An unofficial companion to the ideas in **Atomic Habits** by James Clear (2018).
+*Hop one small step a day.* An unofficial companion to the ideas in **Atomic Habits** by James Clear (2018).
 
 A static website that turns the book's 20 chapters into practical habit tactics for work, career, business, health, family and self. It is a sister project of [Sun Tzu · Modern Field Manual](https://github.com/tommykho/suntze) and uses the same stack, features and deployment model. It includes:
 
@@ -9,6 +9,7 @@ A static website that turns the book's 20 chapters into practical habit tactics 
 - **Habit Coach (AI)**: describe a habit to start or stop and get your habit loop, a four-law system, a script and a backfire check. Every `[chapter.idea]` citation is checked against the dataset: exact phrases, paraphrases and invented IDs are labelled.
 - **30-second podcast**: the plan becomes a spoken script, voiced on your device (Kokoro-82M) or with your own TTS key, with a soft chime intro, and downloaded as an MP3.
 - **Community habit journals** (preview): post the habit you built or broke, rate others' entries, flag unhealthy ones. Phase 2 adds accounts and shared storage.
+- **Brand**: the Hopbit V3 die-cut rabbit (`public/hopbit-diecut.svg`, generated from the Hopbit brand kit geometry) in the header and footer; favicon and touch icon from the Hopbit avatar.
 - **Habit-journal design**: paper, ruled index cards, washi tape and handwriting, with light and dark ("night journal") themes, GSAP + Lenis scroll motion and reduced-motion support.
 
 **Cost to the site owner: $0.** The site is static. AI and voice run on the visitor's device or on the visitor's own provider key. The only server code is a small stateless CORS relay.
@@ -19,7 +20,7 @@ A static website that turns the book's 20 chapters into practical habit tactics 
 
 - does **not** reproduce any text from the book (chapter titles are listed for navigation only);
 - writes all chapter summaries, key ideas and tactics in original words, and cites them by ID;
-- uses a distinct brand (*1% Field Manual*) and states that it is unofficial and unaffiliated;
+- uses its own brand (*Hopbit*) and states that it is unofficial and unaffiliated;
 - tells the AI never to quote the book, and only verifies citations against this project's own idea summaries.
 
 Do not add book excerpts, scans or PDFs to this repository. See [docs/CONTENT-GUIDE.md](docs/CONTENT-GUIDE.md).

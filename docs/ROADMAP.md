@@ -10,9 +10,10 @@
 - [x] Deploy configs: Cloudflare Pages (Function relay), Vercel (relay project `atomichabits-relay`), GitHub Pages workflow
 
 ## Decisions needed from the owner
-1. **Brand and domain.** Working name *1% Field Manual*. Avoid "Atomic Habits" in the brand or domain (the author's mark); describing the site as an unofficial companion is fine.
-2. **Code licence** (MIT or AGPL, for example) before accepting contributions.
-3. **Monetisation** (Cloudflare allows commercial use). Do not sell book summaries as a substitute for the book; link to the book instead.
+1. **Domain.** Brand is *Hopbit: Micro incremental habits* (Hopbit V3 logo). Pick a domain without "Atomic Habits" in it (the author's mark); describing the site as an unofficial companion is fine.
+2. **Hopbit palette and fonts (optional).** The site keeps the habit-journal theme; the Hopbit kit's navy/sunshine palette and Fredoka/Nunito fonts could replace it.
+3. **Code licence** (MIT or AGPL, for example) before accepting contributions.
+4. **Monetisation** (Cloudflare allows commercial use). Do not sell book summaries as a substitute for the book; link to the book instead.
 
 ## Phase 2: community
 - [ ] Cloudflare D1 schema and `/api/posts`, `/api/ratings`, `/api/flags` Pages Functions

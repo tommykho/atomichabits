@@ -5,7 +5,7 @@ import BrandMark from '../components/BrandMark.astro';
 import { SITE } from '../site.config.js';
 
 const { title, description = SITE.description, bodyClass = '' } = Astro.props;
-const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name}: ${SITE.tagline}`;
 const path = Astro.url.pathname;
 const canonical = new URL(path, Astro.site || SITE.url).href;
 const nav = [
@@ -24,10 +24,13 @@ const nav = [
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href={u('/favicon.svg')} type="image/svg+xml" />
+    <link rel="icon" href={u('/favicon-32.png')} type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href={u('/apple-touch-icon.png')} />
     <meta name="theme-color" content="#fbf6ea" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#1b1a17" media="(prefers-color-scheme: dark)" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={`${SITE.name}: ${SITE.tagline}`} />
+    <meta property="og:image" content={new URL(u('/icon-512.png'), Astro.site || SITE.url).href} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
@@ -46,7 +49,7 @@ const nav = [
       <nav class="wrap nav" aria-label="Primary">
         <a class="brand" href={u('/')} aria-label={`${SITE.name} — home`}>
           <BrandMark />
-          <span class="brand-name">1% Field Manual<small>Habits for work &amp; life</small></span>
+          <span class="brand-name">Hopbit<small>Micro incremental habits</small></span>
         </a>
         <ul class="nav-links" id="nav-links">
           {nav.map((n) => (
@@ -75,10 +78,10 @@ const nav = [
           <div>
             <a class="brand" href={u('/')} style="margin-bottom:14px">
               <BrandMark />
-              <span class="brand-name">1% Field Manual<small>Habits for work &amp; life</small></span>
+              <span class="brand-name">Hopbit<small>Micro incremental habits</small></span>
             </a>
             <p style="max-width:46ch">
-              Small changes, repeated daily. Twenty chapters of habit ideas turned into practical systems for work, business, health and home.
+              Hop one small step a day. Twenty chapters of habit ideas turned into micro, incremental systems for work, business, health and home.
             </p>
           </div>
           <div>

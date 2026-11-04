@@ -151,7 +151,7 @@ async function* openaiStream(p, { key, model, base, system, user, signal }) {
   const url = `${(base || p.base).replace(/\/+$/, '')}/chat/completions`;
   const headers = { 'content-type': 'application/json', accept: 'text/event-stream' };
   if (key) headers.authorization = `Bearer ${key}`;
-  if (p.id === 'openrouter') { headers['http-referer'] = location.origin; headers['x-title'] = '1% Field Manual'; }
+  if (p.id === 'openrouter') { headers['http-referer'] = location.origin; headers['x-title'] = 'Hopbit'; }
   const body = JSON.stringify({
     model,
     stream: true,
