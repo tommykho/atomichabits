@@ -1,0 +1,401 @@
+---
+import { u } from '../lib/url.js';
+import Base from '../layouts/Base.astro';
+import Tape from '../components/Tape.astro';
+import Num from '../components/Num.astro';
+import PenDivider from '../components/PenDivider.astro';
+import IdeaCard from '../components/IdeaCard.astro';
+import { chapters, tactics, featured, parts, ideaMap, DOMAINS } from '../lib/content.js';
+
+const ideaCount = ideaMap.size;
+const starterOrder = ['stack-it-on-standup', 'the-two-minute-version', 'never-miss-twice'];
+const starters = starterOrder.map((s) => featured.find((t) => t.slug === s)).filter(Boolean);
+const laws = parts.filter((p) => p.inverse);
+const coachExamples = [
+  'I check Slack every five minutes and never finish deep work.',
+  'I want to run three times a week but stop after a fortnight.',
+  'Our team never updates the CRM after client calls.',
+];
+
+// ---- compounding curves (1.01^d vs 0.99^d), drawn as SVG paths at build time ----
+const W = 360, base = 150, top = 14;
+const up = [], down = [];
+for (let d = 0; d <= 365; d += 5) {
+  const x = 20 + (d / 365) * (W - 30);
+  up.push(`${x.toFixed(1)},${(base - ((1.01 ** d - 1) / (1.01 ** 365 - 1)) * (base - top)).toFixed(1)}`);
+  down.push(`${x.toFixed(1)},${(base + (1 - 0.99 ** d) * 34).toFixed(1)}`);
+}
+const upPath = `M${up.join(' L')}`;
+const downPath = `M${down.join(' L')}`;
+
+// ---- habit tracker: deterministic pattern with single misses that are always followed by a tick ----
+const habits = ['Read one page', 'Walk 10 minutes', 'Inbox at 10 · 1 · 4', 'Thank one person', 'Plan tomorrow'];
+const DAYS = 21;
+let seed = 7;
+const rnd = () => ((seed = (seed * 9301 + 49297) % 233280) / 233280);
+const grid = habits.map(() => {
+  const row = [];
+  for (let d = 0; d < DAYS; d++) row.push(row[d - 1] === 'miss' ? 'done' : rnd() < 0.14 ? 'miss' : 'done');
+  return row;
+});
+---
+<Base>
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" data-hero>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow" data-hero-in><span>An unofficial companion to the ideas in <em>Atomic Habits</em></span></p>
+        <h1 class="hero-title">
+          <span class="line"><span data-hero-line>Get 1% better</span></span>
+          <span class="line"><span data-hero-line>at the things you</span></span>
+          <span class="line"><span data-hero-line><span class="mark">do every day.</span></span></span>
+        </h1>
+        <p class="lede" data-hero-in>
+          Inbox spirals. Skipped workouts. Takeaway Tuesdays. Meetings that never start on time.
+          Twenty chapters of habit ideas turned into small, practical systems for work, business and home.
+        </p>
+        <div class="hero-cta" data-hero-in>
+          <a class="btn btn--ink" href={u('/coach/')}>Ask the Habit Coach</a>
+          <a class="btn" href={u('/chapters/')}>Read the 20 chapters</a>
+        </div>
+      </div>
+
+      <div class="hero-page ruled" data-hero-page aria-label="A journal page: one percent better every day compounds to about 37 times better after a year; one percent worse compounds to almost nothing.">
+        <Tape color="amber" class="page-tape">Day <span data-count="365">365</span></Tape>
+        <p class="formula hand"><span class="up">1.01<sup>365</sup> ≈ 37.78</span><span class="down">0.99<sup>365</sup> ≈ 0.03</span></p>
+        <svg class="curve" viewBox="0 0 360 196" fill="none" aria-hidden="true" data-draw>
+          <path class="axis" d="M20 10 V 186 M20 150 H 352" stroke-width="1.4" stroke-linecap="round" />
+          <path class="c-up" d={upPath} stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <path class="c-down" d={downPath} stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          <text x="196" y="40" class="lbl lbl-up">1% better every day</text>
+          <text x="210" y="178" class="lbl lbl-down">1% worse every day</text>
+          <text x="26" y="142" class="lbl lbl-base">today</text>
+        </svg>
+        <div class="tracker" data-tracker role="img" aria-label="A habit tracker with 21 days of ticks; any missed day is followed by a tick.">
+          {habits.map((h, r) => (
+            <div class="t-row">
+              <span class="t-name hand">{h}</span>
+              <span class="t-cells">
+                {grid[r].map((s, d) => (
+                  <span class={`cell cell--${s}`} style={`--d:${d + r * 0.6}`}>
+                    {s === 'done'
+                      ? <svg viewBox="0 0 16 16"><path d="M3 8.5 l3.2 3.4 L13 3.5" /></svg>
+                      : <svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="1.8" /></svg>}
+                  </span>
+                ))}
+              </span>
+            </div>
+          ))}
+          <p class="t-note hand">missed once → back the next day</p>
+        </div>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#manifesto" aria-label="Scroll to begin">
+      <span>Scroll</span>
+      <i aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <!-- ===================== MANIFESTO ===================== -->
+  <section class="section manifesto" id="manifesto">
+    <div class="narrow">
+      <p class="eyebrow" data-reveal>The one percent rule</p>
+      <p class="manifesto-text" data-split>
+        Nobody changes their life in a day. They change what they do every day. A habit is a small decision repeated until it decides for you.
+        This manual is about designing those small decisions on purpose, at your desk, in your kitchen and in your team.
+      </p>
+      <IdeaCard id="1.1" />
+      <div class="stats">
+        <div data-reveal><strong data-count={chapters.length}>{chapters.length}</strong><span>chapters</span></div>
+        <div data-reveal><strong data-count={ideaCount}>{ideaCount}</strong><span>key ideas, in plain words</span></div>
+        <div data-reveal><strong data-count={tactics.length}>{tactics.length}</strong><span>tactics for work &amp; life</span></div>
+      </div>
+    </div>
+  </section>
+
+  <PenDivider />
+
+  <!-- ===================== FOUR LAWS ===================== -->
+  <section class="section laws" aria-labelledby="laws-title">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>The four laws, and how to flip them</p>
+      <h2 id="laws-title" data-reveal>One loop. Four levers.</h2>
+      <p class="lede" data-reveal>Every habit runs on the same loop: cue, craving, response, reward. Pull a lever to build a good habit; flip it to break a bad one.</p>
+      <div class="law-grid">
+        {laws.map((p, i) => (
+          <a class="law" href={u(`/chapters/${p.chapters[0]}/`)} data-color={p.color} data-reveal>
+            <span class="law-step hand">{['cue', 'craving', 'response', 'reward'][i]}</span>
+            <Tape color={p.color}>{p.label}</Tape>
+            <h3>{p.rule}</h3>
+            <p class="law-flip"><span>To break a habit:</span> {p.inverse}</p>
+            <span class="law-ch">Chapters {p.chapters[0]}–{p.chapters[p.chapters.length - 1]} →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 20 CHAPTERS (pinned horizontal) ===================== -->
+  <section class="chapters-h" data-hscroll aria-labelledby="chapters-title">
+    <div class="wrap chapters-head">
+      <p class="eyebrow">The twenty chapters</p>
+      <h2 id="chapters-title">Twenty pages of a better routine.</h2>
+    </div>
+    <div class="hscroll-viewport">
+      <ol class="hscroll-track" data-hscroll-track>
+        {chapters.map((c) => (
+          <li class="ch-panel" data-panel>
+            <a href={u(`/chapters/${c.n}/`)} class="ch-card ruled" data-color={c.part.color}>
+              <div class="ch-top" data-panel-in>
+                <Num n={c.n} color={c.part.color} />
+                <Tape color={c.part.color}>{c.part.label}</Tape>
+              </div>
+              <p class="ch-short hand" data-panel-in>{c.short}</p>
+              <h3 data-panel-in>{c.title}</h3>
+              <p class="ch-essence" data-panel-in>{c.essence}</p>
+              <span class="ch-more" data-panel-in>{c.ideas.length} ideas · {c.tactics.length} tactics →</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+    <div class="wrap"><div class="hscroll-progress"><i data-hscroll-progress></i></div></div>
+  </section>
+
+  <!-- ===================== STARTER HABITS ===================== -->
+  <section class="section starters">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal>Start here</p>
+      <h2 data-reveal>Three habits. Two minutes each.</h2>
+      <p class="lede" data-reveal>The tactics that started this project. Each turns one idea into something you can try before lunch.</p>
+      <div class="starter-stack" data-stack>
+        {starters.map((t, i) => {
+          const c = chapters[t.chapter - 1];
+          return (
+            <article class="starter-card ruled" data-color={c.part.color}>
+              <Num n={i + 1} size="lg" color={c.part.color} />
+              <div class="starter-body">
+                <div class="card-meta">
+                  <span class="chip chip--hl">{DOMAINS[t.domain].label}</span>
+                  <span class="chip">Chapter {c.n} · {c.short}</span>
+                </div>
+                <h3>{t.title}</h3>
+                <p class="starter-situation">{t.situation}</p>
+                <p class="starter-scene">{t.scene}</p>
+                <ol class="starter-moves">
+                  {t.moves.slice(0, 4).map((m) => <li>{m.title}</li>)}
+                </ol>
+                <a class="btn btn--sm" href={u(`/tactics/${t.slug}/`)}>Open the full tactic →</a>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COACH TEASER ===================== -->
+  <section class="section coach-teaser">
+    <div class="wrap coach-grid">
+      <div>
+        <p class="eyebrow" data-reveal>Habit Coach · AI</p>
+        <h2 data-reveal>Describe the habit. <span class="scribble">Get a system.<svg viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true" data-draw><path d="M2 8 C 50 2, 120 12, 198 4" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" /></svg></span></h2>
+        <p class="lede" data-reveal>
+          Tell the coach what you want to start or stop. It maps your habit loop, cites the ideas it relies on (checked against this manual), and gives you a four-law system, a script to use and a backfire check.
+          Then it turns the plan into a <strong>30-second podcast</strong> you can download as an MP3.
+        </p>
+        <ul class="ticks" data-reveal>
+          <li>Free: bring your own key (OpenRouter, Gemini, Groq, NVIDIA…) or use a no-key option</li>
+          <li>Your key stays in your browser. Nothing is stored on our servers.</li>
+          <li>Voice generated on your device. No sign-up needed.</li>
+        </ul>
+        <a class="btn btn--ink" href={u('/coach/')} data-reveal>Open the Habit Coach</a>
+      </div>
+      <div class="coach-mock ruled" data-reveal="scale" aria-hidden="true">
+        <Tape color="blue" class="mock-tape">habit coach</Tape>
+        <div class="mock-body">
+          {coachExamples.map((q, i) => <p class={`mock-q mock-q${i}`}>“{q}”</p>)}
+          <div class="mock-a">
+            <span class="mock-tag">Ideas that apply</span>
+            <p>Make the cue invisible: mute the noisy channels and batch checks. <b>[7.3]</b></p>
+            <span class="mock-tag">Your system</span>
+            <p>Obvious → Attractive → Easy → Satisfying, one move each…</p>
+            <div class="mock-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COMMUNITY TEASER ===================== -->
+  <section class="section community-teaser">
+    <div class="narrow" style="text-align:center">
+      <Tape color="green" data-reveal="scale">Community</Tape>
+      <h2 data-reveal style="margin-top:22px">A habit journal written by everyone.</h2>
+      <p class="lede" data-reveal style="margin-inline:auto">
+        Share the habit you built or broke and the system that made it stick. Rate what others tried. The most useful entries rise; the unhealthy ones get flagged.
+      </p>
+      <div class="hero-cta" style="justify-content:center" data-reveal>
+        <a class="btn btn--ink" href={u('/community/')}>Read habit journals</a>
+        <a class="btn" href={u('/tactics/')}>Browse all {tactics.length} tactics</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<script>
+  import gsap from 'gsap';
+  import { ScrollTrigger } from 'gsap/ScrollTrigger';
+  gsap.registerPlugin(ScrollTrigger);
+
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const tracker = document.querySelector('[data-tracker]');
+
+  if (!reduce) {
+    const tl = gsap.timeline({ defaults: { ease: 'expo.out' }, delay: 0.1 });
+    tl.from('[data-hero-line]', { yPercent: 110, duration: 1.2, stagger: 0.1 })
+      .from('[data-hero-in]', { y: 22, opacity: 0, duration: 0.9, stagger: 0.08 }, 0.45)
+      .from('[data-hero-page]', { y: 40, rotate: 4, opacity: 0, duration: 1.2 }, 0.2)
+      .add(() => tracker?.classList.add('is-on'), 0.9);
+
+    // the journal page lifts and tilts away as you scroll
+    gsap.to('[data-hero-page]', {
+      yPercent: -10,
+      rotate: -2.5,
+      ease: 'none',
+      scrollTrigger: { trigger: '[data-hero]', start: 'top top', end: 'bottom top', scrub: true },
+    });
+  } else {
+    tracker?.classList.add('is-on');
+  }
+</script>
+
+<style>
+  /* ---------- hero ---------- */
+  .hero { position: relative; min-height: 100svh; display: grid; align-items: center; padding-top: 100px; padding-bottom: 80px; overflow: hidden; }
+  .hero-grid { position: relative; display: grid; grid-template-columns: 1.05fr 0.95fr; gap: clamp(28px, 5vw, 64px); align-items: center; }
+  .hero-title { margin: 18px 0 24px; font-size: clamp(2.6rem, 5.4vw + 0.6rem, 5.8rem); line-height: 1; }
+  .hero-title .line { display: block; overflow: hidden; padding-bottom: 0.08em; }
+  .hero-title .line > span { display: inline-block; }
+  .hero-cta { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
+
+  .hero-page { position: relative; padding: 34px 22px 20px 52px; border-radius: 6px; border: 1px solid var(--line); box-shadow: var(--shadow-lift); transform: rotate(1.5deg); }
+  .hero-page :global(.page-tape) { position: absolute; top: -12px; left: 50%; transform: translateX(-50%) rotate(-3deg); font-size: 0.72rem; }
+  .formula { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 0 0 4px; font-size: clamp(1.4rem, 1.4vw + 0.9rem, 1.9rem); line-height: 1.1; }
+  .formula .up { color: var(--green); }
+  .formula .down { color: var(--red); font-size: 0.8em; align-self: end; }
+  .curve { width: 100%; height: auto; }
+  .curve .axis { stroke: var(--ink-4); }
+  .curve .c-up { stroke: var(--green); }
+  .curve .c-down { stroke: var(--red); }
+  .curve .lbl { font: 600 15px var(--f-hand); }
+  .curve .lbl-up { fill: var(--green); }
+  .curve .lbl-down { fill: var(--red); }
+  .curve .lbl-base { fill: var(--ink-3); font-size: 13px; }
+
+  .tracker { margin-top: 8px; display: grid; gap: 4px; }
+  .t-row { display: grid; grid-template-columns: 9.5em 1fr; align-items: center; gap: 8px; }
+  .t-name { font-size: 1.02rem; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .t-cells { display: grid; grid-template-columns: repeat(21, 1fr); gap: 2px; }
+  .cell { aspect-ratio: 1; border: 1px solid var(--line-2); border-radius: 3px; display: grid; place-items: center; background: var(--paper-2); }
+  .cell svg { width: 100%; height: 100%; }
+  .cell path { fill: none; stroke: var(--green); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 20; stroke-dashoffset: 20; transition: stroke-dashoffset 0.28s ease calc(var(--d) * 55ms); }
+  .cell circle { fill: var(--red); opacity: 0; transition: opacity 0.2s ease calc(var(--d) * 55ms); }
+  .tracker.is-on .cell path { stroke-dashoffset: 0; }
+  .tracker.is-on .cell circle { opacity: 1; }
+  :global(html:not(.has-motion)) .cell path { stroke-dashoffset: 0; }
+  :global(html:not(.has-motion)) .cell circle { opacity: 1; }
+  .t-note { margin: 6px 0 0; text-align: right; color: var(--red); font-size: 1.05rem; }
+
+  .scroll-cue { position: absolute; left: 50%; bottom: 20px; transform: translateX(-50%); display: grid; justify-items: center; gap: 8px; text-decoration: none; font: 600 0.65rem var(--f-ui); letter-spacing: 0.3em; text-transform: uppercase; color: var(--ink-3); }
+  .scroll-cue i { width: 1.5px; height: 42px; background: linear-gradient(var(--ink-3), transparent); animation: cue 2.2s var(--ease) infinite; transform-origin: top; }
+  @keyframes cue { 0% { transform: scaleY(0); } 50% { transform: scaleY(1); } 100% { transform: scaleY(1); opacity: 0; } }
+  @media (max-width: 900px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .hero-page { transform: rotate(0.6deg); padding-left: 46px; }
+    .scroll-cue { display: none; }
+  }
+  @media (max-width: 480px) {
+    .t-row { grid-template-columns: 1fr; gap: 2px; }
+    .hero-page { padding: 30px 14px 16px 44px; }
+  }
+
+  /* ---------- manifesto ---------- */
+  .manifesto-text { font-family: var(--f-display); font-size: clamp(1.6rem, 2.2vw + 1rem, 2.8rem); line-height: 1.24; margin: 18px 0 44px; color: var(--ink); }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 48px; text-align: center; }
+  .stats strong { display: block; font: 700 clamp(2.6rem, 4.4vw, 4rem)/1 var(--f-hand); color: var(--red); }
+  .stats span { font: 500 0.72rem var(--f-ui); letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); }
+
+  /* ---------- four laws ---------- */
+  .law-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 40px; }
+  .law { position: relative; display: flex; flex-direction: column; gap: 10px; padding: 26px 20px 20px; border-radius: 6px; background: var(--paper-2); border: 1px solid var(--line); box-shadow: var(--shadow); text-decoration: none; transition: transform 0.45s var(--ease), box-shadow 0.45s var(--ease); }
+  .law::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 5px; border-radius: 6px 6px 0 0; background: var(--law); }
+  .law:hover { transform: translateY(-5px) rotate(-0.6deg); box-shadow: var(--shadow-lift); color: inherit; }
+  .law :global(.tape) { align-self: flex-start; }
+  .law-step { font-size: 1.3rem; color: var(--law); line-height: 1; }
+  .law h3 { margin: 4px 0 0; font-size: 1.5rem; }
+  .law-flip { margin: 0; font-size: 0.95rem; color: var(--ink-2); padding-top: 10px; border-top: 1px dashed var(--line-2); }
+  .law-flip span { display: block; font: 600 0.66rem var(--f-ui); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .law-ch { margin-top: auto; font: 600 0.74rem var(--f-ui); color: var(--law); }
+  @media (max-width: 980px) { .law-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 520px) { .law-grid { grid-template-columns: 1fr; } }
+
+  /* ---------- chapters horizontal ---------- */
+  .chapters-h { padding-top: clamp(40px, 6vw, 80px); padding-bottom: 40px; overflow: hidden; }
+  .chapters-head { margin-bottom: 34px; }
+  .hscroll-viewport { overflow: visible; }
+  .hscroll-track { list-style: none; margin: 0; padding: 12px var(--gutter) 20px; display: flex; gap: 22px; width: max-content; }
+  .ch-panel { width: min(360px, 78vw); flex: none; }
+  .ch-panel:nth-child(odd) .ch-card { transform: rotate(-0.8deg); }
+  .ch-panel:nth-child(even) .ch-card { transform: rotate(0.7deg); }
+  .ch-card { display: flex; flex-direction: column; gap: 12px; height: 100%; min-height: 430px; padding: 26px 22px 22px 52px; border-radius: 6px; border: 1px solid var(--line); box-shadow: var(--shadow); text-decoration: none; transition: box-shadow 0.4s, transform 0.5s var(--ease); position: relative; }
+  .ch-card::after { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 5px; border-radius: 6px 6px 0 0; background: var(--law); }
+  .ch-panel .ch-card:hover { transform: translateY(-6px) rotate(0deg); box-shadow: var(--shadow-lift); color: inherit; }
+  .ch-top { display: flex; justify-content: space-between; align-items: center; }
+  .ch-short { margin: 6px 0 0; font-size: 1.6rem; line-height: 1.1; color: var(--law); }
+  .ch-card h3 { margin: 0; font-size: 1.45rem; }
+  .ch-essence { color: var(--ink-2); margin: 0; font-size: 1rem; }
+  .ch-more { margin-top: auto; font: 600 0.74rem var(--f-ui); letter-spacing: 0.06em; color: var(--ink-2); }
+  .hscroll-progress { height: 3px; background: var(--line); margin-top: 24px; overflow: hidden; border-radius: 3px; }
+  .hscroll-progress i { display: block; height: 100%; background: var(--hl); transform: scaleX(0); transform-origin: left; }
+  @media (max-width: 899px) {
+    .hscroll-viewport { overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+    .ch-panel { scroll-snap-align: start; }
+    .ch-card { min-height: 400px; }
+    .hscroll-progress { display: none; }
+  }
+
+  /* ---------- starters ---------- */
+  .starter-stack { display: grid; gap: 28px; margin-top: 48px; }
+  .starter-card { position: sticky; top: 96px; display: grid; grid-template-columns: 110px 1fr; gap: 24px; padding: clamp(24px, 4vw, 44px) clamp(20px, 4vw, 44px) clamp(24px, 4vw, 44px) clamp(48px, 5vw, 64px); border-radius: 6px; border: 1px solid var(--line); box-shadow: var(--shadow-lift); transform-origin: center top; }
+  .starter-card::after { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 6px; border-radius: 6px 6px 0 0; background: var(--law); }
+  .starter-body h3 { font-size: clamp(1.8rem, 2vw + 1rem, 2.5rem); margin: 14px 0 8px; }
+  .starter-situation { font: 500 0.98rem/1.5 var(--f-ui); color: var(--law); }
+  .starter-scene { color: var(--ink-2); max-width: 70ch; }
+  .starter-moves { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0 0 22px; counter-reset: m; }
+  .starter-moves li { counter-increment: m; font: 500 0.78rem var(--f-ui); padding: 0.45em 0.9em; border: 1px solid var(--line-2); border-radius: 999px; color: var(--ink-2); background: var(--paper-2); }
+  .starter-moves li::before { content: counter(m) ' · '; color: var(--red); font-weight: 700; }
+  @media (max-width: 700px) { .starter-card { grid-template-columns: 1fr; position: relative; top: 0; } }
+
+  /* ---------- coach teaser ---------- */
+  .coach-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 80px); align-items: center; }
+  .ticks { list-style: none; padding: 0; margin: 0 0 30px; display: grid; gap: 10px; font: 400 0.95rem/1.5 var(--f-ui); color: var(--ink-2); }
+  .ticks li { padding-left: 28px; position: relative; }
+  .ticks li::before { content: ''; position: absolute; left: 2px; top: 0.25em; width: 14px; height: 8px; border-left: 2.5px solid var(--green); border-bottom: 2.5px solid var(--green); transform: rotate(-45deg); }
+  .coach-mock { position: relative; border-radius: 6px; border: 1px solid var(--line); box-shadow: var(--shadow-lift); transform: rotate(-1deg); }
+  .coach-mock :global(.mock-tape) { position: absolute; top: -11px; left: 28px; }
+  .mock-body { padding: 30px 22px 22px 54px; display: grid; gap: 10px; min-height: 340px; }
+  .mock-q { margin: 0; font: 600 1.25rem/1.25 var(--f-hand); color: var(--ink-3); }
+  .mock-q0 { color: var(--pen); }
+  .mock-a { margin-top: 8px; padding: 16px; border-radius: 6px; background: var(--paper-3); border: 1px dashed var(--line-2); font-size: 0.95rem; }
+  .mock-a p { margin: 4px 0 12px; }
+  .mock-a b { color: var(--red); font: 700 0.75rem var(--f-ui); }
+  .mock-tag { font: 700 0.62rem var(--f-ui); letter-spacing: 0.16em; text-transform: uppercase; color: var(--c-amber); }
+  .mock-wave { display: flex; gap: 4px; align-items: center; height: 36px; }
+  .mock-wave i { width: 4px; border-radius: 2px; background: var(--pen); animation: wave 1.2s ease-in-out infinite; }
+  .mock-wave i:nth-child(odd) { animation-delay: -0.4s; } .mock-wave i:nth-child(3n) { animation-delay: -0.8s; }
+  @keyframes wave { 0%, 100% { height: 6px; } 50% { height: 30px; } }
+  @media (max-width: 860px) { .coach-grid { grid-template-columns: 1fr; } }
+
+  .community-teaser { background: radial-gradient(ellipse 60% 50% at 50% 50%, var(--hl-soft), transparent 70%); }
+</style>

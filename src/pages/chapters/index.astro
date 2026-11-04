@@ -1,0 +1,67 @@
+---
+import { u } from '../../lib/url.js';
+import Base from '../../layouts/Base.astro';
+import Tape from '../../components/Tape.astro';
+import Num from '../../components/Num.astro';
+import { chapters, parts, ideaMap, tactics, BOOK } from '../../lib/content.js';
+---
+<Base title="The twenty chapters" description={`A map of the ${chapters.length} chapters of ${BOOK.title}: the Fundamentals, the Four Laws and Advanced Tactics, each with key ideas in plain words and practical tactics.`}>
+  <header class="wrap map-hero">
+    <p class="eyebrow" data-reveal>The book, mapped</p>
+    <h1 data-reveal>Twenty chapters. <span class="mark">One loop.</span></h1>
+    <p class="lede" data-reveal>
+      {ideaMap.size} key ideas and {tactics.length} tactics, organised the way the book is: the fundamentals, one part for each of the four laws, and the advanced tactics that keep you improving.
+    </p>
+    <p class="hint" data-reveal>Chapter titles are listed for navigation. Every summary on this site is original writing, not text from the book. <a href={u('/about/#sources')}>Why</a></p>
+  </header>
+
+  <section class="wrap map" aria-label="Chapters by part">
+    {parts.map((p) => (
+      <section class="part" data-color={p.color} aria-labelledby={`part-${p.id}`}>
+        <div class="part-head" data-reveal>
+          <Tape color={p.color}>{p.label}</Tape>
+          <h2 id={`part-${p.id}`}>{p.rule}</h2>
+          {p.inverse && <p class="part-flip"><span>Flip it to break a habit:</span> {p.inverse}</p>}
+        </div>
+        <ol class="part-list">
+          {p.chapters.map((n) => {
+            const c = chapters[n - 1];
+            return (
+              <li data-reveal>
+                <a class="row" href={u(`/chapters/${c.n}/`)}>
+                  <Num n={c.n} color={p.color} />
+                  <span class="row-body">
+                    <span class="row-short hand">{c.short}</span>
+                    <span class="row-title">{c.title}</span>
+                    <span class="row-essence">{c.essence}</span>
+                  </span>
+                  <span class="row-count">{c.ideas.length} ideas<br />{c.tactics.length} tactics</span>
+                </a>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    ))}
+  </section>
+</Base>
+
+<style>
+  .map-hero { padding: 140px 0 36px; }
+  .map { display: grid; gap: 56px; padding-bottom: 110px; }
+  .part { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.6fr); gap: clamp(20px, 4vw, 56px); align-items: start; }
+  .part-head { position: sticky; top: 96px; }
+  .part-head h2 { margin: 16px 0 10px; font-size: clamp(1.8rem, 2vw + 1rem, 2.6rem); color: var(--law); }
+  .part-flip { margin: 0; color: var(--ink-2); font-size: 1rem; }
+  .part-flip span { display: block; font: 600 0.66rem var(--f-ui); letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .part-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .row { display: grid; grid-template-columns: auto 1fr auto; gap: 18px; align-items: center; padding: 18px 20px; border-radius: 6px; background: var(--paper-2); border: 1px solid var(--line); border-left: 5px solid var(--law); box-shadow: var(--shadow); text-decoration: none; transition: transform 0.4s var(--ease), box-shadow 0.4s; }
+  .row:hover { transform: translateX(6px); box-shadow: var(--shadow-lift); color: inherit; }
+  .row-body { display: grid; gap: 2px; }
+  .row-short { font-size: 1.3rem; line-height: 1.1; color: var(--law); }
+  .row-title { font: 600 1.15rem/1.25 var(--f-display); }
+  .row-essence { color: var(--ink-2); font-size: 0.95rem; }
+  .row-count { font: 500 0.72rem/1.5 var(--f-ui); color: var(--ink-3); text-align: right; }
+  @media (max-width: 860px) { .part { grid-template-columns: 1fr; } .part-head { position: static; } }
+  @media (max-width: 520px) { .row { grid-template-columns: auto 1fr; } .row-count { display: none; } }
+</style>

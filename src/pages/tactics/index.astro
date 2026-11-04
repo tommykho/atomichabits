@@ -1,0 +1,87 @@
+---
+import { u } from '../../lib/url.js';
+import Base from '../../layouts/Base.astro';
+import TacticCard from '../../components/TacticCard.astro';
+import { tactics, chapters, DOMAINS, MODES } from '../../lib/content.js';
+---
+<Base title="Tactic library" description={`${tactics.length} practical habit tactics for work, career, business, health, family and self — each with steps, a ready-to-use script and a backfire check.`}>
+  <header class="lib-hero wrap">
+    <p class="eyebrow" data-reveal>Tactic library</p>
+    <h1 data-reveal>{tactics.length} small systems for <span class="mark">real days.</span></h1>
+    <p class="lede" data-reveal>Each tactic is anchored to an idea, broken into steps, paired with a script you can use today, and ends with an honest backfire check.</p>
+  </header>
+
+  <section class="wrap lib">
+    <div class="filters panel" data-filters>
+      <div class="field" style="flex:1 1 260px">
+        <label for="q">Search</label>
+        <input id="q" class="input" type="search" placeholder="email, gym, savings, team, kids…" autocomplete="off" data-q />
+      </div>
+      <div class="field">
+        <label for="ch">Chapter</label>
+        <select id="ch" class="input" data-ch>
+          <option value="">All chapters</option>
+          {chapters.map((c) => <option value={c.n}>{c.n}. {c.short}</option>)}
+        </select>
+      </div>
+      <div class="field">
+        <label for="mode">Goal</label>
+        <select id="mode" class="input" data-mode>
+          <option value="">Build or break</option>
+          {Object.entries(MODES).map(([k, l]) => <option value={k}>{l}</option>)}
+        </select>
+      </div>
+      <div class="domains" role="group" aria-label="Domain">
+        <button class="chip" type="button" aria-pressed="true" data-domain="">All</button>
+        {Object.entries(DOMAINS).map(([k, d]) => <button class="chip" type="button" aria-pressed="false" data-domain={k}>{d.label}</button>)}
+      </div>
+    </div>
+    <p class="hint" aria-live="polite" data-count>{tactics.length} tactics</p>
+    <div class="grid" data-grid>
+      {tactics.map((t) => <TacticCard t={t} />)}
+    </div>
+    <p class="empty" hidden data-empty>No tactic matches yet. Try the <a href={u('/coach/')}>Habit Coach</a> and describe your situation in your own words.</p>
+  </section>
+</Base>
+
+<script>
+  const cards = [...document.querySelectorAll('[data-grid] > .tactic-card')];
+  const q = document.querySelector('[data-q]');
+  const ch = document.querySelector('[data-ch]');
+  const mode = document.querySelector('[data-mode]');
+  const count = document.querySelector('[data-count]');
+  const empty = document.querySelector('[data-empty]');
+  let domain = '';
+  const params = new URLSearchParams(location.search);
+  if (params.get('q')) q.value = params.get('q');
+  if (params.get('domain')) domain = params.get('domain');
+  if (params.get('mode')) mode.value = params.get('mode');
+
+  const run = () => {
+    const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    let shown = 0;
+    for (const c of cards) {
+      const ok = (!domain || c.dataset.domain === domain) && (!ch.value || c.dataset.chapter === ch.value) && (!mode.value || c.dataset.mode === mode.value) && terms.every((t) => c.dataset.text.includes(t));
+      c.hidden = !ok;
+      if (ok) { shown++; c.style.opacity = 1; c.style.transform = 'none'; }
+    }
+    count.textContent = `${shown} tactic${shown === 1 ? '' : 's'}`;
+    empty.hidden = shown > 0;
+    document.querySelectorAll('button[data-domain]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.domain === domain)));
+    window.dispatchEvent(new Event('resize'));
+  };
+  q.addEventListener('input', run);
+  ch.addEventListener('change', run);
+  mode.addEventListener('change', run);
+  document.querySelectorAll('button[data-domain]').forEach((b) => b.addEventListener('click', () => { domain = b.dataset.domain; run(); }));
+  if (q.value || domain || mode.value) run();
+</script>
+
+<style>
+  .lib-hero { padding: 140px 0 32px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 16px; align-items: end; margin-bottom: 14px; position: relative; z-index: 2; }
+  .domains { display: flex; flex-wrap: wrap; gap: 6px; flex-basis: 100%; }
+  .lib { padding-bottom: 100px; }
+  .lib .grid { margin-top: 18px; }
+  .empty { padding: 40px 0; color: var(--ink-2); }
+</style>

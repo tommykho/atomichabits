@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "get-to-not-have-to",
+    "title": "Get To, Not Have To",
+    "situation": "As a founder you dread sales calls, so you postpone them and fill the day with product tweaks instead.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["sales", "founder", "mindset", "reframe", "calls"],
+    "chapter": 10,
+    "principle": "Get to, not have to",
+    "ideas": ["10.3", "10.4"],
+    "scene": "Picture this: you started the company to build something, not to sell it. Every morning you have to make three sales calls, and every morning you find a product bug that suddenly seems more urgent. The calls feel like a test you might fail. But listen to the words: have to. Try get to. You get to hear what customers actually need. You get to tell people about something you built. The calls are the same; the meaning changes. Add a short warm-up ritual and the dread starts turning into focus.",
+    "moves": [
+      { "title": "Rewrite the call list", "detail": "At the top of your call list, write three get-to sentences, such as: I get to learn what customers struggle with. Read them before the first call. Changing the words changes the prediction your brain makes." },
+      { "title": "Build a warm-up ritual", "detail": "Create a five-minute ritual you enjoy, such as one favourite song, a quick walk round the block and reading one happy customer email. Do it before every call block so it becomes a cue for confidence." },
+      { "title": "Do calls first", "detail": "Put the call block at the start of the day, before you open the product backlog. Once the calls are done, product work becomes a reward instead of a hiding place." },
+      { "title": "Collect what you learn", "detail": "After each call, write one thing you learned about the customer. A growing list of insights makes the calls feel valuable even when they do not close a deal." }
+    ],
+    "script": { "label": "Call opener", "text": "Hi [Name], thanks for making time. I am [your name] from [company]. I am not here to pitch for 30 minutes; I would really like to understand how you handle [problem] today and what gets in the way. If it sounds like we can help, I will show you how, and if not, I will still have learned something useful. Is that okay?" },
+    "backfire": "Reframing does not fix a product that does not solve a real problem, or a pipeline aimed at the wrong customers. If fear of calls is part of wider anxiety, consider coaching or support. Never use a reframe to push people into buying what they do not need.",
+    "signals": "You complete the daily calls on most days for three weeks, the dread before calls eases, and your list of customer insights starts shaping the product.",
+    "effort": "minutes",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "find-the-real-need",
+    "title": "Find the Need Behind the Drink",
+    "situation": "Your one glass of wine after work has quietly become most of a bottle on weeknights.",
+    "domain": "self",
+    "mode": "break",
+    "tags": ["alcohol", "stress", "evenings", "cravings", "wellbeing"],
+    "chapter": 10,
+    "principle": "Deeper motives behind cravings",
+    "ideas": ["10.1", "10.5"],
+    "scene": "Picture this: you walk in the door, put your bag down and open the wine before taking your coat off. One glass was the plan; most of the bottle is the reality. You do not really crave the wine itself. You crave the signal that the workday is over, a way to switch off, a moment for yourself. The drink is just the fastest answer your brain found. Name the real need and you can meet it in a way that leaves you rested, not foggy, the next morning.",
+    "moves": [
+      { "title": "Name the need", "detail": "For one week, before the first glass, write down what you want to feel: relaxed, done with work, rewarded, less alone. Look for the pattern. That need is what any replacement must satisfy." },
+      { "title": "Create a new end-of-day signal", "detail": "Build a ritual that marks the end of work, such as changing clothes, a shower, a short walk or a special non-alcoholic drink in a nice glass. Do it right after you walk in, where the old habit used to start." },
+      { "title": "Spell out the costs", "detail": "Write the weekly cost in money, sleep and mornings on a card and keep it where the wine is kept. Seeing the real cost changes how attractive the first glass looks." },
+      { "title": "Set clear limits", "detail": "Decide in advance which nights are drink-free and how much is enough on the others. Keep less at home; buy single bottles rather than cases so there is no easy refill." }
+    ],
+    "script": { "label": "Note on the wine rack", "text": "What do I really want right now: to switch off, to feel rewarded, or company? Try [walk / shower / call a friend / fancy soda] first. This week's drink-free nights: [days]. Last week I saved [amount] and [hours] of good sleep." },
+    "backfire": "If you drink every day, find it hard to stop, or feel unwell when you do not drink, talk to a doctor; stopping suddenly can be risky. This tactic is not a treatment for alcohol dependence. Support services and helplines exist and are confidential.",
+    "signals": "Drink-free nights hold for three weeks, the new end-of-day ritual starts to feel like the real switch-off, and you wake up rested more often.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "price-the-takeaway",
+    "title": "Put a Price on Takeaways",
+    "situation": "Your family orders takeaway four nights a week and the monthly bill has crept past the grocery budget.",
+    "domain": "family",
+    "mode": "break",
+    "tags": ["takeaway", "budget", "cooking", "family", "spending"],
+    "chapter": 10,
+    "principle": "Spell out the costs",
+    "ideas": ["10.5", "10.2"],
+    "scene": "Picture this: it is 6pm, everyone is tired, and someone says shall we just order? It feels like a small treat that saves effort. Four nights a week, that small treat adds up to a holiday's worth of money each year. Your brain predicts relief and convenience; it does not see the bill. Make the hidden cost visible to the whole family, agree on a better plan for the most tired nights, and the order button starts to look less tempting. The want is still there, but the prediction has changed.",
+    "moves": [
+      { "title": "Add up the real cost", "detail": "Total last month's takeaway orders from your bank statement or delivery app history. Multiply by twelve and translate it into something the family wants, such as a holiday or a new bike." },
+      { "title": "Show it to the family", "detail": "Put the yearly figure and the thing it could buy on the fridge. Ask everyone to help choose how many takeaway nights to keep, so the decision is shared rather than imposed." },
+      { "title": "Plan for tired nights", "detail": "Keep two or three ten-minute meals ready for the nights you usually order, such as pasta with a jar sauce or eggs on toast. The craving is for ease, so the alternative must be easy too." },
+      { "title": "Save the difference", "detail": "Each time you skip a planned takeaway, move the money you would have spent into a named savings pot for the family goal. Watching it grow makes the new habit satisfying." }
+    ],
+    "script": { "label": "Fridge note", "text": "Last month we spent [amount] on takeaways. That is [yearly amount] a year, or [family goal]. New plan: takeaway on [chosen night], easy meals on [other nights]. Every skipped takeaway goes into the [goal] pot. Current total: [amount]." },
+    "backfire": "Do not turn takeaways into a source of guilt or conflict; they are fine in moderation. On truly exhausting days, ordering can be the right call. If money is very tight, consider free budgeting help rather than relying on willpower.",
+    "signals": "Takeaway nights drop to the agreed number for a month, the savings pot grows visibly, and family members suggest easy meals themselves.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  }
+]

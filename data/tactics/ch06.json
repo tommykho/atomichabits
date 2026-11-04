@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "dashboard-as-homepage",
+    "title": "Make the Dashboard the Homepage",
+    "situation": "You run a small business but only look at cash flow when the bank balance gives you a scare.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["cash-flow", "dashboard", "finance", "small-business", "visibility"],
+    "chapter": 6,
+    "principle": "Make good cues visible",
+    "ideas": ["6.2", "6.1"],
+    "scene": "Picture this: you run a busy shop or agency, and money is something you deal with when the accountant calls or a supplier chases an invoice. You know you should check the numbers weekly, but the spreadsheet lives three folders deep and the bank app is full of noise. Out of sight, out of mind. Change the environment instead of your willpower: make the cash dashboard the first thing your browser opens every morning. Five numbers, one screen, impossible to miss. Seeing it every day turns checking cash from a chore into a habit.",
+    "moves": [
+      { "title": "Pick five numbers", "detail": "Choose the five numbers that tell you the health of the business, such as cash in bank, invoices due this week, overdue invoices, bills due and this month's sales. More than five and you will stop reading them." },
+      { "title": "Build one simple screen", "detail": "Put the five numbers on a single page using your accounting software's dashboard or a simple shared sheet. Use large text and update it automatically if your tools allow, or in ten minutes on Monday if not." },
+      { "title": "Set it as your homepage", "detail": "Make the dashboard the first tab your browser opens and pin it. If you work from a phone, add it to your home screen. The cue is now in front of you every morning without effort." },
+      { "title": "Add a weekly action line", "detail": "Under the numbers, keep one line: this week's money action, such as chase two overdue invoices. A visible cue paired with one clear action turns awareness into behaviour." }
+    ],
+    "script": { "label": "Invoice reminder", "text": "Hi [Client], I hope things are going well. A quick reminder that invoice [number] for [amount] was due on [date]. Could you let me know when we can expect payment, or if there is anything you need from us to process it? Thanks very much, [Name]." },
+    "backfire": "A dashboard can create anxiety if the numbers are bad and nothing is being done about them; pair it with one action. Do not let daily watching drive panicked decisions. For serious cash problems, speak to an accountant early.",
+    "signals": "You look at the dashboard on most working days for a month, overdue invoices fall, and cash surprises from the bank become rare.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "one-desk-one-job",
+    "title": "One Desk, One Job",
+    "situation": "You work from home at the kitchen table and keep drifting between work, chores and snacks all day.",
+    "domain": "work",
+    "mode": "build",
+    "tags": ["remote-work", "focus", "workspace", "home", "boundaries"],
+    "chapter": 6,
+    "principle": "One space, one use",
+    "ideas": ["6.3", "6.4"],
+    "scene": "Picture this: your laptop sits between the fruit bowl and yesterday's post. You answer an email, notice the dishes, put the kettle on, check the fridge, and an hour later the important task is still untouched. The kitchen table is cueing ten different habits at once, and the easiest one wins every time. You do not need a home office; you need one space that means work and nothing else. Even a corner of a room, a specific chair or a particular laptop stand can become a cue that tells your brain it is time to focus.",
+    "moves": [
+      { "title": "Claim a work-only spot", "detail": "Choose one spot used only for work, even if it is a small desk in the bedroom corner or one end of the dining table with a mat. Do not eat, scroll or do chores there." },
+      { "title": "Set up start and stop cues", "detail": "Open the space with the same small action each morning, such as putting on headphones and opening the laptop stand. Close it at the end of the day by packing the laptop away. The rituals mark the boundary." },
+      { "title": "Move distractions out of sight", "detail": "Face away from the kitchen, keep chores off the work surface and put your personal phone in another room during focus blocks. Fewer competing cues mean fewer decisions." },
+      { "title": "Leave to do other things", "detail": "When you want a snack, a scroll or a chore, physically leave the spot. Over time the space becomes strongly linked with focused work alone, which makes starting easier each day." }
+    ],
+    "script": { "label": "Message to household", "text": "Hi all, from [day] I am using [spot] as my work-only space between [9am] and [5pm]. When I have headphones on there, I am in focus mode, so please message me unless it is urgent. When I pack the laptop away, I am done for the day and all yours." },
+    "backfire": "In small homes or shared housing, a dedicated spot may not be possible; use a portable cue, such as a specific mat or lamp, instead. Do not let boundaries exclude children who need care. If your employer requires a workstation assessment, follow it.",
+    "signals": "You start focused work within ten minutes of sitting down, chores and snacks during work hours drop, and you finish the day with a clearer stop.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "redesign-the-kitchen",
+    "title": "Fruit Bowl Front and Centre",
+    "situation": "You want to eat better, but the biscuits are on the counter and the vegetables hide in the bottom drawer.",
+    "domain": "health",
+    "mode": "build",
+    "tags": ["nutrition", "kitchen", "environment", "food", "visibility"],
+    "chapter": 6,
+    "principle": "Make good cues visible",
+    "ideas": ["6.2", "6.1"],
+    "scene": "Picture this: you get home hungry, open the cupboard, and the first thing you see is the biscuit tin. The vegetables you bought with good intentions are wilting in the crisper drawer you never open. You blame your willpower, but your kitchen is doing exactly what it was arranged to do. People mostly eat what they see first. Rearrange the room so the healthy choice is the visible one: fruit on the counter, prepared vegetables at eye level, treats in an opaque box on a high shelf. Same willpower, very different choices.",
+    "moves": [
+      { "title": "Audit what you see first", "detail": "Stand in your kitchen and note the first five foods you can see from the doorway and when you open the fridge. These are the cues currently running your eating habits." },
+      { "title": "Bring good food forward", "detail": "Put a full fruit bowl on the counter where the biscuits used to be. Move washed, cut vegetables and healthy snacks to eye level in clear containers at the front of the fridge." },
+      { "title": "Move treats out of sight", "detail": "Put snacks in an opaque box on a high shelf or in a cupboard you rarely open. You are not banning them; you are removing the visual cue that triggers eating without thinking." },
+      { "title": "Prepare once a week", "detail": "Spend twenty minutes after the weekly shop washing and cutting vegetables. Visible food that is ready to eat beats food that needs preparing when you are already hungry." }
+    ],
+    "script": { "label": "Shopping list header", "text": "This week: fill the fruit bowl, buy [three] vegetables to prep on [Sunday], and get one clear container for snacks. Treats go in the box on the top shelf." },
+    "backfire": "Rearranging food is not a fix for disordered eating; if food feels out of control, speak to a doctor or a specialist service. Agree changes with others who share the kitchen rather than hiding their food. Avoid strict rules that create guilt.",
+    "signals": "The fruit bowl empties and needs refilling each week, you reach for visible healthy options more often, and the treat box lasts noticeably longer.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  }
+]

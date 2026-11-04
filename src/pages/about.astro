@@ -1,0 +1,81 @@
+---
+import { u } from '../lib/url.js';
+import Base from '../layouts/Base.astro';
+import Tape from '../components/Tape.astro';
+import { chapters, tactics, ideaMap, BOOK } from '../lib/content.js';
+---
+<Base title="Sources, privacy & method" description="What this manual is (and is not), how AI answers are checked against it, how your API keys are handled, and what is coming next.">
+  <header class="wrap a-hero">
+    <p class="eyebrow" data-reveal>About</p>
+    <h1 data-reveal>A study guide, <span class="mark">not a copy.</span></h1>
+    <p class="lede" data-reveal>This manual applies the ideas in <em>{BOOK.title}</em> to everyday work, business and home life. It favours tiny, repeatable steps over big plans, and it keeps every AI citation traceable to a numbered idea.</p>
+  </header>
+
+  <div class="narrow prose">
+    <section id="sources">
+      <h2>Sources and copyright</h2>
+      <ul>
+        <li><strong>The book:</strong> <em>{BOOK.title}</em> by {BOOK.author} ({BOOK.year}) is a copyrighted work. This site is an independent, unofficial companion. It is not affiliated with or endorsed by the author or publisher, and the book's name is used only to describe what this guide is about.</li>
+        <li><strong>No book text is reproduced.</strong> The {chapters.length} chapter titles are listed for navigation only. The {ideaMap.size} key ideas are original summaries written for this project, in our own words, and numbered (<code>chapter.idea</code>, e.g. <code>5.3</code>) so they can be cited. Ideas and concepts are free to discuss; the author's expression is not ours to copy.</li>
+        <li><strong>Tactics:</strong> {tactics.length} original tactics written for this project. Each cites idea IDs only, and the summary you see is always rendered from the dataset, never typed by hand.</li>
+        <li><strong>Read the original.</strong> The stories, research and nuance are in the book. If this guide helps you, please buy it or borrow it from a library.</li>
+      </ul>
+    </section>
+
+    <section id="method">
+      <h2>How AI answers are checked</h2>
+      <ol>
+        <li>Your habit is matched against the ideas and the tactic library <strong>in your browser</strong>.</li>
+        <li>The AI receives a short list of ideas it is allowed to cite, with their IDs, and is told never to quote the book.</li>
+        <li>After it answers, every <code>[chapter.idea]</code> citation is checked against the dataset. Real ideas are shown in full; invented IDs are struck through; quoted phrases that do not match the idea exactly are labelled “paraphrased”.</li>
+      </ol>
+      <p>AI can still be wrong about people and situations. Treat answers as a second opinion, not as medical, legal or financial advice. For addiction, eating, mood or safety concerns, talk to a qualified professional first.</p>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy and your API keys</h2>
+      <ul>
+        <li><strong>This site has no database of your questions.</strong> Your text goes from your browser straight to the AI provider you choose.</li>
+        <li><strong>Keys stay in your browser.</strong> By default they live in session storage and are forgotten when you close the tab. Tick “Remember” to keep them in local storage on that device. “Forget all keys” deletes them.</li>
+        <li><strong>The relay:</strong> NVIDIA NIM and Meta block requests from web pages, so those calls go through a small relay (<code>/api/relay</code>). It is a stateless pass-through. It forwards your request to an allow-listed provider address and streams the answer back. It does not store or log keys or text, and it refuses any other destination.</li>
+        <li><strong>Provider policies apply.</strong> Free tiers (for example Gemini's) may use prompts to improve the provider's models. Leave out names and private health details.</li>
+        <li><strong>Podcast voice:</strong> the default voice (Kokoro-82M) runs on your device. If you choose Gemini, OpenAI or ElevenLabs, the script is sent to that provider with your key.</li>
+        <li><strong>Ticked steps and theme</strong> are remembered in your browser only.</li>
+      </ul>
+    </section>
+
+    <section id="cost">
+      <h2>Why it costs the site nothing to run</h2>
+      <p>The site is static (Cloudflare Pages, Vercel or GitHub Pages). AI and voice run either on your device or on your own provider account. The only server code is the small relay, which fits easily in free quotas. If a quota is ever exceeded, relay calls fail until the next day; nothing is billed.</p>
+    </section>
+
+    <section id="roadmap">
+      <h2>Roadmap</h2>
+      <ol>
+        <li><strong>Now:</strong> the chapter guide, tactic library, Habit Coach (12 AI options, bring your own key), podcast MP3, and a community board in preview mode.</li>
+        <li><strong>Next:</strong> sign-in with Google or GitHub (only your alias is shown), shared habit journals and ratings, flag-to-hide moderation, and a printable habit tracker.</li>
+        <li><strong>Later:</strong> a Traditional Chinese interface (繁體中文), a daily 30-second episode, tactic packs (new manager, new parent, small business) and an optional supporter tier.</li>
+      </ol>
+    </section>
+
+    <section id="credits">
+      <h2>Credits and licences</h2>
+      <p class="hint">GSAP (Standard “no charge” licence) · Lenis (MIT) · MiniSearch (MIT) · Astro (MIT) · kokoro-js and Kokoro-82M (Apache-2.0) · Transformers.js and ONNX Runtime Web (Apache-2.0/MIT) · lamejs MP3 encoder (LGPL-3.0, loaded as a separate unmodified module) · Anthropic TypeScript SDK (MIT) · WebLLM (Apache-2.0, loaded on demand) · Fonts: Fraunces, Source Serif 4, Inter, Caveat (SIL OFL).</p>
+    </section>
+  </div>
+
+  <div class="wrap" style="display:grid;justify-items:center;padding:60px 0 100px;gap:14px">
+    <Tape color="amber">1.01 × 1.01 × 1.01 …</Tape>
+    <p class="hand" style="font-size:1.7rem;margin:0;color:var(--green)">Small steps, every day.</p>
+    <a class="btn btn--ink" href={u('/chapters/1/')}>Start with chapter 1</a>
+  </div>
+</Base>
+
+<style>
+  .a-hero { padding: 140px 0 40px; }
+  .prose section { padding: 36px 0; border-top: 1px dashed var(--line-2); scroll-margin-top: 90px; }
+  .prose h2 { font-size: clamp(1.7rem, 2vw + 1rem, 2.4rem); }
+  .prose ul, .prose ol { padding-left: 1.2em; display: grid; gap: 10px; color: var(--ink-2); }
+  .prose strong { color: var(--ink); }
+  .prose code { font: 500 0.85em var(--f-ui); background: var(--paper-3); padding: 0.1em 0.4em; border-radius: 4px; }
+</style>

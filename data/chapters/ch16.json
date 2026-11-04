@@ -1,0 +1,14 @@
+{
+  "n": 16,
+  "short": "Track it, never miss twice",
+  "essence": "Track the streak, and never miss twice in a row.",
+  "modern_lens": "Chapter 16 offers simple tools to keep habits going: a visual tracker, the rule never to miss twice, and a warning about measuring the wrong thing. Teams and individuals both benefit from seeing progress, and from a plan for bad days that keeps the routine alive.",
+  "key_idea": "16.3",
+  "ideas": [
+    { "id": "16.1", "name": "Track the Habit", "text": "A habit tracker, such as a calendar where you cross off each day, makes progress obvious, attractive and satisfying. It works as a cue, a motivator and an instant reward. Mark it immediately after the behaviour so the record stays honest.", "try": "Draw a 30-day grid for one habit and put it where you will see it daily." },
+    { "id": "16.2", "name": "Do Not Break the Chain", "text": "A visible streak becomes its own motivation. Seeing a run of completed days makes you reluctant to end it. Keep the measure simple enough to mark in a few seconds.", "try": "Track only one yes-or-no question for a habit, such as: did I start today?" },
+    { "id": "16.3", "name": "Never Miss Twice", "text": "Missing one day is an accident; missing two is the start of a new habit. When life gets in the way, get back on track at the next chance, even with a tiny version. The first miss is never the problem; the slide after it is.", "try": "Write your minimum version for bad days now, so a miss is never followed by another." },
+    { "id": "16.4", "name": "Measure the Right Thing", "text": "When a measure becomes the target, people optimise the number instead of the goal: tickets closed quickly instead of problems solved, kilograms on the scale instead of health. Use numbers as feedback, and keep the purpose in view.", "try": "For one metric you track, write the real goal next to it and check they still match." },
+    { "id": "16.5", "name": "Bad Days Still Count", "text": "Showing up at reduced intensity on a bad day protects the habit. A ten-minute workout or a two-line journal entry keeps your identity intact. On a bad day the goal is to keep the routine alive, not to perform.", "try": "Define the smallest version of your habit that still counts, and use it on your next bad day." }
+  ]
+}

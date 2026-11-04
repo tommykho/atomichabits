@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "one-percent-pipeline",
+    "title": "The 1% Pipeline Upgrade",
+    "situation": "Your sales numbers are flat and every quarter starts with a big new plan that fades by week three.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["sales", "pipeline", "team", "process", "improvement"],
+    "chapter": 1,
+    "principle": "Systems beat goals",
+    "ideas": ["1.4", "1.1"],
+    "scene": "Picture this: it is the first Monday of the quarter and the sales team has a shiny new target, a new deck and a kickoff speech. By week three everyone is back to the old routine, and the quarter ends where the last one did. The target was never the problem; the daily process was. Instead of another overhaul, pick one tiny part of the pipeline to improve each week: a faster first reply, a cleaner discovery question, a follow-up template that actually gets answers. Fifty small fixes a year quietly rebuild the whole machine. Stop chasing the number and start upgrading the system that produces it.",
+    "moves": [
+      { "title": "Map the pipeline in steps", "detail": "Write the six to eight stages a deal passes through, from first contact to signed contract. Next to each stage, note one number you already have, such as reply rate, meetings booked or time to proposal. This becomes your scoreboard for small improvements." },
+      { "title": "Choose one 1% fix weekly", "detail": "Every Monday, pick a single stage and one small change to test for the week: a shorter first email, a two-hour reply rule, a better qualifying question. Keep it small enough that nobody needs training or approval to try it." },
+      { "title": "Keep what works, log the rest", "detail": "On Friday, compare the stage number with last week's. Keep the change if it helped, drop it if not, and write one line in a shared log. The log becomes the team's playbook and shows how small changes add up." },
+      { "title": "Review the curve monthly", "detail": "Once a month, chart the stage numbers over time instead of looking only at total revenue. A rising curve in the inputs tells you the system is improving long before the quarterly result shows it." }
+    ],
+    "script": { "label": "Team message", "text": "Team, instead of a new plan this quarter, we are going to upgrade our pipeline 1% at a time. Every Monday we pick one stage and test one small change for the week. Friday we check the number, keep what works and log it in [shared doc]. This week's experiment: reply to every inbound lead within [two hours]. Ideas for next week go in the thread below." },
+    "backfire": "This fails if the weekly change is too big to test or too vague to measure, or if leadership still judges the team only on the quarterly number and abandons the process after one bad month. Small fixes do not rescue a product nobody wants; check market fit separately.",
+    "signals": "The team proposes next week's experiment without being asked, the log grows steadily, and at least two stage numbers trend upward over six to eight weeks.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "fix-the-slope",
+    "title": "Fix the Slope, Not the Snapshot",
+    "situation": "You earn a decent salary but your savings never seem to grow, and you feel behind compared with friends.",
+    "domain": "self",
+    "mode": "build",
+    "tags": ["money", "savings", "budget", "compounding"],
+    "chapter": 1,
+    "principle": "Trajectory over position",
+    "ideas": ["1.2", "1.1"],
+    "scene": "Picture this: payday arrives, the money lands, and by the twenty-fifth it has drifted away on takeaways, subscriptions and small treats you barely remember. You compare your balance with a friend's and feel stuck. But the balance is only a snapshot. What matters is the slope: are your habits adding a little every month, or leaking a little? A tiny automatic transfer that grows by one percent of your pay each quarter beats a dramatic budget you abandon by March. Stop staring at the number and start bending the curve upward, one small, boring step at a time.",
+    "moves": [
+      { "title": "Measure the current slope", "detail": "Look at your account balances for the last six months and note whether net savings rose or fell each month. Ignore the total and focus on the direction. This is the honest starting point for your system." },
+      { "title": "Automate a small transfer", "detail": "Set a standing order for a small fixed amount, such as 2% of take-home pay, to move into savings the day after payday. Choose an amount small enough that you will not notice it, so you never feel the urge to cancel it." },
+      { "title": "Raise it by one percent", "detail": "Add a recurring reminder every three months to raise the transfer by one percent of pay. Small, regular increases build the habit without the shock of a strict budget, and salary rises can absorb them." },
+      { "title": "Chart it on one page", "detail": "Keep a simple monthly chart of total savings. Seeing the line rise, even slowly, rewards the habit and keeps attention on the trend rather than on comparisons with other people." }
+    ],
+    "script": { "label": "Note to self", "text": "My savings plan: on the [day] after every payday, [amount] moves automatically into [account name]. Every [month] I raise it by one percent of my pay. I do not judge this month's balance; I check that the line on my chart is still going up. If I need to pause, I lower the amount instead of cancelling it." },
+    "backfire": "If you carry high-interest debt, paying it down may be the better first slope to fix. Do not automate transfers that leave you short for rent or bills and push you into overdraft fees. This is general guidance, not financial advice.",
+    "signals": "The transfer runs for three months without being cancelled, the savings chart rises every month, and you stop comparing your balance with friends' and start checking your trend instead.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "push-through-the-plateau",
+    "title": "Push Through the Flat Stretch",
+    "situation": "You have studied data analysis for six weeks after work and still feel lost, so you are close to giving up.",
+    "domain": "career",
+    "mode": "build",
+    "tags": ["learning", "skills", "plateau", "motivation", "study"],
+    "chapter": 1,
+    "principle": "The hidden plateau",
+    "ideas": ["1.3", "11.4"],
+    "scene": "Picture this: six weeks of evening tutorials, and you still cannot write a query without three browser tabs open. Colleagues seem to just know this stuff. You start wondering whether you are simply not a numbers person. But skill building rarely shows up in a straight line. For weeks, effort piles up below the surface, then suddenly things click. Quitting now means throwing away the hours that are about to pay off. Instead of judging by how you feel, count what you have put in, set a fixed number of further sessions, and let the work catch up with you.",
+    "moves": [
+      { "title": "Log what you have invested", "detail": "Write down the sessions, exercises and hours you have already completed. Seeing the real total often shows that you have done far more than it feels like, and that the plateau is normal at this stage." },
+      { "title": "Commit to thirty more sessions", "detail": "Set a fixed number of additional practice sessions, such as thirty sessions of twenty minutes, before you decide whether to continue. Counting sessions rather than weeks focuses you on repetition, which is what builds the skill." },
+      { "title": "Use real work problems", "detail": "Swap one tutorial a week for a small real task, such as rebuilding a report your team already uses. Real problems show progress sooner and give you something concrete to point to." },
+      { "title": "Test yourself monthly", "detail": "Once a month, redo an exercise that felt impossible in week one and time yourself. The difference is your evidence that the hidden work is turning into visible skill." }
+    ],
+    "script": { "label": "Message to a mentor", "text": "Hi [Name], I have been learning [skill] for [number] weeks, mostly in the evenings. I have hit a flat patch where it feels like nothing is sticking. I have committed to [thirty] more practice sessions before I reassess. Could you suggest one real task from our team's work that would be a good next challenge? Happy to show you what I build." },
+    "backfire": "Pushing through is wrong if the course or method is a poor fit, or if the skill no longer serves your goals. Change the method before you change the goal. If studying is hurting your sleep or health, shorten sessions rather than adding more.",
+    "signals": "You complete the committed sessions, a once-impossible exercise now takes minutes, and you start using the skill in real work without looking up every step.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  }
+]

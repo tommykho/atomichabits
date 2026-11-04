@@ -1,0 +1,14 @@
+{
+  "n": 1,
+  "short": "Small gains compound",
+  "essence": "Get one percent better each day and let time do the heavy lifting.",
+  "modern_lens": "Chapter 1 argues that results come from small, repeated choices rather than rare bursts of effort. The same maths applies at work and at home: a daily 1% improvement compounds, and so does a daily 1% slide. Judge yourself by your direction and your system, not by today's result.",
+  "key_idea": "1.1",
+  "ideas": [
+    { "id": "1.1", "name": "The 1% Compound", "text": "Improving by one percent a day is invisible on any single day, yet over a year it multiplies: 1.01 to the power of 365 is about 37.8. Slipping by one percent a day leaves you near zero. Small daily choices set the direction of the curve.", "try": "Pick one routine you repeat daily and name the 1% upgrade you will make to it tomorrow." },
+    { "id": "1.2", "name": "Trajectory Over Position", "text": "Where you stand today matters less than the direction you are heading. A modest income with a rising savings habit beats a high income with a leaking one. Check the slope of your habits, not the snapshot of your results.", "try": "For one goal, write today's number and the number your current habits will produce in twelve months." },
+    { "id": "1.3", "name": "The Hidden Plateau", "text": "Early effort often seems to produce nothing, like ice that does not melt until the temperature crosses zero. The work is being stored, not wasted. Many people quit in this flat stretch just before the results become visible.", "try": "Write down what you have already invested in a stalled habit, then commit to four more weeks before judging it." },
+    { "id": "1.4", "name": "Systems Beat Goals", "text": "Goals describe the result you want; systems are the daily processes that produce it. Winners and losers often share the same goal, so the goal cannot be what separates them. Fix the inputs and the outputs tend to follow.", "try": "Rewrite one goal as a process you control, such as two sales calls before 10am every weekday." },
+    { "id": "1.5", "name": "Your System Sets the Floor", "text": "Under pressure, people rarely rise to their ambitions; they fall back on whatever their routines reliably produce. A goal also creates a narrow win condition and a drop-off after the finish line. A system keeps you playing after the target is met.", "try": "List what you do on an ordinary bad day. That is your real system, so improve that baseline first." }
+  ]
+}

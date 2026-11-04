@@ -1,0 +1,14 @@
+{
+  "n": 18,
+  "short": "Play to your strengths",
+  "essence": "Choose games where your natural strengths give you an edge.",
+  "modern_lens": "Chapter 18 accepts that genes and personality matter, but argues they set direction rather than destiny. Habits are easier and more satisfying when they suit your natural inclinations. At work, that means choosing roles, projects and methods where you have an edge, and building niches where few others compete.",
+  "key_idea": "18.2",
+  "ideas": [
+    { "id": "18.1", "name": "Genes Set Direction", "text": "Genes influence which areas come more easily, but they do not decide whether you do the work. Natural ability shows up in the right conditions, so the useful question is where your strengths fit best.", "try": "List three things that have always come more easily to you than to your peers." },
+    { "id": "18.2", "name": "Pick the Right Game", "text": "Habits are easier when they match your temperament. A sociable person may stick with group fitness; a quieter person may prefer solo runs. Choose the version of a habit that suits your personality instead of copying someone else's.", "try": "Redesign one habit so it fits your personality: social or solo, structured or flexible." },
+    { "id": "18.3", "name": "Explore, Then Exploit", "text": "Early on, try many options to learn what suits you; later, focus on the most promising ones while still testing a little. A rough rule is to spend most of your effort on what works and keep a small share for experiments.", "try": "Reserve one hour this week to try something new in an area you have stopped exploring." },
+    { "id": "18.4", "name": "Create Your Own Niche", "text": "If you cannot be the best in a crowded field, combine skills to create one where few compete: the engineer who writes clearly, the accountant who understands software. Combining skills makes you harder to replace.", "try": "Write two skills you have that are rarely found together, and one way to use the combination." },
+    { "id": "18.5", "name": "Where Work Feels Like Play", "text": "Ask what feels like fun to you but like work to others, what makes you lose track of time, and where you get better results than most for similar effort. The answers point to habits you are likely to sustain.", "try": "Answer those three questions in writing and circle any pattern you notice." }
+  ]
+}

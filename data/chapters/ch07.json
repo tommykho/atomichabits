@@ -1,0 +1,14 @@
+{
+  "n": 7,
+  "short": "Remove the trigger",
+  "essence": "Disciplined people are mostly better at avoiding temptation.",
+  "modern_lens": "Chapter 7 shows that self-control is less about willpower and more about arranging life so temptation rarely appears. People who seem disciplined often just have fewer cues for the wrong habit around them. For bad habits at work and at home, removing triggers beats resisting them.",
+  "key_idea": "7.3",
+  "ideas": [
+    { "id": "7.1", "name": "Avoid, Do Not Resist", "text": "People who seem highly disciplined tend to spend less time in tempting situations. Resisting a constant temptation drains energy every day; removing it costs effort once. Set up your surroundings so the hard choice rarely comes up.", "try": "Name the temptation you resist most often and remove its cue for one week." },
+    { "id": "7.2", "name": "Cues Spark Cravings", "text": "Once a habit is wired in, the cue alone can trigger the urge, even after months away. A notification sound, a cigarette packet or a vending machine can restart the loop. Expect the craving when the cue appears, and plan for it.", "try": "Write down the three cues most likely to restart your bad habit and how you will avoid each." },
+    { "id": "7.3", "name": "Make It Invisible", "text": "The inverse of the first law is to reduce exposure to the cues behind bad habits. Hide the snacks, mute the noisy channel, log out of the shopping app, take the television out of the bedroom. For many habits, out of sight really is out of mind.", "try": "Make one trigger for a bad habit invisible today: hide it, mute it or move it." },
+    { "id": "7.4", "name": "Bad Habits Feed Themselves", "text": "Many bad habits reinforce themselves: you feel low, so you scroll; scrolling leaves you feeling lower, so you scroll more. Break the cycle at the cue, before the loop has a chance to start.", "try": "Map one self-feeding loop in your life and mark the earliest point where you can step out." },
+    { "id": "7.5", "name": "Plan for Weak Moments", "text": "Willpower fades when you are tired, hungry or stressed, which is exactly when old habits return. Decide in advance what you will do in those moments, and arrange the room so the default choice is acceptable.", "try": "Write an if-then plan: If I feel [weak moment], then I will [acceptable default]." }
+  ]
+}

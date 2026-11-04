@@ -1,0 +1,14 @@
+{
+  "n": 9,
+  "short": "Join the right circle",
+  "essence": "We copy the people around us, so choose your circle on purpose.",
+  "modern_lens": "Chapter 9 shows that habits spread socially. We copy those close to us, the majority and the people we admire. Teams with good norms make good habits normal, and so do friend groups and families. The fastest way to adopt a habit is to join a group where it is already the default.",
+  "key_idea": "9.4",
+  "ideas": [
+    { "id": "9.1", "name": "We Copy the Close", "text": "We pick up habits from the people we spend the most time with: partners, close friends, teammates. Their routines feel normal and slowly become ours. Spending more time with people who already have your target habit is a quiet but strong lever.", "try": "Name one person who already has the habit you want and plan one shared activity with them." },
+    { "id": "9.2", "name": "We Copy the Many", "text": "Belonging matters so much that people often follow the group even when the group is wrong. When a habit goes against your circle's norm, it is hard to keep; when it matches the norm, it feels effortless.", "try": "List the norms of your main group and mark which ones help or hurt your target habit." },
+    { "id": "9.3", "name": "We Copy the Admired", "text": "People imitate behaviours that bring respect, approval and status. Habits that make you look good to your peers are attractive; habits that make you look odd are not. Look for settings where your target habit earns respect.", "try": "Find one setting where your desired habit is admired and spend time there this month." },
+    { "id": "9.4", "name": "Join Where It Is Normal", "text": "Find or build a group where your desired behaviour is ordinary and where you already share something with the members. A running club, a writing circle or a team that ships small releases weekly makes the habit the default.", "try": "Join, or start, one group where your target habit is the normal thing to do." },
+    { "id": "9.5", "name": "People Like Us", "text": "A shared identity sustains habits better than individual willpower. When a group believes that people like us do things like this, the habit becomes part of belonging rather than a personal struggle. Leaders can use this to shape team norms.", "try": "Finish this sentence for your team or family: people like us always…" }
+  ]
+}

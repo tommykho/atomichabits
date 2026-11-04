@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "bundle-the-boring-admin",
+    "title": "Bundle the Boring Admin",
+    "situation": "As a freelancer you hate invoicing and bookkeeping, so it piles up until cash runs short.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["freelance", "invoicing", "admin", "bookkeeping", "bundling"],
+    "chapter": 8,
+    "principle": "Temptation bundling",
+    "ideas": ["8.3", "8.5"],
+    "scene": "Picture this: you love the client work and dread everything around it. Invoices wait for weeks, receipts pile up in a shoebox, and once a quarter you lose a whole weekend to catching up while money you earned sits unpaid. The task is not hard; it is just unrewarding. So attach something you look forward to. Friday morning admin hour becomes the only time you get the good coffee from the café downstairs and your favourite album. Over a few weeks the craving shifts: Friday admin starts to feel like a small treat rather than a punishment.",
+    "moves": [
+      { "title": "Choose a real treat", "detail": "Pick something you genuinely look forward to and do not usually have, such as a particular coffee, a playlist or a podcast series. It must feel like a treat, not a duty." },
+      { "title": "Lock the pairing", "detail": "Decide that you only get the treat during admin hour. If you have the treat at other times, the bundle loses its pull. The want is what makes the need attractive." },
+      { "title": "Fix the time and checklist", "detail": "Book admin hour for the same slot each week and keep a short checklist: send invoices, chase overdue ones, file receipts, update the cash sheet. A checklist keeps the hour productive." },
+      { "title": "Add a stack before it", "detail": "Anchor it to something you already do: after I send Friday's client update, I start admin hour. The routine is the cue and the treat is the pull." }
+    ],
+    "script": { "label": "Admin hour checklist", "text": "Friday admin hour, with [treat]. 1. Send invoices for work completed this week. 2. Chase anything more than [14] days overdue. 3. Photograph and file receipts. 4. Update the cash sheet. 5. Note one money action for next week. Done means the treat was earned." },
+    "backfire": "If the treat costs more than you can afford or is unhealthy in large amounts, choose another. Bundling helps routine admin but will not fix underpricing or clients who never pay; deal with those directly or get advice.",
+    "signals": "Admin hour happens on most Fridays for a month, invoices go out within a week of finishing work, and you stop losing weekends to catch-up.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "podcast-only-when-moving",
+    "title": "Podcast Only When Moving",
+    "situation": "You want to walk or exercise more, but the sofa and your favourite podcasts win every evening.",
+    "domain": "health",
+    "mode": "build",
+    "tags": ["exercise", "walking", "podcasts", "bundling", "motivation"],
+    "chapter": 8,
+    "principle": "Temptation bundling",
+    "ideas": ["8.3", "8.2"],
+    "scene": "Picture this: you get home, flop on the sofa and put on the true-crime podcast you are obsessed with. The walk you planned does not happen, again. But notice what you are craving: the next episode. Use that. From today, that podcast is only allowed while you are walking, cycling or on the treadmill. The cliffhanger becomes the reason to put your shoes on. Within a couple of weeks, you will catch yourself looking forward to the walk, because the walk is where the story continues.",
+    "moves": [
+      { "title": "Pick your must-hear show", "detail": "Choose one podcast, audiobook or playlist you genuinely look forward to, ideally one with a story that pulls you to the next episode. The stronger the craving, the better the bundle." },
+      { "title": "Make the rule simple", "detail": "Set one clear rule: I only listen to this while I am moving. Remove it from your car and kitchen playlists so the only way to hear it is to walk or exercise." },
+      { "title": "Prepare the setup", "detail": "Keep earphones charged and shoes by the door, and download the next episode in advance. Removing small frictions makes it easy to act on the craving when it appears." },
+      { "title": "Track the episodes", "detail": "Mark each episode you finish on your walking log. Seeing both the story and the minutes add up makes the habit satisfying as well as attractive." }
+    ],
+    "script": { "label": "Note on the front door", "text": "Next episode of [show] is waiting. Shoes on, earphones in, [20]-minute loop. The story only continues when I am moving." },
+    "backfire": "If you have health conditions or have been inactive for a long time, check with a doctor before stepping up exercise. Stay aware of traffic when walking with earphones, or use one ear only. Do not bundle with something you would regret, such as fast food.",
+    "signals": "You move on most days for three weeks, you start a walk because you want the next episode, and your weekly minutes keep rising.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "calls-before-scores",
+    "title": "Calls Before Scores",
+    "situation": "You know networking would help your career, but you keep putting off the catch-up calls you promised people.",
+    "domain": "career",
+    "mode": "build",
+    "tags": ["networking", "calls", "procrastination", "relationships", "career"],
+    "chapter": 8,
+    "principle": "Let the likely reward the unlikely",
+    "ideas": ["8.4", "8.5"],
+    "scene": "Picture this: there is a list of former colleagues and contacts you promised to catch up with, and it has not moved in two months. Meanwhile you check the football scores, or the news, or your favourite forum, several times a day without fail. That reliable habit is a reward you are giving away for free. Turn it into a gate: the scores only come after one short call or message to someone on your list. The thing you always do pulls the thing you tend to avoid along with it.",
+    "moves": [
+      { "title": "Name your reliable pleasure", "detail": "Identify a small thing you do every day without fail and enjoy, such as checking scores, a favourite site or a game. It must be something you genuinely look forward to." },
+      { "title": "Build the contact list", "detail": "Write a list of fifteen people you would like to stay in touch with, with one line on why. Keeping the list ready removes the effort of deciding who to call." },
+      { "title": "Set the gate", "detail": "Rule: before I check [scores], I send one message or make one ten-minute call from the list. Start with messages if calls feel heavy, then build up." },
+      { "title": "Log each contact", "detail": "Record the date and one line about the conversation. The log keeps the habit satisfying and helps you follow up meaningfully next time." }
+    ],
+    "script": { "label": "Catch-up message", "text": "Hi [Name], it has been a while since [shared project / company]. I have been thinking about [topic you both care about] and wondered how things are going for you at [their company]. Would you be up for a 15-minute call in the next couple of weeks? No agenda, just good to catch up." },
+    "backfire": "Networking feels transactional if every message is a request; mostly give, share and ask about them. If the gated pleasure is itself unhealthy, such as gambling apps, do not use it as a reward. Respect people who do not reply.",
+    "signals": "You contact three or more people a week for a month, some reply with offers or introductions, and the catch-up list shrinks steadily.",
+    "effort": "minutes",
+    "difficulty": 2,
+    "featured": false
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "automate-the-savings",
+    "title": "Automate the Savings Split",
+    "situation": "You decide to save each month, but after bills and spending there is never anything left to move.",
+    "domain": "self",
+    "mode": "build",
+    "tags": ["savings", "automation", "money", "payday", "pension"],
+    "chapter": 14,
+    "principle": "One-time choices",
+    "ideas": ["14.2", "14.3"],
+    "scene": "Picture this: every month you plan to save whatever is left over, and every month nothing is left over. It is not a willpower problem; you are asking yourself to make the same hard decision thirty times a month against an army of tempting purchases. Make one decision instead. Set up automatic transfers that move money out on payday, before you see it. A single afternoon of setup turns saving from a monthly battle into something that happens whether you think about it or not.",
+    "moves": [
+      { "title": "Choose your split", "detail": "Decide what percentage of take-home pay goes to savings, emergencies and goals. Start with an amount you will not miss, even if it is small. A modest split that runs beats an ambitious one you cancel." },
+      { "title": "Automate on payday", "detail": "Create standing orders that move the money the day after pay arrives. Spending money is then what is left, not what you hope to save." },
+      { "title": "Use workplace schemes", "detail": "Check whether your employer offers pension contributions, matching or salary-sacrifice schemes. Enrolling is a classic one-time choice that pays off for decades." },
+      { "title": "Review twice a year", "detail": "Set two calendar reminders a year to review and raise the percentages, ideally after pay rises. The rest of the time, let the automation do its job." }
+    ],
+    "script": { "label": "Bank setup checklist", "text": "Payday: [date]. Day after payday: [X]% to [savings account], [Y]% to [emergency fund], [Z] to [goal pot]. Pension: enrolled at [rate] with employer match [yes/no]. Review dates: [month] and [month]." },
+    "backfire": "Do not automate transfers that leave too little for essentials, or you may pay overdraft fees that cancel the benefit. Pay off high-interest debt first. This is general information, not financial advice; consider a regulated adviser for big decisions.",
+    "signals": "Transfers run for three months without being cancelled, savings grow every month, and you rarely notice the money leaving.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "block-the-focus-hours",
+    "title": "Block the Focus Hours",
+    "situation": "Colleagues book meetings across your whole calendar, leaving you no time for the deep work you are measured on.",
+    "domain": "work",
+    "mode": "build",
+    "tags": ["calendar", "deep-work", "meetings", "focus", "automation"],
+    "chapter": 14,
+    "principle": "Commitment devices",
+    "ideas": ["14.1", "14.3"],
+    "scene": "Picture this: Monday morning your calendar is clear, and by Monday afternoon it is a wall of meetings booked by other people. Your real work, the analysis you are evaluated on, happens at 9pm. You keep deciding to protect time, but you are deciding in the moment, against a polite meeting request. Move the decision upstream. Create recurring focus blocks with auto-decline switched on, so the calendar defends your time on its own. You decide once while calm, and your future self is protected.",
+    "moves": [
+      { "title": "Pick your best hours", "detail": "Choose two to four blocks a week when you think most clearly, such as Tuesday and Thursday mornings. Protect your peak energy for the work that matters most." },
+      { "title": "Create recurring blocks", "detail": "Make recurring calendar events marked busy, titled with the type of work, such as focus: analysis. Use your calendar's focus-time or auto-decline feature so new invites are politely refused." },
+      { "title": "Tell your team why", "detail": "Explain the blocks and when you are available instead. People respect boundaries that are explained and predictable much more than ad hoc refusals." },
+      { "title": "Allow planned exceptions", "detail": "Decide in advance what can override a block, such as a client emergency or your manager's request. Exceptions you have defined do not erode the commitment the way improvised ones do." }
+    ],
+    "script": { "label": "Team message", "text": "Hi team, to get [project] done properly, I am blocking [Tuesday and Thursday 9 to 12] as focus time. Invites in those slots will be declined automatically. I am fully available [other times], and for anything urgent please [call / message me directly]. Thanks for helping me protect this." },
+    "backfire": "Focus blocks can frustrate colleagues in roles that depend on you; agree them with your manager and keep some availability. Do not block so much time that collaboration suffers. Revisit blocks if they consistently go unused.",
+    "signals": "Focus blocks survive for most weeks over a month, your key work happens during working hours, and colleagues book around the blocks without asking.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "lock-box-after-dinner",
+    "title": "Lock Box After Dinner",
+    "situation": "Your teenagers and you all promise less screen time in the evening, but nobody manages it for more than a day.",
+    "domain": "family",
+    "mode": "break",
+    "tags": ["screen-time", "teenagers", "evenings", "lockbox", "family"],
+    "chapter": 14,
+    "principle": "Make bad habits impossible",
+    "ideas": ["14.4", "14.5"],
+    "scene": "Picture this: the family agrees at Sunday lunch that evenings will be phone-free after 8pm. By Monday at 8:15 everyone, including you, is scrolling. Promises made at lunch do not survive the evening, when everyone is tired and the phone is right there. So stop relying on promises. Buy a timed lock box, agree the hours together, and lock every phone in it, yours first. When the option to scroll simply does not exist, there is nothing to resist, and evenings open up for talk, games, homework or sleep.",
+    "moves": [
+      { "title": "Decide together", "detail": "Hold a calm family conversation to agree the hours, such as 8pm to 7am, and the exceptions. Teenagers accept limits far better when they help set them and see adults follow them." },
+      { "title": "Get a timed box", "detail": "Buy a timed lock box or set up a charging station in a shared room with app limits for those hours. A physical barrier or automatic block removes the option altogether." },
+      { "title": "Adults go first", "detail": "Put your phone in first, every time. Children copy what parents do. If you need a phone for work or emergencies, agree a specific exception and keep it visible." },
+      { "title": "Plan the free time", "detail": "Keep board games, books or a shared show ready for the first few weeks. Removing phones leaves a gap; filling it with something pleasant makes the new routine stick." }
+    ],
+    "script": { "label": "Family agreement", "text": "Our evening agreement: from [8pm] to [7am], all phones, including mine, go in the [box / charging station]. Exceptions: [emergency calls / homework on the family laptop in the living room]. We review this together on [date]. Signed: [names]." },
+    "backfire": "Locking phones away can harm trust if imposed without discussion or used as punishment; keep it collaborative. Make sure teenagers can reach help in an emergency and that schoolwork needs are met. Adjust for shift workers and carers.",
+    "signals": "Phones go in the box on most evenings for a month, arguments about screens fall, and the family spends more evening time together or sleeps earlier.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "n": 15,
+  "short": "Reward it now",
+  "essence": "What is rewarded right away gets repeated.",
+  "modern_lens": "Chapter 15 explains that the brain values immediate rewards over delayed ones. Most good habits pay off later, while bad habits pay off now. The fix is to add a small, immediate reward to good habits and to make the cost of bad habits felt sooner. It works for team rituals as well as personal routines.",
+  "key_idea": "15.4",
+  "ideas": [
+    { "id": "15.1", "name": "Repeated When Rewarded", "text": "Behaviours followed by an immediate, satisfying feeling get repeated; behaviours followed by an unpleasant one get avoided. Pleasure tells the brain that a behaviour is worth remembering and doing again.", "try": "Notice how you feel in the minute after your habit. Is anything satisfying happening?" },
+    { "id": "15.2", "name": "Living in a Delayed-Return World", "text": "Human brains evolved for immediate returns: eat now, rest now. Modern life mostly pays later: save now, retire later; study now, earn later. That mismatch is why good long-term habits often feel unrewarding in the moment.", "try": "List one good habit whose payoff is months away and one small payoff it could give today." },
+    { "id": "15.3", "name": "Present Bias", "text": "We value the present more than the future. Bad habits usually feel good now and cost later; good habits usually cost now and pay later. To keep a good habit, give it some of the immediate feeling it lacks.", "try": "For one bad habit, write the immediate benefit and the delayed cost side by side." },
+    { "id": "15.4", "name": "Add an Instant Reward", "text": "Finish a good habit with a small immediate reward that fits who you want to be: a satisfying tick on a chart, a favourite tea after a workout, moving money into a trip fund each time you skip a takeaway.", "try": "Pick one small reward to enjoy straight after your habit, and use it every time for two weeks." },
+    { "id": "15.5", "name": "Make Avoidance Visible", "text": "Habits of avoidance, such as not buying, not drinking or not snacking, give you nothing to see. Make them visible: transfer the money you did not spend into a named account, or mark each day you did without.", "try": "Open a named savings pot and move money into it each time you resist a bad habit." }
+  ]
+}

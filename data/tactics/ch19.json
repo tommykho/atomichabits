@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "tune-the-stretch",
+    "title": "Tune the Stretch Assignment",
+    "situation": "One team member is bored and coasting, another is overwhelmed, and both are disengaging from their work.",
+    "domain": "work",
+    "mode": "build",
+    "tags": ["management", "engagement", "difficulty", "delegation", "growth"],
+    "chapter": 19,
+    "principle": "The Goldilocks zone",
+    "ideas": ["19.1", "19.2"],
+    "scene": "Picture this: Sam has done the same reports for two years and now finishes them half-asleep. Jordan joined three months ago and was handed a project that would challenge someone with five years' experience. Sam is bored; Jordan is drowning. Both look like motivation problems, but both are difficulty problems. People stay engaged when work sits just beyond their current ability. As a manager, your job is to tune the challenge for each person: stretch Sam, scaffold Jordan, and keep checking as they grow.",
+    "moves": [
+      { "title": "Ask about difficulty directly", "detail": "In one-to-ones, ask each person to rate their work from 1 to 10, where 1 is far too easy and 10 is overwhelming. Aim for each person to sit around 6 to 7: challenging but doable." },
+      { "title": "Stretch the bored", "detail": "Give the under-challenged person a slightly harder piece of work, such as leading a small project or automating a report. Increase difficulty by a small step, not a leap." },
+      { "title": "Scaffold the overwhelmed", "detail": "Break the overwhelming project into smaller stages, add a buddy or checklists, and reduce scope for now. The goal is challenge with support, not a sink-or-swim test." },
+      { "title": "Re-tune monthly", "detail": "Ask the difficulty question again every month. As people grow, yesterday's stretch becomes today's routine, so keep adjusting to stay in the zone." }
+    ],
+    "script": { "label": "One-to-one question", "text": "On a scale of 1 to 10, where 1 is far too easy and 10 is overwhelming, how does your work feel right now? What would move it one point closer to 7: something more challenging, or more support on what you have? Let us agree one change to try this month." },
+    "backfire": "Stretch work must come with recognition and, over time, fair pay or progression; otherwise it feels like exploitation. Do not label people as bored or weak in front of others. Check that overwhelm is not caused by workload or personal circumstances.",
+    "signals": "Both team members rate their work closer to 6 or 7 within a month, energy in one-to-ones improves, and the bored person starts proposing their own ideas.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "show-up-when-bored",
+    "title": "Show Up When It Is Boring",
+    "situation": "Your side project was exciting for a month, but now it feels routine and you keep skipping your sessions.",
+    "domain": "self",
+    "mode": "build",
+    "tags": ["side-project", "boredom", "consistency", "writing", "discipline"],
+    "chapter": 19,
+    "principle": "Professionals keep the schedule",
+    "ideas": ["19.2", "19.4"],
+    "scene": "Picture this: when you started the blog, every evening session felt exciting. You wrote five posts in two weeks. Now it is month three, the novelty has worn off, and writing feels like the same thing again. You skip a session, then another, and tell yourself you will get back to it when you feel inspired. This is the moment that separates people who finish from people who stop. The threat was never difficulty; it was boredom. Treat the schedule like a professional commitment and turn up even when it feels flat.",
+    "moves": [
+      { "title": "Write down your why", "detail": "Write one paragraph on why the project matters to you and what it could become in a year. Read it at the start of any session that feels boring." },
+      { "title": "Fix the schedule", "detail": "Set specific session times, such as Tuesday and Thursday 8pm and Saturday 9am, and treat them like appointments with a client. Showing up is the job; inspiration is optional." },
+      { "title": "Lower the bar on flat days", "detail": "On boring days, aim for a minimum, such as 200 words or one small fix. Showing up at reduced intensity protects the habit far better than skipping." },
+      { "title": "Track sessions, not feelings", "detail": "Mark each session attended, regardless of quality. Over weeks, the record shows you are someone who keeps going, which is what matters most." }
+    ],
+    "script": { "label": "Note above your desk", "text": "Why this matters: [one sentence]. Sessions: [days and times]. Minimum on flat days: [200 words / one fix]. Professionals turn up when it is boring. Today I turn up." },
+    "backfire": "Sometimes boredom signals that the project no longer fits your goals; review honestly every few months. Do not let a side project eat into sleep, health or family time for long. Quitting deliberately is different from drifting away.",
+    "signals": "You attend most scheduled sessions for six weeks despite low excitement, output keeps growing, and occasional sparks of enjoyment return.",
+    "effort": "minutes",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "rotate-the-routine",
+    "title": "Rotate the Family Menu",
+    "situation": "Your family's cooking routine has become the same five dinners, and everyone is losing interest in eating at home.",
+    "domain": "family",
+    "mode": "build",
+    "tags": ["cooking", "variety", "family", "meals", "routine"],
+    "chapter": 19,
+    "principle": "A little variety",
+    "ideas": ["19.3", "19.5"],
+    "scene": "Picture this: Monday is pasta, Tuesday is stir-fry, Wednesday is pasta again. The cooking habit you built is solid, but nobody looks forward to dinner anymore, and takeaway requests are creeping back. The routine itself is good; it has just become dull. You do not need to tear it down. Keep the structure, same nights and same prep time, and add a little variety: one new recipe a week, chosen by a different family member in rotation. The habit stays stable, and the surprise brings back some anticipation.",
+    "moves": [
+      { "title": "Keep the structure", "detail": "Keep the same cooking nights, shopping day and prep routine. Stability is what makes the habit easy; only the content changes." },
+      { "title": "Add one new meal weekly", "detail": "Replace one regular dinner each week with a new recipe. One is enough to bring novelty without making shopping and cooking harder." },
+      { "title": "Rotate who chooses", "detail": "Let a different family member pick the new recipe each week, with a simple budget and time limit. Children who choose are more likely to try and enjoy the meal." },
+      { "title": "Keep a hits list", "detail": "After each new meal, everyone gives a thumbs up or down. Add winners to the regular rotation, so the routine improves steadily over time." }
+    ],
+    "script": { "label": "Fridge rota", "text": "New recipe night: [day]. Chooser this week: [name]. Rules: under [30 minutes], under [budget], at least one vegetable. Hits list so far: [ ]." },
+    "backfire": "Too much novelty can make cooking stressful and expensive; keep it to one new dish a week. Respect allergies, dietary needs and cultural preferences. Do not force children to finish food they dislike; trying is enough.",
+    "signals": "Home dinners hold steady for a month, takeaway requests fall, and family members ask when it is their turn to choose.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  }
+]

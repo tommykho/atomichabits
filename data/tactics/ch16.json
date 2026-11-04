@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "never-miss-twice",
+    "title": "Never Miss Twice",
+    "situation": "A work trip or a cold breaks your exercise routine, and one missed week turns into three months off.",
+    "domain": "health",
+    "mode": "build",
+    "tags": ["exercise", "streaks", "consistency", "recovery", "routine"],
+    "chapter": 16,
+    "principle": "Never miss twice",
+    "ideas": ["16.3", "16.5"],
+    "scene": "Picture this: you had a great run of morning workouts, then a three-day business trip happened. You missed Monday, felt guilty, missed Tuesday because the streak was already broken, and by the following week the habit had quietly died. The first miss was not the problem; the second was. Adopt one simple rule: never miss twice. If you miss a day, the very next opportunity gets at least the tiniest version of the habit. Ten push-ups in a hotel room count. The goal is not a perfect record; it is a quick recovery.",
+    "moves": [
+      { "title": "Write your minimum version", "detail": "Decide now what the smallest acceptable workout is, such as ten minutes of walking or twenty squats. It should be possible anywhere, including hotel rooms and busy days." },
+      { "title": "Adopt the rule", "detail": "Write it where you will see it: I may miss once, never twice. After any missed day, the next day's minimum is non-negotiable, however short." },
+      { "title": "Plan for known disruptions", "detail": "Before trips, holidays or busy weeks, decide which minimum you will do and when. Pack shoes or download a short routine in advance so recovery needs no thought." },
+      { "title": "Track recoveries", "detail": "On your tracker, mark misses with a dot and recoveries with a circle. Seeing quick recoveries reinforces the identity of someone who always comes back." }
+    ],
+    "script": { "label": "Tracker legend", "text": "X = full workout. M = minimum version ([10-minute walk / 20 squats]). Dot = missed. Rule: a dot is never followed by another dot. Next trip: [date], minimum planned for [time]." },
+    "backfire": "Never miss twice does not apply when you are ill or injured; rest is part of the system, and pushing through can make things worse. If the rule feeds anxiety or guilt, soften it. Speak to a doctor about persistent pain.",
+    "signals": "Missed days are followed by a recovery the next day for two months, the habit survives at least one trip or illness, and restarting no longer feels like starting over.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": true
+  },
+  {
+    "slug": "track-the-right-number",
+    "title": "Track the Right Number",
+    "situation": "Your support team hits its ticket-closing target, yet customers complain that problems are not actually solved.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["metrics", "support", "customers", "kpis", "quality"],
+    "chapter": 16,
+    "principle": "Measure the right thing",
+    "ideas": ["16.4", "16.1"],
+    "scene": "Picture this: the support dashboard looks fantastic. Tickets are closed faster than ever, and the target is beaten every week. But customer complaints are rising, and the same customers keep coming back with the same problem. The team learned to optimise the number: close quickly, reopen later. When a measure becomes the target, it stops measuring what you care about. Keep tracking, because tracking drives habits, but track the number that reflects the real goal, such as problems solved the first time.",
+    "moves": [
+      { "title": "Write the real goal", "detail": "State the outcome you actually want in plain words, such as customers get their problem solved without having to come back. Put it above the dashboard so every metric is checked against it." },
+      { "title": "Pair speed with quality", "detail": "Track a quality measure alongside the speed measure, such as reopened tickets or a follow-up satisfaction score. Pairing makes it hard to improve one number by sacrificing the other." },
+      { "title": "Review examples, not just numbers", "detail": "Each week, read five random tickets as a team. Real examples reveal whether the numbers reflect good service, and they keep the purpose in view." },
+      { "title": "Reward the real outcome", "detail": "Recognise people for first-time resolutions and kind, thorough answers, not just for volume. People repeat what is rewarded, so reward what matters." }
+    ],
+    "script": { "label": "Team update", "text": "Team, we have smashed our closing-time target, and thank you for that. But our real goal is customers getting their problem solved the first time. From [date], our dashboard shows closing time and reopen rate side by side, and each Friday we will review five tickets together. I would rather we close a little slower and solve it properly." },
+    "backfire": "Adding metrics can overwhelm a team; keep it to two or three. Quality scores can be gamed too, so keep reading real examples. Do not use the new metric to blame individuals for problems caused by product bugs or staffing.",
+    "signals": "Reopen rates fall within two months, complaints about unresolved problems drop, and team discussions focus on customer outcomes rather than hitting a number.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "fridge-calendar-chain",
+    "title": "The Fridge Calendar Chain",
+    "situation": "You want your eight-year-old to read every day, but reminders turn into nagging and arguments.",
+    "domain": "family",
+    "mode": "build",
+    "tags": ["children", "reading", "tracker", "streaks", "parenting"],
+    "chapter": 16,
+    "principle": "Track the habit",
+    "ideas": ["16.1", "16.2"],
+    "scene": "Picture this: every evening the same conversation: have you read yet? Not yet. Go and read. In a minute. By the end of the week, reading feels like a chore your child is told to do, not something they want. Swap the nagging for a tracker. A big calendar on the fridge, a sticker for every day they read, and a visible chain that grows. Children love seeing a streak, and soon they remind you that they need their sticker. The chart does the motivating, so you no longer have to.",
+    "moves": [
+      { "title": "Make the chart together", "detail": "Let your child help choose a calendar and stickers and decide where it goes. When they help build the tracker, they feel ownership instead of being managed." },
+      { "title": "Keep the target small", "detail": "Start with ten minutes or one chapter a day. A small target keeps the chain unbroken, and children often read longer once they have started." },
+      { "title": "Sticker straight away", "detail": "Add the sticker immediately after reading, not at bedtime or the weekend. The instant visual reward is what makes the habit satisfying." },
+      { "title": "Celebrate the chain", "detail": "At milestones, such as fourteen days, celebrate with something reading-related, like a trip to the library or a new book they choose. Avoid making the reward bigger than the habit." }
+    ],
+    "script": { "label": "What to say", "text": "Let us make a reading chain on the fridge. Every day you read for [ten minutes], you get to put a sticker on the calendar. Let us see how long a chain you can make. When we get to [14] days in a row, we will go to the library and you can pick [two] new books." },
+    "backfire": "Trackers can turn reading into a chore if missed days lead to being told off; keep it positive and use the never-miss-twice rule. Some children respond better to shared reading than charts. If reading is very hard for your child, speak to their teacher about possible support.",
+    "signals": "Your child asks for their sticker without prompting, the chain reaches two weeks, and they start choosing books for themselves.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  }
+]

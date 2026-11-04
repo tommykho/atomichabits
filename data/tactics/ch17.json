@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "sign-a-habit-contract",
+    "title": "Sign a Habit Contract",
+    "situation": "You have tried to quit vaping several times alone, and every attempt ends quietly within a week.",
+    "domain": "health",
+    "mode": "break",
+    "tags": ["vaping", "quitting", "contract", "accountability", "health"],
+    "chapter": 17,
+    "principle": "The habit contract",
+    "ideas": ["17.2", "17.5"],
+    "scene": "Picture this: each time you quit, you tell nobody, so when you buy a vape again on day five, nobody knows and nothing happens. The private promise costs nothing to break. Make it public and specific. Write a short contract: what you are stopping, how you will track it, and what happens if you slip. Sign it with your partner and a close friend. Now a slip has an immediate, real cost: a small, agreed consequence and an honest conversation. That cost, felt soon, does more than any vague worry about long-term health.",
+    "moves": [
+      { "title": "Write a five-line contract", "detail": "State the habit you are stopping, the start date, how you will track it, what support you will use and what happens if you slip. Keep it short, concrete and dated." },
+      { "title": "Choose kind co-signers", "detail": "Ask one or two people who will hold you to it without shaming you, such as a partner and a friend. Agree that they check in weekly and that slips are discussed, not hidden." },
+      { "title": "Set an immediate cost", "detail": "Pick a small, certain consequence that applies within a day, such as donating to a cause you dislike or doing a chore you hate. Small and certain beats large and unlikely." },
+      { "title": "Add real support", "detail": "Combine the contract with proven help, such as nicotine replacement or a stop-smoking service. Accountability makes you show up; support makes the cravings manageable." }
+    ],
+    "script": { "label": "Habit contract", "text": "From [date], I, [name], will not vape. I will track every day on [tracker] and use [support, e.g. patches / stop service]. If I slip, within 24 hours I will tell [co-signers] and [agreed consequence]. [Co-signers] will check in with me every [Sunday]. Signed: [you], [co-signer 1], [co-signer 2]." },
+    "backfire": "Contracts can turn into shame if co-signers lecture or punish; choose supportive people and agree the tone. Nicotine dependence is physical, so speak to a pharmacist or doctor about support. Never make a cost harmful or humiliating.",
+    "signals": "You reach the first two weeks without vaping, check-ins feel supportive, and any slip is reported and followed by a quick recovery rather than a relapse.",
+    "effort": "days",
+    "difficulty": 3,
+    "featured": false
+  },
+  {
+    "slug": "weekly-check-in-buddy",
+    "title": "The Weekly Check-In Buddy",
+    "situation": "You are job hunting on your own, and weeks go by with only one or two applications sent.",
+    "domain": "career",
+    "mode": "build",
+    "tags": ["job-search", "accountability", "applications", "partner", "career"],
+    "chapter": 17,
+    "principle": "An accountability partner",
+    "ideas": ["17.3", "17.4"],
+    "scene": "Picture this: you decided to change jobs in spring. It is now autumn. You send an application when you feel inspired, which is not often, and nobody notices when a week goes by with nothing. A job search is a long, lonely project with rejection built in, perfect conditions for quiet quitting. Find a buddy, ideally someone else searching or studying, and agree a fifteen-minute weekly call. Each of you states your targets for the week, then reports back. Knowing someone will ask makes the empty week much harder to accept.",
+    "moves": [
+      { "title": "Find a matched buddy", "detail": "Look for someone with a similar long-term goal, such as a job search, a qualification or a side project. Mutual accountability works better than one-sided checking." },
+      { "title": "Set weekly targets", "detail": "Each week, state concrete, controllable targets, such as five tailored applications and two networking messages. Focus on actions you control, not outcomes like interviews." },
+      { "title": "Keep the call short", "detail": "Hold a fifteen-minute call at the same time weekly: what did you do, what got in the way, what is next week's target. Short calls are easy to keep for months." },
+      { "title": "Share a simple tracker", "detail": "Use a shared sheet where you both log actions. Seeing your buddy's progress adds gentle social pressure and lets you celebrate each other's wins." }
+    ],
+    "script": { "label": "Buddy invitation", "text": "Hi [Name], I am trying to keep my job search moving and I think we could help each other. Would you be up for a 15-minute call every [Monday at 8am]? We each share last week's actions and next week's targets. I will set up a shared tracker. Let us try it for six weeks and see." },
+    "backfire": "Accountability can feel like pressure during a hard search; agree to be supportive, not judgmental, and allow breaks. Do not share confidential details about current employers. If the search is affecting your mental health, seek wider support.",
+    "signals": "Weekly calls happen for six weeks, applications rise to your target most weeks, and you feel less alone and more in control of the search.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "late-meeting-cost",
+    "title": "Make Late Starts Cost",
+    "situation": "Team meetings start ten minutes late every week because a few people drift in, and the punctual ones are fed up.",
+    "domain": "work",
+    "mode": "break",
+    "tags": ["meetings", "punctuality", "team", "norms", "accountability"],
+    "chapter": 17,
+    "principle": "Make it unsatisfying",
+    "ideas": ["17.1", "17.5"],
+    "scene": "Picture this: the weekly team meeting is booked for 10:00. At 10:00 three people are there; by 10:08 most have arrived; at 10:12 the last person wanders in with a coffee, and the meeting starts. Arriving late costs the latecomer nothing, while everyone else loses time. Change the cost, kindly. Agree as a team that meetings start on time without waiting, and that the last person to arrive takes the notes. The consequence is small, immediate, fair and a little funny, and within a few weeks the drift stops.",
+    "moves": [
+      { "title": "Agree the rule together", "detail": "Raise the issue in a meeting, without naming people, and propose two agreements: we start on time, and the last person to arrive takes the notes. Let the team adjust the details so they own it." },
+      { "title": "Start on time, every time", "detail": "Begin exactly at the booked time, even with only two people present. Waiting rewards lateness; starting on time makes arriving late immediately unsatisfying." },
+      { "title": "Apply the cost lightly", "detail": "Hand the notes to the last arrival with good humour, including yourself when you are late. A small, certain, friendly consequence works better than a lecture." },
+      { "title": "Fix genuine causes", "detail": "If lateness comes from back-to-back meetings, set meetings to end five minutes early. Some lateness is a scheduling problem, not a behaviour problem." }
+    ],
+    "script": { "label": "Team proposal", "text": "Quick proposal for our weekly meeting: from next week we start exactly at [10:00], whoever is here, and the last person to arrive takes the notes. I will set our meetings to end five minutes early so nobody has to rush from another call. Any objections or tweaks before we try it for a month?" },
+    "backfire": "Costs must be light and fair; never use public shaming or penalties tied to pay. Some lateness has real causes, such as caring duties, disabilities or time zones, so allow agreed exceptions. If one person is always late, talk privately.",
+    "signals": "Meetings start within a minute of the booked time for a month, note-taking rotates less often, and punctual team members say meetings feel more respectful.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  }
+]

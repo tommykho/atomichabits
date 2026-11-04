@@ -1,0 +1,19 @@
+---
+import { u } from '../lib/url.js';
+import Base from '../layouts/Base.astro';
+import Tape from '../components/Tape.astro';
+---
+<Base title="Missed a day">
+  <section class="wrap" style="min-height:80vh;display:grid;place-items:center;text-align:center;padding-top:120px">
+    <div>
+      <Tape color="pink" style="margin-bottom:24px">404</Tape>
+      <h1>Missed one. <span class="mark">Never miss twice.</span></h1>
+      <p class="lede" style="margin-inline:auto">This page does not exist. One wrong turn is an accident; pick the next step and get back on track. <a href={u('/chapters/16/#i16-3')}>Idea 16.3</a></p>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:24px">
+        <a class="btn btn--ink" href={u('/')}>Home</a>
+        <a class="btn" href={u('/tactics/')}>Tactics</a>
+        <a class="btn" href={u('/coach/')}>Habit Coach</a>
+      </div>
+    </div>
+  </section>
+</Base>

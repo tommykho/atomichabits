@@ -1,0 +1,14 @@
+{
+  "n": 12,
+  "short": "Reduce friction",
+  "essence": "Make the good path the path of least resistance.",
+  "modern_lens": "Chapter 12 argues that people naturally choose the option that takes the least work. Instead of pushing harder, make the right action easier: fewer clicks, fewer steps, less setup. At work, removing friction from a process often changes behaviour faster than any training session or memo.",
+  "key_idea": "12.2",
+  "ideas": [
+    { "id": "12.1", "name": "We Choose the Easy Path", "text": "Given two options, people tend to choose the one that needs less effort. That is not laziness; it is how the brain conserves energy. Design habits that take as little effort as possible to begin.", "try": "Count the steps between you and your habit, then remove at least one." },
+    { "id": "12.2", "name": "Reduce Friction", "text": "Every step between you and a habit is a chance to quit. Cut the steps: keep running shoes by the door, keep the template ready, keep the fruit washed. Small reductions in friction add up to big changes in behaviour.", "try": "Prepare tomorrow's habit tonight so that starting takes one step." },
+    { "id": "12.3", "name": "Addition by Subtraction", "text": "Teams and households can improve behaviour by removing friction rather than adding rules: fewer approval steps, one-click forms, defaults that do the right thing. Look for steps that waste time and energy, and delete them.", "try": "Find one step in a shared process that nobody needs and propose removing it." },
+    { "id": "12.4", "name": "Prime the Environment", "text": "Set up your space for the next action before you need it. Lay out the gym clothes, clear the desk for tomorrow's first task, put the chopping board on the counter. Resetting a room after use makes the next good action easy.", "try": "Spend two minutes resetting your desk or kitchen for tomorrow's first good habit." },
+    { "id": "12.5", "name": "Add Friction to Bad Habits", "text": "The inverse of the third law is to make bad habits harder to start. Unplug the television after each use, delete saved card details, keep the phone in another room. A few seconds of extra effort can be enough to interrupt the automatic loop.", "try": "Add three extra steps between you and one bad habit today." }
+  ]
+}

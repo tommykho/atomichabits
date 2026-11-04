@@ -1,0 +1,5 @@
+---
+// Washi-tape label. color: ink | blue | pink | green | amber | violet (defaults to highlighter yellow).
+const { color = '', class: cls = '', ...rest } = Astro.props;
+---
+<span class={`tape ${color ? `tape--${color}` : ''} ${cls}`} {...rest}><slot /></span>

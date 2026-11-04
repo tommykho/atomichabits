@@ -1,0 +1,14 @@
+{
+  "n": 14,
+  "short": "Lock in good choices",
+  "essence": "Make good choices automatic and bad ones impossible.",
+  "modern_lens": "Chapter 14 shows how a single decision now can shape behaviour for months: an automatic transfer, a recurring calendar block, a password your partner keeps. Commitment devices and automation move the choice to a moment when you are thinking clearly, so your future self does not need willpower.",
+  "key_idea": "14.1",
+  "ideas": [
+    { "id": "14.1", "name": "Commitment Devices", "text": "A commitment device is a choice you make now that controls your actions later: buying snacks in single portions, booking a class with a cancellation fee, setting the router to switch off at 11pm. It turns a good intention into a constraint.", "try": "Choose one commitment device for your hardest habit and set it up today." },
+    { "id": "14.2", "name": "One-Time Choices", "text": "Some decisions pay off again and again after you make them once: automatic savings, unsubscribing from marketing emails, a better mattress, automatic pension contributions. Look for these single actions with long-lasting effects.", "try": "List five one-time choices that would improve your habits, and do one this week." },
+    { "id": "14.3", "name": "Let Technology Do It", "text": "Automation can make good habits happen without you: scheduled reports, recurring calendar blocks, bill autopay, app time limits. The more a behaviour runs on its own, the less it depends on memory and mood. Remember that technology automates bad habits too.", "try": "Automate one recurring good action, such as a transfer, a reminder or a report." },
+    { "id": "14.4", "name": "Make Bad Habits Impossible", "text": "The strongest form of the inverted third law is to remove the option altogether: a timed lock box for the phone, blocked websites during work hours, no card saved on shopping sites. Impossible is easier than hard.", "try": "Pick one bad habit and remove the option to do it during your most vulnerable hours." },
+    { "id": "14.5", "name": "Bind Your Future Self", "text": "Like the sailor in the old myth who had himself tied to the mast before sailing past the sirens, you can lock in a decision before temptation arrives. Make the choice while you are calm, so it holds when you are not.", "try": "Write down one decision you will make in advance for next week's most tempting moment." }
+  ]
+}

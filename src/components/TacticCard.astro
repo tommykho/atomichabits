@@ -1,0 +1,20 @@
+---
+import { u } from '../lib/url.js';
+import { DOMAINS, chapterOf } from '../lib/content.js';
+const { t } = Astro.props;
+const ch = chapterOf(t.chapter);
+const dots = '●'.repeat(t.difficulty) + '○'.repeat(3 - t.difficulty);
+---
+<a class="card tactic-card" href={u(`/tactics/${t.slug}/`)} data-color={ch.part.color} data-reveal data-domain={t.domain} data-mode={t.mode} data-chapter={t.chapter} data-text={`${t.title} ${t.situation} ${t.tags.join(' ')} ${t.principle}`.toLowerCase()}>
+  <div class="card-meta">
+    <span class="chip chip--hl">{DOMAINS[t.domain]?.label}</span>
+    <span class={`chip ${t.mode === 'break' ? 'chip--break' : ''}`}>{t.mode === 'break' ? 'Break' : 'Build'}</span>
+    {t.featured && <span class="chip">Starter habit</span>}
+  </div>
+  <h3>{t.title}</h3>
+  <p>{t.situation}</p>
+  <div class="card-foot">
+    <span>Ch. {ch.n} · {ch.short}</span>
+    <span title={`Difficulty ${t.difficulty} of 3`} aria-label={`Difficulty ${t.difficulty} of 3`}>{dots}</span>
+  </div>
+</a>

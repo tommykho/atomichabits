@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://atomichabits.pages.dev/sitemap-index.xml

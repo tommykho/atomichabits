@@ -1,0 +1,9 @@
+---
+// Tick-in-a-box brand mark with "1%".
+const { class: cls = 'brand-mark' } = Astro.props;
+---
+<svg class={cls} viewBox="0 0 40 40" fill="none" aria-hidden="true">
+  <rect x="3" y="4" width="32" height="32" rx="6" stroke="currentColor" stroke-width="2.2" transform="rotate(-4 19 20)" />
+  <path d="M10 21 l6 6 l13 -16" stroke="var(--green)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="37" y="38" text-anchor="end" font-family="Caveat, cursive" font-weight="700" font-size="13" fill="var(--red)">1%</text>
+</svg>

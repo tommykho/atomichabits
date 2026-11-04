@@ -1,0 +1,14 @@
+{
+  "n": 11,
+  "short": "Repetition over perfection",
+  "essence": "Stop planning and start doing reps.",
+  "modern_lens": "Chapter 11 separates being in motion (planning, researching, preparing) from taking action that produces results. Many work projects and personal goals stall in endless preparation. Habits form through repetition, so the priority is to start doing reps, even imperfect ones.",
+  "key_idea": "11.2",
+  "ideas": [
+    { "id": "11.1", "name": "Motion Versus Action", "text": "Motion is planning, strategising and learning about a task. Action is the behaviour that delivers a result. Motion feels productive and protects you from failure, which is why it is easy to stay there. Make sure your days contain action, not only preparation.", "try": "Review today's to-do list and mark each item as motion or action. Do one action item first." },
+    { "id": "11.2", "name": "Quantity Builds Quality", "text": "Many imperfect repetitions often produce better results than one carefully planned attempt. Each repetition gives feedback. The person who ships fifty drafts usually improves faster than the person polishing one.", "try": "Set a volume target for this week, such as five short drafts, instead of one perfect piece." },
+    { "id": "11.3", "name": "Repetition Rewires the Brain", "text": "Each time you repeat a behaviour, the brain strengthens the connections that support it. Repetition makes a habit physically easier to perform, which is why frequency matters more than intensity in the early stages.", "try": "Cut your habit to a size you can repeat daily, and repeat it for seven days in a row." },
+    { "id": "11.4", "name": "Frequency, Not Time", "text": "There is no fixed number of days to form a habit. What counts is how many times you perform it. Twenty repetitions in two weeks build more automaticity than four repetitions spread across two months.", "try": "Count repetitions, not days: put a tally mark somewhere visible after each one." },
+    { "id": "11.5", "name": "Cross the Habit Line", "text": "With enough repetitions, a behaviour crosses a threshold where it needs little conscious effort. Until then it feels like work. Expect the effort to drop over time, and keep counting reps rather than waiting to feel ready.", "try": "Note how hard the habit feels on a scale of 1 to 10 after each tenth repetition." }
+  ]
+}

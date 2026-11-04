@@ -1,0 +1,6 @@
+---
+// Hand-circled number sticker.
+const { n, size = 'md', color = '', class: cls = '', ...rest } = Astro.props;
+const sizeCls = size === 'sm' ? 'num--sm' : size === 'lg' ? 'num--lg' : '';
+---
+<span class={`num ${sizeCls} ${cls}`} data-color={color || undefined} aria-hidden="true" {...rest}>{n}</span>

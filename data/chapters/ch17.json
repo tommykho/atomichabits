@@ -1,0 +1,14 @@
+{
+  "n": 17,
+  "short": "Make skipping cost",
+  "essence": "Make skipping a good habit cost something, right away.",
+  "modern_lens": "Chapter 17 inverts the fourth law for bad habits and broken commitments: make the cost immediate and visible. An accountability partner, a written habit contract or a public commitment turns a private intention into a shared one. Used kindly, it works for teams, families and friends.",
+  "key_idea": "17.2",
+  "ideas": [
+    { "id": "17.1", "name": "Make It Unsatisfying", "text": "We repeat what feels good and avoid what feels bad. For a bad habit, attach an immediate cost, however small, so that the moment of indulgence no longer feels purely good.", "try": "Choose a small, immediate, harmless cost for one bad habit and apply it every time." },
+    { "id": "17.2", "name": "The Habit Contract", "text": "Write a short agreement that states the habit, how it will be tracked and what happens if it is broken, then sign it with one or two people. A contract turns a vague promise into clear terms and adds social weight.", "try": "Draft a five-line habit contract and ask one person you trust to co-sign it." },
+    { "id": "17.3", "name": "An Accountability Partner", "text": "Knowing someone is watching makes skipping a habit less appealing. A partner who checks in weekly, a shared tracker or a running buddy adds an immediate social cost to quitting.", "try": "Ask one person to check your tracker every Sunday for the next month." },
+    { "id": "17.4", "name": "Public Commitment", "text": "Stating a goal publicly makes backing out feel costly to your reputation. Choose the audience with care: people who will support you rather than shame you. Keep the commitment concrete and dated.", "try": "Share one concrete, dated habit commitment with a supportive group." },
+    { "id": "17.5", "name": "Immediate and Real Costs", "text": "A cost only works if it is felt soon and actually matters. A vague future penalty does little. A small, certain, near-term consequence, such as paying a friend every time you skip, changes behaviour more than a large, uncertain one.", "try": "Replace one vague penalty you set yourself with a small, certain one that applies within 24 hours." }
+  ]
+}

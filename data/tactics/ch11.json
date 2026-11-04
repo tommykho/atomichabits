@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "ship-the-rough-draft",
+    "title": "Ship the Rough Draft",
+    "situation": "You polish every report for days before sharing it, and feedback arrives too late to change anything.",
+    "domain": "work",
+    "mode": "build",
+    "tags": ["perfectionism", "reports", "feedback", "drafts", "delivery"],
+    "chapter": 11,
+    "principle": "Motion versus action",
+    "ideas": ["11.1", "11.2"],
+    "scene": "Picture this: the strategy report is due Friday. You spend Monday researching, Tuesday restructuring the outline, Wednesday adjusting charts. On Thursday you share it, and your manager says the whole angle needs to change. Four days of motion, one hour of real feedback. Polishing feels productive, but it mostly protects you from criticism. Flip the order: share a rough draft early and often, take the feedback, and iterate. Ten quick drafts teach you more than one perfect one, and your manager sees progress instead of a surprise.",
+    "moves": [
+      { "title": "Set a draft deadline", "detail": "For any piece of work longer than a day, agree to share a rough draft within the first quarter of the time available. Put that date in your calendar as a real deadline." },
+      { "title": "Label it clearly", "detail": "Mark the document as rough draft and say what feedback you want, such as the structure and main argument, not typos. Clear labels stop people from judging polish you have not done yet." },
+      { "title": "Count drafts, not hours", "detail": "Track how many versions you share per project. More versions with feedback usually lead to better final work. Make draft count your measure of action rather than hours spent preparing." },
+      { "title": "Polish last", "detail": "Save formatting, wording and chart styling for the final round, after the substance is agreed. Polishing earlier is motion that often gets thrown away." }
+    ],
+    "script": { "label": "Draft-sharing message", "text": "Hi [Name], here is a rough draft of [report] so we can check direction early. It is not polished yet. Could you look at two things by [day]: does the structure make sense, and is the main recommendation on the right track? I will turn your comments into the next version by [date]." },
+    "backfire": "Early drafts can backfire with stakeholders who judge everything they see; agree on what draft means first. Do not share rough work externally with clients or regulators without care. Some outputs, such as legal or safety documents, need precision from the start.",
+    "signals": "Feedback arrives in the first days of a project, late rewrites become rare, and you deliver final work on time with less stress.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "reps-before-research",
+    "title": "Fifty Calls Before the Plan",
+    "situation": "You have spent months researching your business idea but have not spoken to a single potential customer.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["startup", "customers", "validation", "research", "action"],
+    "chapter": 11,
+    "principle": "Quantity builds quality",
+    "ideas": ["11.1", "11.4"],
+    "scene": "Picture this: your business idea has a market report, a competitor spreadsheet, three logo options and a 40-page plan. What it does not have is a single conversation with someone who might pay. All that research feels like progress, but it is motion; it keeps you safe from the possibility that nobody wants it. Set a target of fifty short customer conversations before you touch the plan again. The first ten will be clumsy. By the fiftieth, you will know more than any report could tell you.",
+    "moves": [
+      { "title": "Freeze the research", "detail": "Put the business plan and research aside for a set period, such as three weeks. Tell a friend or mentor so you are less tempted to return to the comfort of preparing." },
+      { "title": "List where customers are", "detail": "Write down where potential customers gather: online groups, events, industry forums, your own network. Aim for a list of at least a hundred people you could reach." },
+      { "title": "Do short conversations daily", "detail": "Aim for three to five fifteen-minute conversations a day. Ask about their current problem and how they handle it now, not about your idea. Repetition sharpens your questions." },
+      { "title": "Tally and look for patterns", "detail": "Keep a tally and one line of notes per conversation. After every ten, look for repeated problems and phrases. Let these patterns, not your plan, shape the next step." }
+    ],
+    "script": { "label": "Outreach message", "text": "Hi [Name], I am researching how [type of person or business] handle [problem]. I am not selling anything; I would really value 15 minutes to hear how you deal with it today and what frustrates you about it. Would [day] or [day] work? Happy to share what I learn from the conversations." },
+    "backfire": "Do not misrepresent the purpose of the calls; if you later want to sell, be honest. Respect people who say no and do not spam groups. Talking to customers will not help if you only hear what you want, so listen for problems, not compliments.",
+    "signals": "You reach fifty conversations within a few weeks, you can describe the customer's problem in their own words, and the plan changes based on what you heard.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "count-reps-not-days",
+    "title": "Count Reps, Not Days",
+    "situation": "You started learning guitar and keep wondering why it does not feel automatic after a month.",
+    "domain": "self",
+    "mode": "build",
+    "tags": ["music", "practice", "learning", "repetition", "hobby"],
+    "chapter": 11,
+    "principle": "Frequency, not time",
+    "ideas": ["11.4", "11.5"],
+    "scene": "Picture this: a month into guitar lessons and chord changes still feel clumsy. You read somewhere that habits take a certain number of days, and you are starting to doubt yourself. But days are the wrong measure. You practised on seven of those thirty days, and only for a few minutes each time. What builds a skill is repetitions: hundreds of chord changes, not weeks on a calendar. Switch your scoreboard from days to reps, practise short and often, and watch the effort curve drop.",
+    "moves": [
+      { "title": "Define one rep", "detail": "Make one repetition concrete, such as switching cleanly between two chords ten times, or playing a short passage once. A clear unit makes practice countable and less vague." },
+      { "title": "Practise short and often", "detail": "Aim for ten minutes most days instead of one long weekend session. More frequent practice produces more repetitions overall and builds automaticity faster." },
+      { "title": "Keep a rep counter", "detail": "Keep a tally next to the guitar or in a notes app. Add marks after each practice. Watching the count grow is more motivating than counting days." },
+      { "title": "Note when it gets easier", "detail": "Every hundred reps, rate how hard the change feels from 1 to 10. The falling score shows you are crossing the habit line, even when it does not feel like it day to day." }
+    ],
+    "script": { "label": "Practice log", "text": "Rep definition: [10 clean switches between G and C]. Today's reps: [ ]. Running total: [ ]. Difficulty (1 to 10) at every hundred: [ ]. Tomorrow I start with: [ ]." },
+    "backfire": "Endless repetition of a wrong technique can build bad habits; get occasional feedback from a teacher. Stop if you feel pain in your hands or wrists, and rest. Hobbies should stay enjoyable, so do not turn counting into pressure.",
+    "signals": "Your rep count rises steadily, chord changes need less conscious effort within a few weeks, and you start playing simple songs without stopping.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  }
+]

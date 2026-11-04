@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "people-like-us-norm",
+    "title": "Make It How We Work",
+    "situation": "Only one or two people on your team write tests, and everyone else treats it as optional extra work.",
+    "domain": "work",
+    "mode": "build",
+    "tags": ["team", "norms", "engineering", "testing", "culture"],
+    "chapter": 9,
+    "principle": "People like us",
+    "ideas": ["9.5", "9.2"],
+    "scene": "Picture this: you are a tech lead, and the test suite is a ghost town. A couple of people write tests; the rest skip them under deadline pressure, and nobody says anything because skipping is normal. More rules and reminders will not change it, because the group norm is stronger than any memo. Change the norm itself. Make writing tests visible, praised and expected, so the team's story becomes: people like us ship code with tests. Once the majority does it, the remaining holdouts follow the group, not the rule.",
+    "moves": [
+      { "title": "State the norm out loud", "detail": "In a team meeting, describe the identity you want: we are a team that ships code with tests, because we care about weekends without incidents. Frame it as who we are, not a new rule." },
+      { "title": "Make it visible", "detail": "Show test coverage per pull request in the review tool and celebrate good tests in the team channel. When people can see that most colleagues are doing it, it starts to feel normal." },
+      { "title": "Lower the barrier", "detail": "Provide templates and pair sessions for people who are unsure how to write good tests. A norm spreads faster when joining it is easy and nobody feels exposed." },
+      { "title": "Recruit early adopters", "detail": "Ask two respected engineers to model the habit visibly for a month. People copy those they admire, so their example matters more than anything a lead says." }
+    ],
+    "script": { "label": "Team message", "text": "Team, I want us to be the kind of team that ships code with tests, because it is how we protect our weekends and our users. From this sprint, PR reviews will show test coverage, and I will share good examples in [channel]. If you want help getting started, [Name] and I are running a pairing session on [day]. Let us make this simply how we work." },
+    "backfire": "Norms backfire if they turn into public shaming or ignore real constraints, such as legacy code that is hard to test. Do not single people out in the channel. Make sure deadlines leave room for the new norm, or it will be quietly abandoned.",
+    "signals": "Most pull requests include tests within six weeks, team members review each other's tests unprompted, and new joiners pick up the norm without being told.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "find-your-crew",
+    "title": "Find Your Running Crew",
+    "situation": "You want to run regularly, but on your own you skip most sessions when the weather turns.",
+    "domain": "health",
+    "mode": "build",
+    "tags": ["running", "community", "club", "exercise", "social"],
+    "chapter": 9,
+    "principle": "Join where it is normal",
+    "ideas": ["9.4", "9.1"],
+    "scene": "Picture this: you run twice in a good week and not at all when it rains, which is most weeks. Running alone means every session depends on your mood. Now imagine a group that meets at 7am on Saturday whatever the weather, where running is simply what people do and somebody notices when you are missing. In that group you do not need willpower; you need to turn up. Habits are much easier to keep when you join people for whom the habit is already normal.",
+    "moves": [
+      { "title": "Find a beginner-friendly group", "detail": "Look for a local running club, park run, couch-to-5k group or workplace running group that welcomes beginners. Choose one that meets at a time you can make most weeks." },
+      { "title": "Commit to four sessions", "detail": "Promise yourself four sessions before judging whether it is for you. The first visit is the hardest; by the fourth, faces are familiar and the group starts to feel like yours." },
+      { "title": "Bring or make one friend", "detail": "Invite a friend to join you, or make a point of talking to the same person each week. A close connection inside the group makes skipping feel like letting someone down." },
+      { "title": "Adopt the group's rhythm", "detail": "Notice what the regulars do, such as a midweek run or post-run coffee, and copy one habit at a time. The group's norms become your routine without extra planning." }
+    ],
+    "script": { "label": "Message to a friend", "text": "Hey [Name], I am going to try the [group] beginner run on [day] at [time]. It is about [distance], all paces welcome. Want to come with me for the first few weeks? Coffee after is on me." },
+    "backfire": "Some groups are competitive or unwelcoming to beginners; if one feels wrong, try another rather than giving up. Check with a doctor first if you have health concerns. Do not push to match faster runners and risk injury.",
+    "signals": "You attend most weekly sessions for a month, people in the group know your name, and you start running between sessions on your own.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "borrow-a-mentors-routine",
+    "title": "Borrow a Mentor's Routine",
+    "situation": "You admire a senior colleague's calm, organised work style but cannot work out how they do it.",
+    "domain": "career",
+    "mode": "build",
+    "tags": ["mentor", "routines", "career", "learning", "role-model"],
+    "chapter": 9,
+    "principle": "We copy the admired",
+    "ideas": ["9.3", "9.1"],
+    "scene": "Picture this: there is a director in your company who always seems calm, prepared and two steps ahead, while you live in a cloud of half-finished tasks. You assume it is talent. Usually it is habits: a weekly planning ritual, a particular way of running meetings, a rule about email. People naturally copy those they admire, so do it on purpose. Ask to spend time with them, observe their routines, and borrow one habit at a time. You get a proven system and a relationship with someone worth learning from.",
+    "moves": [
+      { "title": "Ask for a short window", "detail": "Ask the person for thirty minutes to learn how they plan their week, or to shadow one of their meetings. Be specific about what you admire; specific requests are flattering and easy to accept." },
+      { "title": "Write down their routines", "detail": "During the conversation or shadowing, note concrete habits: when they plan, what they write down, how they open and close meetings. Look for routines, not personality traits." },
+      { "title": "Copy one habit for a month", "detail": "Pick the single routine that would help you most and adopt it for four weeks, adjusted to your role. One borrowed habit, practised consistently, beats trying to copy everything at once." },
+      { "title": "Report back", "detail": "After a month, tell them what you tried and what changed. It closes the loop, shows respect for their time, and often turns a one-off chat into ongoing mentoring." }
+    ],
+    "script": { "label": "Request message", "text": "Hi [Name], I have always admired how [specific thing, e.g. calmly you run the quarterly planning]. Could I have 30 minutes of your time in the next few weeks to learn how you plan your week? I would like to borrow one or two of your habits and will happily report back on how it goes." },
+    "backfire": "Copying someone whose style does not suit your personality or role can feel forced; adapt, do not mimic. Respect their time and accept a no gracefully. Avoid copying habits that work only because of their seniority, such as declining most meetings.",
+    "signals": "You use the borrowed routine on most days for a month, colleagues notice you seem more organised, and the person offers further advice or follow-up time.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  }
+]

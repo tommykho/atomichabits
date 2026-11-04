@@ -1,0 +1,14 @@
+{
+  "n": 20,
+  "short": "Review and refine",
+  "essence": "Habits plus deliberate practice and regular review lead to mastery.",
+  "modern_lens": "Chapter 20 names the trap of good habits: once a routine is automatic, you stop noticing small errors and stop improving. The remedy is regular review and deliberate practice. Reflection also keeps your identity flexible, so a change in role or life does not feel like a crisis.",
+  "key_idea": "20.3",
+  "ideas": [
+    { "id": "20.1", "name": "Automatic Can Mean Careless", "text": "Once a skill is automatic, you stop paying attention to the details and improvement stalls. Habits are the foundation, but mastery needs deliberate, focused practice on the parts that still need work.", "try": "Pick one automatic skill and spend ten focused minutes on its weakest part." },
+    { "id": "20.2", "name": "Habits Plus Deliberate Practice", "text": "Mastery is a cycle: make one skill automatic, then use the freed attention for the next weakness. Each layer of habit supports the next round of improvement.", "try": "Name the skill you have made automatic and the next skill to build on top of it." },
+    { "id": "20.3", "name": "Reflect and Review", "text": "Regular reviews, such as a weekly check-in or a yearly review, show what is working and what is drifting. Ask what went well, what did not and what you learned. Without review, small errors compound unnoticed.", "try": "Book a 20-minute weekly review in your calendar and answer those three questions." },
+    { "id": "20.4", "name": "Keep Your Identity Flexible", "text": "The more tightly you tie your identity to one role, the more a change in that role threatens you. Define yourself by values and qualities, such as someone who builds things rather than a senior engineer at one company, so you can adapt.", "try": "Rewrite one role-based identity as a value-based one." },
+    { "id": "20.5", "name": "Small Gains Stack Up", "text": "Results that last come from many small improvements layered over time, not from one big change. Every habit you master raises the baseline for the next. The process does not really end.", "try": "List the small improvements you made this year and choose the next one to stack." }
+  ]
+}

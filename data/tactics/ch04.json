@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "meeting-scorecard",
+    "title": "Run a Meeting Scorecard",
+    "situation": "Your calendar is full of meetings and you cannot tell which ones help your work and which just eat the week.",
+    "domain": "work",
+    "mode": "build",
+    "tags": ["meetings", "calendar", "audit", "time", "priorities"],
+    "chapter": 4,
+    "principle": "The habits scorecard",
+    "ideas": ["4.3", "4.5"],
+    "scene": "Picture this: Friday afternoon, and you scroll back through a week of back-to-back meetings. You were busy every hour, yet the project that matters most did not move. Meetings are habits too; they repeat every week whether they help or not, and after a while nobody questions them. Before cancelling anything, run a scorecard. List every recurring meeting and mark it plus, minus or equals depending on whether it moves your most important work forward. No guilt, no drama, just a clear map of where your time goes and which habits to change first.",
+    "moves": [
+      { "title": "List every recurring meeting", "detail": "Export or write down every recurring meeting from the last two weeks with its length and frequency. Include the informal ones, such as daily catch-ups that run long. Add up the hours so the true cost is visible." },
+      { "title": "Mark plus, minus or equals", "detail": "For each meeting, ask: does this move my top priority forward? Mark it plus if yes, minus if it pulls you away, equals if it is neutral. Judge direction, not whether the meeting is good or bad in general." },
+      { "title": "Change one minus a week", "detail": "Pick the costliest minus and propose a change: shorter, less frequent, async update instead, or attend only the first ten minutes. Changing one meeting a week is sustainable and less disruptive for colleagues." },
+      { "title": "Repeat the scorecard quarterly", "detail": "Meetings creep back. Put a quarterly reminder in your calendar to redo the scorecard, and share the format with your team so they can audit their own weeks." }
+    ],
+    "script": { "label": "Message to the meeting owner", "text": "Hi [Name], I have been reviewing how I spend my week so I can focus on [priority]. For [meeting], would it work if I sent a written update by [time] instead of attending every week, and joined in person [monthly / when my input is needed]? Happy to try it for a month and see if anything is missed." },
+    "backfire": "Do not drop meetings that matter to colleagues or your manager just because they do not help you. Some meetings build relationships and trust, which a scorecard can undervalue. Agree changes; do not simply stop turning up.",
+    "signals": "You recover at least two hours a week within a month, your top project gets protected time, and colleagues adopt the async updates without friction.",
+    "effort": "hours",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "name-it-before-you-scroll",
+    "title": "Name It Before You Scroll",
+    "situation": "You pick up your phone dozens of times a day without deciding to, and lose evenings to scrolling.",
+    "domain": "self",
+    "mode": "break",
+    "tags": ["phone", "scrolling", "awareness", "screen-time", "evenings"],
+    "chapter": 4,
+    "principle": "Point and call",
+    "ideas": ["4.4", "4.2"],
+    "scene": "Picture this: you sit down to read, and the next thing you know it is forty minutes later and you are watching a stranger renovate a kitchen. You never decided to pick up the phone; your hand did it for you. That is how automatic habits work: they run before you notice. The simplest way to interrupt them is to say out loud what you are about to do. I am picking up my phone to check nothing in particular. It sounds silly, and that is the point. Naming the action wakes up the part of you that can choose.",
+    "moves": [
+      { "title": "Count the pickups first", "detail": "Use your phone's screen-time report to see how many times you unlocked it yesterday. Do not change anything yet. Just knowing the real number builds awareness, which is the first step to change." },
+      { "title": "Say it out loud", "detail": "For one week, every time you reach for the phone, say quietly what you are doing and why: I am opening Instagram because I am bored. If you are with others, say it in your head. This turns an automatic action into a conscious one." },
+      { "title": "Add a one-question pause", "detail": "Put a lock-screen wallpaper with one question, such as: What did I pick this up for? It extends the moment of awareness and makes it easier to put the phone down when the answer is nothing." },
+      { "title": "Review the pattern", "detail": "At the end of the week, write down the three most common reasons you named. They point to the needs behind the habit, such as boredom or avoidance, which you can then meet in better ways." }
+    ],
+    "script": { "label": "Lock-screen line", "text": "What did I pick this up for? If the answer is nothing, put it down and [read one page / stretch / text someone I miss]." },
+    "backfire": "Awareness alone will not beat heavily engineered apps for long; pair it with removing cues, such as notifications. Do not turn naming into self-criticism. If phone use is tied to anxiety or low mood, talking to a professional may help more than a technique.",
+    "signals": "Daily pickups fall by at least a quarter within two weeks, you notice the reach before it happens more often, and evenings include longer stretches without the phone.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "catch-the-interrupt",
+    "title": "Catch the Interrupt",
+    "situation": "Your manager says you often cut colleagues off in meetings, and you did not even realise you were doing it.",
+    "domain": "career",
+    "mode": "break",
+    "tags": ["meetings", "feedback", "listening", "awareness", "communication"],
+    "chapter": 4,
+    "principle": "The brain predicts first",
+    "ideas": ["4.1", "4.4"],
+    "scene": "Picture this: your performance review is mostly positive, then your manager adds that you tend to talk over people in meetings. You feel defensive, because you never meant to. That is exactly the problem. Your brain predicts where a sentence is going and jumps in before anyone has finished, long before you consciously decide to speak. You cannot fix a habit you cannot see, so the first job is to make it visible: track it, name it and build a small signal that gives you a half-second to choose.",
+    "moves": [
+      { "title": "Ask for specific examples", "detail": "Thank your manager and ask for two or three recent moments when it happened and what it cost, such as a quieter colleague going silent. Specific examples help you spot the cue, which is often excitement or disagreement." },
+      { "title": "Track it in one meeting a day", "detail": "In one meeting each day, put a small notebook in front of you and make a tick every time you start speaking before someone has finished. Counting turns an invisible habit into a visible one within days." },
+      { "title": "Use a physical signal", "detail": "When you feel the urge to jump in, press your pen to the notebook or write your point down instead. The small action gives you time to let the speaker finish and still keeps your idea." },
+      { "title": "Invite one person to flag it", "detail": "Ask a trusted colleague to give you a subtle signal, such as touching their ear, when you interrupt. Review their feedback weekly. Outside eyes catch what you still miss." }
+    ],
+    "script": { "label": "Message to a trusted colleague", "text": "Hi [Name], I have had feedback that I sometimes cut people off in meetings, and I want to fix it. Would you be willing to give me a small signal, like [touching your ear], when I do it in [meeting]? I will check in with you on [Friday] to hear how I am doing. Thank you, I really appreciate it." },
+    "backfire": "Do not swing to silence; your ideas are still needed. In some cultures and teams, overlapping speech is normal, so calibrate to the group. If the feedback seems to target you unfairly, for example by gender or background, raise that separately.",
+    "signals": "Your daily tick count drops week by week, the colleague's signals become rare, and quieter teammates start contributing more in the meetings you attend.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "n": 5,
+  "short": "Time, place, stack",
+  "essence": "Give every new habit a time, a place and an anchor.",
+  "modern_lens": "Chapter 5 shows that vague intentions fail and specific plans succeed. 'I will exercise more' loses to 'I will walk for twenty minutes at 7am on the canal path'. At work, tying a new habit to a standing meeting, the commute or the first coffee turns a good intention into a reliable routine.",
+  "key_idea": "5.3",
+  "ideas": [
+    { "id": "5.1", "name": "Implementation Intentions", "text": "A plan that names the behaviour, the time and the place (I will do X at time Y in place Z) is far more likely to happen than a general intention. Specific plans remove the daily decision about when and where.", "try": "Write one sentence: I will [habit] at [time] in [place]. Put it in your calendar." },
+    { "id": "5.2", "name": "Clarity Beats Motivation", "text": "Many people think they lack motivation when they actually lack clarity. When it is not obvious when and where to act, the moment slips past. A clear plan lets you act even on a low-energy day.", "try": "Take one goal you keep postponing and decide exactly when and where the next step happens." },
+    { "id": "5.3", "name": "Habit Stacking", "text": "Link a new habit to one you already do every day: after my current habit, I will do the new habit. The existing routine becomes the cue. Small stacks can chain into a dependable morning or end-of-day sequence.", "try": "Write one stack: After I [daily habit], I will [new two-minute habit]." },
+    { "id": "5.4", "name": "Choose the Right Anchor", "text": "A stack works only if the anchor happens at the right time, in the right place and as often as the new habit should. 'After I close my laptop for the day' is a strong anchor for a shutdown review; 'when I feel stressed' is too vague.", "try": "List ten things you do every day without fail and pick the best anchor for your new habit." },
+    { "id": "5.5", "name": "One Change Leads to Another", "text": "A new purchase or behaviour tends to pull related ones along with it, like a new sofa that suddenly makes the old rug look shabby. Use this chain reaction on purpose by designing each habit to trigger the next useful step.", "try": "Choose a habit you already do well and add one small step that naturally follows it." }
+  ]
+}

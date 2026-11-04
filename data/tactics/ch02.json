@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "the-prepared-manager",
+    "title": "Become the Prepared Manager",
+    "situation": "You were promoted to team lead and your 1:1s are rushed, unplanned and often cancelled.",
+    "domain": "work",
+    "mode": "build",
+    "tags": ["management", "one-to-one", "identity", "feedback", "leadership"],
+    "chapter": 2,
+    "principle": "Decide, then prove it",
+    "ideas": ["2.4", "2.3"],
+    "scene": "Picture this: you became a manager three months ago, and your one-to-ones happen in corridors, on late video calls, or not at all. You tell yourself you will get organised once things calm down. They never do. The fix is not a better calendar app; it is a decision about who you are. Decide that you are the kind of manager who never walks into a one-to-one unprepared, then prove it with a five-minute ritual before every meeting. Each prepared conversation is a vote for that identity. After a month, preparing feels less like a task and more like who you are.",
+    "moves": [
+      { "title": "Write the identity sentence", "detail": "Finish this sentence and keep it on your desk: I am a manager who always shows up prepared for my people. Make it about who you are, not what you hope to achieve, so it guides small daily choices." },
+      { "title": "Create a five-minute prep note", "detail": "Use one shared doc per report with three headings: their wins, their blockers, one question from you. Spend five minutes filling it in before every meeting. Keep the template so short that skipping it feels silly." },
+      { "title": "Protect the slot", "detail": "Make the one-to-ones recurring at a fixed time and move rather than cancel them. If a clash appears, offer a new time within 48 hours. Each meeting kept is another vote for the manager you have decided to be." },
+      { "title": "Count your votes", "detail": "At the end of each week, tick how many one-to-ones you prepared for. Aim for a majority, not perfection. Over a month, the tally becomes evidence that changes how you see yourself." }
+    ],
+    "script": { "label": "Message to your team", "text": "Hi all, I want our one-to-ones to be genuinely useful, so I am making two changes. First, each of us gets a fixed weekly slot that I will move, not cancel, if something clashes. Second, there is now a shared prep doc for each of us with three headings: wins, blockers, and one question. Please add anything you want to cover by [day]. I will come prepared too." },
+    "backfire": "Do not let the prep doc become surveillance or a box-ticking exercise; it should serve the person, not the process. If your workload truly leaves no time for your team, raise that with your own manager instead of quietly cutting the meetings.",
+    "signals": "One-to-ones happen on schedule for four weeks, team members add items to the doc before meetings, and conversations move from status updates to real problems and growth.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "vote-with-one-workout",
+    "title": "Vote With One Workout",
+    "situation": "You have always said you are not a gym person, and every fitness plan you start ends within two weeks.",
+    "domain": "health",
+    "mode": "build",
+    "tags": ["exercise", "identity", "fitness", "beginner", "confidence"],
+    "chapter": 2,
+    "principle": "Every action is a vote",
+    "ideas": ["2.3", "2.5"],
+    "scene": "Picture this: you buy the trainers, download the app and promise yourself five workouts a week. By day ten you have done two, and the old story returns: I am just not a gym person. That label has been running your behaviour for years. Instead of trying to transform your body, try to collect evidence. One short workout is one vote for being someone who moves every day. You do not need a perfect week, just more votes for the new identity than the old one. Enough votes and the label quietly changes.",
+    "moves": [
+      { "title": "Rewrite the label", "detail": "Write down the old label, such as not a gym person, then write a new identity you can start proving today, such as someone who moves every day. Keep the new identity modest and believable." },
+      { "title": "Shrink the vote", "detail": "Define a workout as ten minutes of anything that raises your heart rate: a brisk walk, a beginner video, stairs. The goal is a vote, not a transformation, so make it easy enough to do on a busy day." },
+      { "title": "Mark every vote", "detail": "Keep a simple tally on paper or in your notes app. After each session, add a mark and say to yourself: that is one vote. Seeing the marks add up is the evidence that rewrites the old story." },
+      { "title": "Aim for a majority", "detail": "Target four votes out of seven days, not seven out of seven. Missing a day is fine; you only need to win the majority. This protects the identity from the all-or-nothing thinking that ended earlier plans." }
+    ],
+    "script": { "label": "Note to self", "text": "I used to say I am [old label]. From now on I am someone who moves every day. One vote counts as [10 minutes of walking, stairs or a short video]. My goal this week is [4] votes out of 7. Every mark on my tally is evidence. A missed day does not cancel the votes I have already cast." },
+    "backfire": "If you have a health condition, injury or have not exercised in years, check with a doctor before starting. Do not turn the tally into self-punishment; if it starts feeding guilt or obsession, step back and focus on enjoyment.",
+    "signals": "You reach four or more votes a week for a month, you catch yourself choosing stairs or walks without planning, and the old label starts to sound out of date.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "retire-the-old-label",
+    "title": "Retire the Old Label",
+    "situation": "You tell yourself you are just a shouter, and evenings with the kids often end in raised voices you regret.",
+    "domain": "family",
+    "mode": "break",
+    "tags": ["parenting", "anger", "identity", "evenings", "calm"],
+    "chapter": 2,
+    "principle": "Loosen limiting labels",
+    "ideas": ["2.5", "2.2"],
+    "scene": "Picture this: homework, bath time and a refusal to put the tablet away, all within ten minutes. Your voice rises before you have decided anything. Afterwards you think, that is just how I am; my parents were the same. That sentence feels like a fact, but it is a habit repeated for years, and it quietly gives you permission to keep shouting. Retiring the label starts with a new identity you can prove in small ways: a parent who stays calm first and speaks second. Every evening you manage it, the old story loses a little ground.",
+    "moves": [
+      { "title": "Catch the label in words", "detail": "Notice when you say or think I am a shouter or that is how I am. Write it down once, then write the replacement: I am a parent who pauses before speaking. Repeat the new sentence when you notice the old one." },
+      { "title": "Find the flashpoint", "detail": "For one week, note when raised voices happen, such as 6:30pm during homework. Most families have one or two predictable flashpoints. Knowing them lets you prepare instead of reacting." },
+      { "title": "Build a one-breath pause", "detail": "At the flashpoint, take one slow breath and lower your voice on purpose for the first sentence. A single, practised pause is a small enough vote to manage even when tired, and it changes the tone of what follows." },
+      { "title": "Repair and record", "detail": "When you do shout, apologise briefly and calmly once things settle, then note it without self-attack. Also note the calm evenings. Over weeks, the calm entries become the evidence for your new identity." }
+    ],
+    "script": { "label": "What to say to the kids", "text": "I have noticed I raise my voice a lot in the evenings, and I do not want to. I am working on pausing before I speak. If I start getting loud, you can say [our code word], and I will take a breath and start again. I am sorry for the times I shouted. Let us try this together this week." },
+    "backfire": "This is not a substitute for professional help if anger feels out of control, involves threats or physical harm, or frightens your family. Reach out to your doctor or a family support service. Never ask children to manage your emotions for you; the code word is a reminder, not their job.",
+    "signals": "Raised-voice evenings drop week by week, you catch the pause before you speak more often than not, and the children start using the code word less because it is needed less.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "n": 4,
+  "short": "Notice your cues",
+  "essence": "You cannot change a habit you have not noticed.",
+  "modern_lens": "Chapter 4 shows how the brain reads cues automatically, before we decide anything. At work this explains why we open email the moment we sit down, or interrupt in meetings without meaning to. The first step is to see your habits clearly and without judgment.",
+  "key_idea": "4.3",
+  "ideas": [
+    { "id": "4.1", "name": "The Brain Predicts First", "text": "With enough repetition, the brain learns to read cues and predict outcomes without conscious thought, the way an experienced mechanic hears a fault in an engine before checking anything. Useful, but it also means many habits run before you notice them.", "try": "Today, catch one action you started before deciding to, and note the cue that set it off." },
+    { "id": "4.2", "name": "Awareness Comes First", "text": "Habits become automatic, which is exactly why they are hard to see. Before changing anything, observe what you actually do and when. Many people find that the habit they planned to fix is not the one causing the problem.", "try": "For two days, jot down every time you reach for your phone and what happened just before." },
+    { "id": "4.3", "name": "The Habits Scorecard", "text": "List your daily actions in order from waking up, then mark each with a plus, a minus or an equals sign depending on whether it moves you toward the person you want to be. The scorecard is not a verdict; it is a map of where change would matter most.", "try": "Write tomorrow's first ten actions and mark each with a plus, a minus or an equals sign." },
+    { "id": "4.4", "name": "Point and Call", "text": "Saying an action out loud lifts it from automatic to conscious. Rail workers point at signals and call them out to reduce mistakes. Naming what you are about to do, such as 'I am about to open the news app', gives you a moment to choose.", "try": "Say your next three automatic actions out loud before you do them." },
+    { "id": "4.5", "name": "Direction, Not Morality", "text": "A habit is not good or bad in itself; it is effective or ineffective for the person you want to become. Judging yourself creates shame and hiding. Judging the direction of a habit gives you useful information.", "try": "Rewrite one harsh judgment about a habit as a neutral note on where it leads." }
+  ]
+}

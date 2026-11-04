@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "mute-the-noisy-channel",
+    "title": "Mute the Noisy Channel",
+    "situation": "Chat notifications pull you out of deep work every few minutes, and you answer them out of reflex.",
+    "domain": "work",
+    "mode": "break",
+    "tags": ["slack", "notifications", "focus", "deep-work", "chat"],
+    "chapter": 7,
+    "principle": "Make it invisible",
+    "ideas": ["7.3", "7.1"],
+    "scene": "Picture this: you finally get into the hard part of the design document, and a red badge appears. Someone posted a gif in a channel you joined two years ago. You glance, reply, check two other threads, and the deep thought is gone. You tell yourself to be more disciplined, but your screen is built to interrupt. People who seem focused usually are not resisting harder; they simply see fewer triggers. Mute, leave and schedule your way to a quieter screen, so the hard choice comes up a few times a day instead of every few minutes.",
+    "moves": [
+      { "title": "Audit your channels", "detail": "List every channel and group chat you are in and mark each as must-see now, can wait a few hours, or not needed. Most people find that only a handful need instant attention." },
+      { "title": "Mute or leave the rest", "detail": "Leave the channels you do not need and mute the ones that can wait. Keep notifications only for direct messages and the few must-see channels. Badges you never see cannot trigger the reflex." },
+      { "title": "Schedule focus status", "detail": "Set do-not-disturb for two focus blocks a day, with a status message saying when you will check messages. Most tools let you schedule this automatically every weekday." },
+      { "title": "Batch catch-up checks", "detail": "Check muted channels at set times, such as before lunch and at 4pm. You still stay informed, but on your schedule instead of the notification's." }
+    ],
+    "script": { "label": "Status message", "text": "Focus time until [11:30]. I check messages at [11:30] and [16:00]. For anything urgent, please [call me / message me directly with URGENT] and I will get back to you straight away." },
+    "backfire": "In on-call, support or incident roles, muting the wrong channel can cause real harm; agree what must stay live with your manager. Do not use focus status to avoid colleagues who need you. Check that urgent routes genuinely work.",
+    "signals": "You get at least two uninterrupted 90-minute blocks most days, notification counts drop sharply, and colleagues adapt without complaints.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "unsubscribe-from-temptation",
+    "title": "Unsubscribe From Temptation",
+    "situation": "Sale emails and app alerts keep tempting you into small online purchases you regret by the weekend.",
+    "domain": "self",
+    "mode": "break",
+    "tags": ["shopping", "impulse", "email", "spending", "apps"],
+    "chapter": 7,
+    "principle": "Cues spark cravings",
+    "ideas": ["7.3", "7.2"],
+    "scene": "Picture this: you were not planning to buy anything, then an email arrives: 48 hours only, 30% off. Ten minutes later a parcel is on its way, and by Friday the item sits unopened while the card statement grows. You did not go looking for the purchase; the cue found you. Every sale email, push alert and saved basket is a trigger built to spark a craving. You can spend energy resisting each one, or you can remove them once. Unsubscribe, delete and log out, so the temptation stops arriving in your pocket.",
+    "moves": [
+      { "title": "Unsubscribe in one sitting", "detail": "Search your inbox for the words unsubscribe and sale, and unsubscribe from every retailer you have bought from impulsively. It takes about twenty minutes once and removes hundreds of future triggers." },
+      { "title": "Turn off shopping alerts", "detail": "Delete shopping apps from your phone or at least turn off their notifications. Push alerts are among the strongest cues because they arrive when you are bored and holding the phone." },
+      { "title": "Remove saved payment details", "detail": "Delete stored card details from shopping sites and browsers. Having to fetch your card adds a pause that lets the craving pass before you buy." },
+      { "title": "Use a 48-hour list", "detail": "When you still want something, add it to a note with the date. If you still want it after 48 hours, buy it. Most impulse wants fade once the cue is gone." }
+    ],
+    "script": { "label": "48-hour list template", "text": "Want list. Item: [ ]. Date added: [ ]. Price: [ ]. Why I want it: [ ]. Still want it after 48 hours? [yes / no]. If yes, buy it on purpose and enjoy it." },
+    "backfire": "If spending feels compulsive or is causing debt, talk to a debt advice service or a counsellor; removing cues helps but may not be enough. Do not unsubscribe from accounts you need for essential notices, such as banks or utilities.",
+    "signals": "Sale emails mostly disappear within a week, impulse purchases drop over the next month, and most items on the 48-hour list are never bought.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "phone-out-of-the-bedroom",
+    "title": "Phone Out of the Bedroom",
+    "situation": "You and your partner both scroll in bed until midnight, then wake up tired and barely talk at night.",
+    "domain": "family",
+    "mode": "break",
+    "tags": ["sleep", "phone", "relationship", "bedroom", "evenings"],
+    "chapter": 7,
+    "principle": "Bad habits feed themselves",
+    "ideas": ["7.4", "7.1"],
+    "scene": "Picture this: lights off at 10:30, then two glowing screens until after midnight. You feel too tired to talk, so you scroll; scrolling leaves you wired and more tired, so you scroll some more. The next morning is groggy, and the evening repeats. The loop feeds itself, and willpower at 11pm stands no chance. Break it at the cue: phones charge in the kitchen, the bedroom gets an old-fashioned alarm clock, and the last half hour becomes time for each other or a book. It is easier to avoid the scroll than to stop it once it starts.",
+    "moves": [
+      { "title": "Agree the change together", "detail": "Talk about it at a calm moment, not at bedtime. Share what you both lose to late-night scrolling, such as sleep and conversation, and agree to try phone-free bedrooms for two weeks." },
+      { "title": "Move the chargers out", "detail": "Set up a charging spot in the kitchen or hallway and buy a cheap alarm clock. Without a charger by the bed, the phone has no reason to come into the bedroom." },
+      { "title": "Fill the half hour", "detail": "Put a book or paper on each bedside table and agree on a light shared ritual, such as tea and talking about tomorrow. Removing a habit works better when something pleasant replaces it." },
+      { "title": "Review after two weeks", "detail": "Compare sleep, mornings and how connected you feel. Keep what works and adjust the rest, for example allowing one exception night a week." }
+    ],
+    "script": { "label": "Message to your partner", "text": "I have noticed we both end up scrolling until late and we are tired every morning. I miss talking at night. Would you be up for a two-week experiment? Phones charge in the [kitchen] from [10pm], I will get an alarm clock, and we keep the last half hour for us or a book. We can review it on [date]." },
+    "backfire": "If either of you is on call, caring for someone or needs the phone for safety, agree an exception, such as a phone outside the door with the volume on. Make this a shared choice, not a rule imposed on a partner.",
+    "signals": "Phones stay out of the bedroom on most nights for two weeks, you both fall asleep earlier, and evening conversation happens more often.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  }
+]

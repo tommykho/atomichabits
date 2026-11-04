@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "one-click-process",
+    "title": "One-Click Expense Claims",
+    "situation": "Your team submits expense claims months late, and finance spends days chasing receipts every quarter.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["expenses", "process", "finance", "friction", "operations"],
+    "chapter": 12,
+    "principle": "Addition by subtraction",
+    "ideas": ["12.3", "12.1"],
+    "scene": "Picture this: at quarter end, finance sends the fourth reminder about expense claims. The process involves a seven-field spreadsheet, a scanned receipt, a manager signature and an email to a shared inbox. No wonder people put it off. Another reminder will not change behaviour; the friction is the problem. Strip the process down: a phone photo of the receipt, a two-field form, automatic approval under a set amount. When the right action becomes the easiest one, claims arrive on time without anyone chasing.",
+    "moves": [
+      { "title": "Map every step", "detail": "Walk through the current claim process with a colleague and count every step, field, click and approval. Time it. Most teams are surprised how many steps exist only out of habit." },
+      { "title": "Delete what is not needed", "detail": "Remove fields finance can fill in automatically and approvals that add no real control, such as manager sign-off on small claims. Each step removed lowers the chance someone gives up." },
+      { "title": "Make capture instant", "detail": "Set up receipt capture by phone photo or email forwarding, so a claim starts the moment someone pays. Capturing at the point of spending is far easier than reconstructing later." },
+      { "title": "Measure time to submit", "detail": "Track the average days between spending and claiming before and after the change. Share the improvement so the team sees the benefit and suggests further cuts." }
+    ],
+    "script": { "label": "Proposal to finance", "text": "Hi [Name], late expense claims cost us [X days] of chasing every quarter. I think the process, not people, is the issue: it takes [number] steps today. Proposal for a [one-quarter] trial: receipts by phone photo, a two-field form, and automatic approval for claims under [amount] with spot checks. Can we discuss on [day]?" },
+    "backfire": "Removing controls can increase errors or fraud; keep spot checks and clear limits, and involve finance and audit. Some industries have legal requirements for approvals and records, so check before deleting steps. Do not cut friction that protects people.",
+    "signals": "Average time to submit claims drops sharply within a quarter, finance stops sending mass reminders, and staff describe the process as painless.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "prime-the-night-before",
+    "title": "Pack the Gym Bag Tonight",
+    "situation": "You plan to exercise before work, but by the time you find your kit in the morning, you have talked yourself out of it.",
+    "domain": "health",
+    "mode": "build",
+    "tags": ["exercise", "morning", "preparation", "friction", "gym"],
+    "chapter": 12,
+    "principle": "Prime the environment",
+    "ideas": ["12.4", "12.2"],
+    "scene": "Picture this: the alarm goes off at 6:15. You have to find clean leggings, hunt for headphones, fill a water bottle and remember where the gym card is. Each little step is a moment to reconsider, and by step three the warm bed wins. The motivation was there last night; the friction met you this morning. Move the effort to the evening, when it costs less. Pack the bag, lay out the clothes, fill the bottle. When you wake up, the only thing left is to put on what is already waiting.",
+    "moves": [
+      { "title": "Write the evening checklist", "detail": "List everything you need for the morning session: clothes, shoes, headphones, water, gym card, towel. Keep the checklist on the bag or by the door." },
+      { "title": "Pack it at a fixed time", "detail": "Stack it onto an existing habit: after I brush my teeth at night, I pack the gym bag. Two minutes in the evening saves ten foggy minutes and several decisions in the morning." },
+      { "title": "Lay out the first step", "detail": "Put your exercise clothes next to the bed or on the chair where you will see them first. The first step should need no searching and no thinking." },
+      { "title": "Reset after each session", "detail": "When you get home, unpack and repack immediately for next time. Resetting keeps the environment primed, so the habit never depends on an organised morning." }
+    ],
+    "script": { "label": "Bag checklist", "text": "Packed tonight: [clothes] / [shoes] / [headphones, charged] / [water bottle, full] / [gym card] / [towel]. Tomorrow's plan: [session] at [time]. Clothes are on the chair." },
+    "backfire": "Preparation cannot fix a plan that ignores your sleep; if you are exhausted, an earlier bedtime matters more than an earlier workout. Check with a doctor before starting intense exercise. A primed bag does not oblige you to train when ill.",
+    "signals": "The bag is packed on most evenings for three weeks, morning sessions happen more often than they are skipped, and getting out the door feels automatic.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "delete-the-delivery-app",
+    "title": "Delete the Delivery App",
+    "situation": "Food delivery is so easy that your family uses it on impulse, even when there is food at home.",
+    "domain": "family",
+    "mode": "break",
+    "tags": ["delivery", "spending", "friction", "food", "family"],
+    "chapter": 12,
+    "principle": "Add friction to bad habits",
+    "ideas": ["12.5", "12.1"],
+    "scene": "Picture this: there are vegetables in the fridge and pasta in the cupboard, but ordering takes three taps and forty seconds, while cooking takes thirty minutes. The easier option wins almost every time, especially on a weekday evening. You do not need to ban delivery; you need to make it slightly harder than the alternative. Delete the app from everyone's phones, remove saved cards, and keep a quick meal ready. A few extra steps are often enough to break the automatic order.",
+    "moves": [
+      { "title": "Delete apps and saved cards", "detail": "Remove delivery apps from the family's phones and delete saved payment details from the websites. Ordering is still possible, but it now takes a few deliberate minutes instead of three taps." },
+      { "title": "Agree a delivery night", "detail": "Pick one night a week when delivery is planned and enjoyed. Having a set night makes the extra friction on other nights feel fair rather than restrictive." },
+      { "title": "Make cooking faster", "detail": "Keep ingredients for three quick meals in stock and post the recipes on the fridge. When the home option is easy, the extra friction on delivery tips the balance." },
+      { "title": "Notice the moments", "detail": "If someone reinstalls the app on a tired evening, notice what made it happen. Adjust the plan, for example by keeping a freezer meal for that exact situation." }
+    ],
+    "script": { "label": "Family message", "text": "Quick family plan: we are deleting the delivery apps from our phones and keeping [night] as our takeaway night. On other nights we have three quick options on the fridge: [meal 1], [meal 2], [meal 3]. Let us try it for a month and see what we save." },
+    "backfire": "For people with disabilities, long shifts or caring duties, delivery may be a genuine need, not a bad habit; plan around that. Do not impose the change on adults who manage their own money. Keep the tone practical, not moralising.",
+    "signals": "Impulse orders drop to the agreed night within a month, quick home meals become routine, and the monthly delivery spend falls noticeably.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  }
+]

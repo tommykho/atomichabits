@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "the-two-minute-version",
+    "title": "The Two-Minute Version",
+    "situation": "You want to read and journal every evening, but after work you are too tired to start anything that feels big.",
+    "domain": "self",
+    "mode": "build",
+    "tags": ["reading", "journaling", "evenings", "starting", "two-minute"],
+    "chapter": 13,
+    "principle": "The Two-Minute Rule",
+    "ideas": ["13.2", "13.3"],
+    "scene": "Picture this: every evening you mean to read for an hour and write a page in your journal. By 9pm, an hour of reading feels like a mountain, so you scroll instead and promise yourself tomorrow. The habit is too big to start on a tired night. Shrink it until it is almost silly: read one page, write one sentence. Two minutes, no excuses. Most nights you will keep going once you have started. On the nights you do not, you still cast a vote for being a reader and a writer. Master showing up first; the hour can come later.",
+    "moves": [
+      { "title": "Shrink each habit", "detail": "Write the two-minute version of each habit: read one page, write one sentence about today. It should feel almost too easy. The point is to make starting automatic, not to achieve the full goal." },
+      { "title": "Anchor it to bedtime", "detail": "Stack it onto an existing routine: after I get into bed, I read one page and write one sentence. Keep the book and journal on the pillow so the cue is unmissable." },
+      { "title": "Stop when you want", "detail": "Give yourself full permission to stop after two minutes. Most nights you will continue, but the permission keeps the start easy. Never extend the minimum on bad days." },
+      { "title": "Grow it after a month", "detail": "Only after a month of near-daily starts, raise the minimum slightly, such as five pages. Growing too early turns the habit back into a chore." }
+    ],
+    "script": { "label": "Card on the pillow", "text": "Tonight's minimum: read one page of [book] and write one sentence about today. That is all. If I want more, great. If not, I still showed up." },
+    "backfire": "The two-minute version is a starting tool, not the end goal; if it never grows, you may stay stuck at the minimum. Do not use it to avoid tasks that need real time, such as deadlines. If tiredness is constant, look at sleep and workload first.",
+    "signals": "You start on most nights for a month, you often keep going past two minutes, and starting feels automatic rather than effortful.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": true
+  },
+  {
+    "slug": "just-open-the-file",
+    "title": "Open the File, Nothing More",
+    "situation": "You keep postponing a big quarterly report because just thinking about it feels overwhelming.",
+    "domain": "work",
+    "mode": "build",
+    "tags": ["procrastination", "reports", "starting", "deadlines", "focus"],
+    "chapter": 13,
+    "principle": "Decisive moments",
+    "ideas": ["13.2", "13.1"],
+    "scene": "Picture this: the quarterly report has been on your list for nine days. Every morning you look at it, feel the weight of forty pages, and choose something smaller instead. The decisive moment is not the writing; it is the first thirty seconds after you sit down. Make that moment tiny. Your only job is to open the file and write the title of the first section. That is it. Once the document is open and one heading exists, the next sentence is far easier than the blank fear you had been carrying.",
+    "moves": [
+      { "title": "Define the tiny start", "detail": "Write the smallest possible first action on a sticky note: open the report file and type the first heading. It should take less than two minutes and need no preparation." },
+      { "title": "Do it first thing", "detail": "Make it the very first action when you sit down, before email or chat. The first minutes of the day are a decisive moment that sets up the next hour." },
+      { "title": "Leave a next-step note", "detail": "Each time you stop working on the report, write the next small step at the top of the document, such as find Q3 sales table. Tomorrow's start is then already decided." },
+      { "title": "Track starts, not pages", "detail": "Mark each day you opened the file. For a few days, count starts as success. Momentum builds from repeated starts much more than from planning big sessions." }
+    ],
+    "script": { "label": "Sticky note", "text": "Before email: open [report file] and type the next heading. Two minutes. Next step written at the top of the doc: [ ]." },
+    "backfire": "Tiny starts do not replace realistic planning; if the deadline needs ten hours, book the hours too. If procrastination comes from unclear requirements, ask your manager for clarity rather than forcing a start. Persistent avoidance can signal burnout.",
+    "signals": "You open the file on most workdays, the report grows a little each day, and the overwhelming feeling fades within a week.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "shape-the-weekly-review",
+    "title": "Shape the Weekly Business Review",
+    "situation": "You know your small business needs a weekly numbers review, but your attempts at a two-hour session never last.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["review", "metrics", "small-business", "routine", "planning"],
+    "chapter": 13,
+    "principle": "Habit shaping",
+    "ideas": ["13.4", "13.5"],
+    "scene": "Picture this: inspired by a business book, you block two hours on Friday for a full weekly review: sales, costs, marketing, staff, goals. It happens once. The next Friday a client calls, and the habit never recovers. You started at the finish line. Instead, shape the habit in stages. Week one: five minutes looking at three numbers. Once that is automatic, add a section. Standardise the small routine before optimising it, and in two months you will have the full review running without fighting for it.",
+    "moves": [
+      { "title": "Start with five minutes", "detail": "For the first month, the review is five minutes on Friday afternoon checking three numbers: sales this week, cash in bank and the biggest unpaid invoice. Nothing more." },
+      { "title": "Use the same template", "detail": "Keep one simple template with the same headings each week. Standardising the routine makes it quick and comparable, and it removes decisions about what to look at." },
+      { "title": "Add one stage at a time", "detail": "After four consistent weeks, add one section, such as marketing leads or next week's priorities. Only move to the next stage when the current one feels automatic." },
+      { "title": "Protect the slot", "detail": "Book the review as a recurring meeting with yourself. If it clashes, do the five-minute version anyway. Keeping the minimum protects the habit while it grows." }
+    ],
+    "script": { "label": "Weekly review template", "text": "Week of [date]. 1. Sales this week: [ ]. 2. Cash in bank: [ ]. 3. Largest unpaid invoice: [ ] (action: [ ]). Stage 2 (from [month]): Leads: [ ]. Stage 3: Next week's top three priorities: [ ]." },
+    "backfire": "A shaped review grows slowly; if the business is in a cash crisis, get a full picture and advice now, not in two months. Do not skip compliance deadlines, such as tax filings, while the habit develops. Keep the template honest even when numbers are bad.",
+    "signals": "The five-minute review happens every week for a month, each new stage sticks before the next is added, and decisions start referring to review numbers.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  }
+]

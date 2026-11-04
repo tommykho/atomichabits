@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "pick-your-selling-style",
+    "title": "Pick Your Selling Style",
+    "situation": "As an introverted founder you hate cold calling, so you avoid selling altogether and the pipeline is empty.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["sales", "introvert", "founder", "strengths", "writing"],
+    "chapter": 18,
+    "principle": "Pick the right game",
+    "ideas": ["18.2", "18.1"],
+    "scene": "Picture this: every sales book you read says pick up the phone. You try, feel awful, and stop after three calls. You conclude you are just bad at sales. But you are using someone else's playbook. You are a thoughtful writer who loves deep one-to-one conversations and hates small talk with strangers. So design a sales habit that fits: well-researched written outreach, detailed case studies, small workshops. Habits are much easier to sustain when they suit your temperament. The goal is customers, not cold calls.",
+    "moves": [
+      { "title": "List your natural strengths", "detail": "Write down what you are good at and enjoy, such as writing, research, teaching or one-to-one conversations. Ask two people who know you well to add to the list." },
+      { "title": "Match a sales channel", "detail": "Choose a channel that uses those strengths: personalised emails, useful articles, webinars or referral partnerships. Pick one primary channel rather than trying them all." },
+      { "title": "Build a daily habit", "detail": "Set a small daily target in your chosen channel, such as three personalised emails before 10am. The habit should feel like your kind of work, which makes it easier to repeat." },
+      { "title": "Test and keep what works", "detail": "Track replies and meetings per channel for a month. Keep the approach that brings customers and suits you, and drop the rest without guilt." }
+    ],
+    "script": { "label": "Personalised outreach email", "text": "Hi [Name], I read [their article / post] about [topic] and noticed you mentioned [specific challenge]. We helped [similar company] reduce [problem] by [result] in [time]. I wrote up a short case study: [link]. If it is useful, I would be glad to walk you through what worked in a 20-minute call. Either way, I hope the case study helps." },
+    "backfire": "Playing to strengths does not mean avoiding all discomfort; some essential tasks, such as negotiation, still need practice. Do not use personality as an excuse to skip selling altogether. Respect anti-spam rules and opt-outs in outreach.",
+    "signals": "You do the daily outreach most days for a month, replies and meetings start arriving, and selling begins to feel like an extension of your strengths.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "build-a-two-skill-niche",
+    "title": "Build a Two-Skill Niche",
+    "situation": "You are one of many similar analysts at work and feel interchangeable when promotions come round.",
+    "domain": "career",
+    "mode": "build",
+    "tags": ["career", "skills", "niche", "promotion", "differentiation"],
+    "chapter": 18,
+    "principle": "Create your own niche",
+    "ideas": ["18.4", "18.5"],
+    "scene": "Picture this: your department has twelve analysts with the same title, the same tools and similar results. When promotion season comes, it feels like a lottery. You could try to become the single best analyst, but that is a crowded race. Instead, combine your core skill with a second one that few colleagues have, perhaps clear writing, product knowledge or presenting to executives. The analyst who can explain findings to the board is rare. Build a daily habit around the second skill and create a niche where you are hard to replace.",
+    "moves": [
+      { "title": "Find the rare combination", "detail": "List skills you enjoy and are relatively good at outside your core role. Look for one that is valuable in your organisation but rare among peers, such as writing, design or domain expertise." },
+      { "title": "Check where work feels like play", "detail": "Ask which tasks feel easy to you but hard for colleagues, and when you lose track of time. Pick the second skill from these answers so the habit is sustainable." },
+      { "title": "Practise it weekly", "detail": "Set a small weekly habit, such as writing a one-page summary of each analysis for non-technical readers. Share it with your manager so the combination becomes visible." },
+      { "title": "Claim the niche", "detail": "After a few months, volunteer for work that needs both skills, such as executive briefings. Ask your manager to recognise the combination in your goals and review." }
+    ],
+    "script": { "label": "Message to your manager", "text": "Hi [Manager], I would like to develop a niche that helps the team: turning our analysis into short, clear briefings for [executives / clients]. For the next quarter, I plan to write a one-page summary for each major piece of work. Could we add this to my goals, and are there upcoming briefings where I could help?" },
+    "backfire": "A niche only helps if the organisation values it; check before investing heavily. Do not neglect your core skill while building the second. Avoid stepping on colleagues' roles; frame the niche as support for the team.",
+    "signals": "Your summaries are requested or forwarded by others, you are invited to briefings, and your manager mentions the combination in feedback or promotion discussions.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  },
+  {
+    "slug": "fitness-that-fits",
+    "title": "Fitness That Fits You",
+    "situation": "You have tried the gym, running and home workouts, and quit each one because none of them felt like you.",
+    "domain": "health",
+    "mode": "build",
+    "tags": ["exercise", "personality", "experiment", "fitness", "enjoyment"],
+    "chapter": 18,
+    "principle": "Explore, then exploit",
+    "ideas": ["18.3", "18.2"],
+    "scene": "Picture this: you have a drawer full of abandoned fitness gear. Running felt lonely, the gym felt intimidating, and home workouts felt boring. Each time, you concluded you are not sporty. More likely, you have not found the activity that suits your temperament yet. Treat the next two months as an exploration phase: try several different activities briefly, notice which one you look forward to, then commit to that one. Exploration first, then focus. The right game makes the habit far easier to keep.",
+    "moves": [
+      { "title": "Shortlist five activities", "detail": "Choose five very different options, such as climbing, dance, swimming, a team sport and a walking group. Include solo and social, structured and flexible, indoors and outdoors." },
+      { "title": "Try each twice", "detail": "Book two sessions of each over six to eight weeks. One session is too few to judge; two is enough to tell whether you might enjoy it once the awkwardness passes." },
+      { "title": "Score how you feel", "detail": "After each session, rate from 1 to 10 how much you would look forward to doing it again, and note why. Enjoyment is the best predictor of whether you will stick with it." },
+      { "title": "Commit to the winner", "detail": "Pick the highest-scoring activity and commit to it for three months, while keeping a small share of time to try something new occasionally." }
+    ],
+    "script": { "label": "Exploration plan", "text": "Fitness experiment, [month] to [month]. Try twice each: [activity 1], [activity 2], [activity 3], [activity 4], [activity 5]. After each: look-forward score out of 10 and one line on why. Winner gets three months of commitment from [date]." },
+    "backfire": "Exploration can become an excuse never to commit; set an end date. Check with a doctor before trying intense activities, especially with health conditions. Taster sessions can add up in cost, so look for free trials.",
+    "signals": "One activity clearly scores highest, you attend it consistently for the first month after committing, and you start telling people about it.",
+    "effort": "days",
+    "difficulty": 1,
+    "featured": false
+  }
+]

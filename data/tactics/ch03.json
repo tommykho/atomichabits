@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "debug-the-inbox-loop",
+    "title": "Debug the Inbox Loop",
+    "situation": "You check email every few minutes and end most days busy but with your important work untouched.",
+    "domain": "work",
+    "mode": "break",
+    "tags": ["email", "focus", "distraction", "productivity", "loop"],
+    "chapter": 3,
+    "principle": "The habit loop",
+    "ideas": ["3.1", "3.4"],
+    "scene": "Picture this: you open the report you need to finish, read one paragraph, and your hand moves to the inbox tab before you notice. Nothing urgent, so you go back. Ten minutes later, the same thing. By 5pm you have answered forty emails and written two paragraphs. Willpower alone will not fix this because the habit is a loop: a cue, a craving for relief or novelty, a click, and a small reward of something new. Treat it like a bug. Find each stage of the loop and break the weakest link instead of fighting the whole thing at once.",
+    "moves": [
+      { "title": "Write the four stages", "detail": "For one day, note what triggers each check (cue), what you hoped to feel (craving), what you did (response) and what you got (reward). Most people find two or three repeating cues, such as a hard sentence or a notification badge." },
+      { "title": "Hide the cue", "detail": "Close the email tab during focus blocks, turn off the badge count and notification sounds, and move the mail app off your taskbar. Making the cue invisible removes most triggers before the craving even starts." },
+      { "title": "Add friction to the response", "detail": "Sign out of email during your two most important hours, or use a tool that blocks mail until a set time. The extra steps give you a moment to choose instead of clicking on autopilot." },
+      { "title": "Batch the reward", "detail": "Schedule three or four inbox sessions a day at fixed times. Knowing the next check is coming makes the craving easier to ignore, and you still get the satisfaction of clearing messages in one go." }
+    ],
+    "script": { "label": "Email signature or status", "text": "To give our projects proper focus, I check email at [10:00], [13:00] and [16:30]. If something is truly urgent, please call or message me on [channel] and I will respond right away. Thanks for helping me do better work for you." },
+    "backfire": "Batching fails in roles where fast email replies are the job, such as client support or live operations. Agree the schedule with your manager first. Do not use a status message to dodge responsibilities, and make sure urgent channels really work.",
+    "signals": "Within two weeks you finish at least one important task daily before noon, your email checks fall to a handful a day, and nobody complains about response times.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "swap-the-3pm-snack",
+    "title": "Swap the 3pm Snack",
+    "situation": "Every afternoon around three you buy a chocolate bar from the vending machine, even when you are not hungry.",
+    "domain": "health",
+    "mode": "break",
+    "tags": ["snacking", "energy", "afternoon", "food", "craving"],
+    "chapter": 3,
+    "principle": "Problem and solution phases",
+    "ideas": ["3.2", "3.1"],
+    "scene": "Picture this: it is 3pm, the spreadsheet is blurring and you find yourself standing at the vending machine again. You are not really hungry. What you want is a break, a change of scene, a small lift. The chocolate bar is just the solution your brain picked months ago. If you try to ban it, the want stays and wins by Thursday. Instead, keep the problem and replace the solution: something that gives the same break and lift without the sugar crash. Same cue, same craving, different response.",
+    "moves": [
+      { "title": "Name the real problem", "detail": "Next time you head to the machine, pause and ask what you actually want: energy, a break from the screen, a chat, or food. Write the answer down for a week. The pattern tells you what your replacement has to provide." },
+      { "title": "Pick a matching solution", "detail": "If you want a break, take a five-minute walk outside or to another floor. If you want energy, try water and a piece of fruit you brought from home. If you want company, make tea with a colleague. Match the solution to the need." },
+      { "title": "Prepare it in advance", "detail": "Bring the fruit or nuts in the morning and put them on your desk. Set a 2:55pm reminder labelled walk and water. A ready solution beats the machine, which is always available." },
+      { "title": "Keep the timing", "detail": "Keep the 3pm break itself. The cue and the craving stay the same; only the response changes. Breaking the routine entirely tends to bring the old habit back." }
+    ],
+    "script": { "label": "Message to a colleague", "text": "Hey [Name], I am trying to swap my 3pm vending-machine habit for a quick walk. Want to join me for a ten-minute loop round the block at [3:00] on weekdays? Totally fine if you can only make some days." },
+    "backfire": "If afternoon cravings come with dizziness, extreme fatigue or other symptoms, speak to a doctor rather than relying on willpower. Do not swap one restriction for an obsessive food rule; an occasional chocolate bar is not a failure.",
+    "signals": "You take the walk or prepared snack on most weekdays for three weeks, the 3pm slump feels milder, and the vending machine visits drop to once a week or less.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "four-law-team-retro",
+    "title": "Run a Four-Law Team Retro",
+    "situation": "Your team agreed to update the CRM after every client call, but most records are weeks out of date.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["crm", "team", "process", "retro", "adoption"],
+    "chapter": 3,
+    "principle": "The four laws",
+    "ideas": ["3.3", "12.3"],
+    "scene": "Picture this: the quarterly forecast meeting begins and nobody trusts the CRM. Half the deals are stale, notes are missing, and the sales manager sends another reminder email that everyone ignores. The problem is not that people are lazy. The habit is failing at one of four points: nobody notices when to update, nobody wants to, it takes too long, or nothing good happens afterwards. Run a short retro that scores the habit on each of the four laws, then fix the weakest one. Usually it is the easiest fix you never thought to try.",
+    "moves": [
+      { "title": "Score the four laws together", "detail": "In a 30-minute retro, ask the team to rate the CRM update habit from 1 to 5 on four questions: Is the moment to update obvious? Is it attractive? Is it easy? Is it satisfying? Collect scores anonymously to get honest answers." },
+      { "title": "Fix the lowest score first", "detail": "If easy scores lowest, cut required fields to the three that matter or add a quick-update form. If obvious scores lowest, add a calendar prompt after every client call. One targeted fix beats a long list of rules." },
+      { "title": "Make the update pay off", "detail": "Show something useful straight away: an updated forecast, a shout-out in the weekly channel, or fewer status meetings for people with current records. People keep habits that give them something back." },
+      { "title": "Re-score in four weeks", "detail": "Repeat the quick scoring after a month and pick the next weakest law. Treat the habit as a system to tune, not a rule to enforce, and share the before-and-after scores with the team." }
+    ],
+    "script": { "label": "Retro invitation", "text": "Hi team, our CRM records are not keeping up, and I do not think more reminders will fix it. Let us take 30 minutes on [day] to figure out why. We will score the update habit on four questions: is it obvious, attractive, easy and satisfying? Then we will fix the weakest one together. No blame, just a better system." },
+    "backfire": "This fails if leaders use the retro to scold people or if the team's suggestions are ignored. Some resistance is legitimate, for example duplicate data entry across tools; solve that instead of pushing harder. Do not tie updates to punitive metrics.",
+    "signals": "The share of deals updated within 24 hours rises week by week, the team proposes its own fixes, and forecast meetings spend less time questioning the data.",
+    "effort": "hours",
+    "difficulty": 2,
+    "featured": false
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "run-a-weekly-review",
+    "title": "Run a Weekly Review",
+    "situation": "You work hard every week, but at review time you cannot remember what you achieved or learned.",
+    "domain": "career",
+    "mode": "build",
+    "tags": ["review", "reflection", "planning", "career", "growth"],
+    "chapter": 20,
+    "principle": "Reflect and review",
+    "ideas": ["20.3", "20.5"],
+    "scene": "Picture this: your annual review is next week. Your manager asks what you are proudest of this year, and your mind goes blank. You know you worked hard, but the weeks have blurred together, and small lessons were lost along the way. Without regular reflection, good habits drift and mistakes repeat. A twenty-minute review every Friday afternoon fixes both: you capture wins while they are fresh, notice what is slipping, and pick one improvement for next week. A year of these adds up to a clear record and steady growth.",
+    "moves": [
+      { "title": "Book twenty minutes on Friday", "detail": "Put a recurring twenty-minute block at the end of the week. Treat it as a meeting with your future self, and move it rather than cancel it." },
+      { "title": "Answer three questions", "detail": "Write short answers to: What went well? What did not? What will I do differently next week? Keep it brief so the review stays easy to repeat." },
+      { "title": "Log wins with evidence", "detail": "Note concrete wins with numbers or links, such as a shipped feature or a client thank-you email. This log becomes the backbone of performance reviews and CVs." },
+      { "title": "Do a monthly roll-up", "detail": "Once a month, read the last four reviews and pick the one improvement that would matter most. Small, layered changes compound across the year." }
+    ],
+    "script": { "label": "Weekly review template", "text": "Week of [date]. Went well: [ ]. Did not go well: [ ]. Learned: [ ]. Wins with evidence: [link / number]. Next week I will change one thing: [ ]." },
+    "backfire": "Reviews can turn into self-criticism sessions; balance problems with wins and keep the tone kind. Do not skip the review in busy weeks, when it matters most. Keep confidential work details out of personal notes if your employer requires it.",
+    "signals": "You complete the review most Fridays for two months, performance reviews become easy to prepare, and you can name recent improvements you made on purpose.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "audit-the-autopilot",
+    "title": "Audit the Autopilot",
+    "situation": "Your onboarding process for new clients has run unchanged for years, and churn in the first 90 days is creeping up.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["onboarding", "clients", "process", "improvement", "churn"],
+    "chapter": 20,
+    "principle": "Automatic can mean careless",
+    "ideas": ["20.1", "20.2"],
+    "scene": "Picture this: your client onboarding was carefully designed five years ago. It became a smooth habit for the whole team, so smooth that nobody looks at it anymore. Meanwhile your product changed, your clients changed, and early cancellations are slowly rising. The routine that once helped is now running on autopilot. Good habits free attention, but they also hide small errors. Once or twice a year, deliberately take the process off autopilot: watch it in action, measure it and improve the weakest step.",
+    "moves": [
+      { "title": "Shadow real onboardings", "detail": "Sit in on three onboardings from start to finish, or watch recordings. Note every moment where the client looks confused, waits or repeats a question. Fresh eyes catch what the team no longer sees." },
+      { "title": "Measure each step", "detail": "Pull simple numbers for each stage, such as time to first value, support tickets in the first month and churn by onboarding cohort. Find the step with the biggest drop-off." },
+      { "title": "Deliberately fix one step", "detail": "Focus improvement effort on the weakest step for a set period, such as one quarter. Rebuild it, test it with a few clients and measure the change before rolling it out." },
+      { "title": "Schedule the next audit", "detail": "Put the next process audit in the calendar now, for example every six months. Regular review stops automatic routines from drifting out of date." }
+    ],
+    "script": { "label": "Client feedback request", "text": "Hi [Client], you joined us [number] weeks ago, and we are improving how we welcome new clients. Could you spare 10 minutes to tell us what was clear, what was confusing and what you wish we had done sooner? Your answers will directly shape the process. Thank you, [Name]." },
+    "backfire": "Audits can demoralise teams if framed as blame; present it as improving a system they built. Avoid changing everything at once, which makes it impossible to know what worked. Protect client privacy when reviewing recordings.",
+    "signals": "Early churn and first-month support tickets fall within a quarter of the fix, the team proposes further improvements, and the next audit is already booked.",
+    "effort": "days",
+    "difficulty": 3,
+    "featured": false
+  },
+  {
+    "slug": "loosen-the-job-title",
+    "title": "Loosen the Job Title",
+    "situation": "After a restructure you lost your manager title, and it feels as if you have lost part of who you are.",
+    "domain": "self",
+    "mode": "build",
+    "tags": ["identity", "career-change", "restructure", "resilience", "values"],
+    "chapter": 20,
+    "principle": "Keep your identity flexible",
+    "ideas": ["20.4", "20.3"],
+    "scene": "Picture this: for six years you introduced yourself as head of operations. Then a restructure merged your team into another, and your title disappeared overnight. Your pay is the same, but you feel lost, as if part of you went with the org chart. When identity is tied tightly to a single role, any change to that role feels like a threat. Loosen it. Define yourself by the values and strengths behind the title, such as someone who builds reliable systems and develops people, and those travel with you to whatever comes next.",
+    "moves": [
+      { "title": "Separate role from values", "detail": "Write down what you were proudest of in the old role, then name the quality behind each item, such as calm in a crisis or growing people. These qualities are your real identity." },
+      { "title": "Rewrite your introduction", "detail": "Draft a new one-line introduction based on values and strengths rather than title, such as I build systems that let teams do their best work. Use it in conversations and profiles." },
+      { "title": "Find new evidence", "detail": "Look for ways to use those qualities in your current role, even informally, such as mentoring or improving a process. Each use is evidence that your identity survived the change." },
+      { "title": "Reflect monthly", "detail": "Once a month, write about what you have learned and how your values showed up. Reflection helps you adapt your identity on purpose instead of feeling it slip away." }
+    ],
+    "script": { "label": "New introduction", "text": "I am [name]. I [build reliable systems / develop people / turn messy problems into clear plans]. Right now I am doing that as [current role] at [company], and I am especially interested in [area]." },
+    "backfire": "Reframing identity does not erase real losses in pay, status or security; acknowledge those honestly and seek advice if needed. If the change triggers prolonged low mood, talk to someone you trust or a professional.",
+    "signals": "You introduce yourself comfortably without the old title, you find new ways to use your strengths, and the restructure feels less like a personal loss over the following months.",
+    "effort": "days",
+    "difficulty": 2,
+    "featured": false
+  }
+]

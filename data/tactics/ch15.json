@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "celebrate-small-wins",
+    "title": "Celebrate the Small Wins Today",
+    "situation": "Your team only celebrates at launch, months away, so daily progress feels thankless and morale is slipping.",
+    "domain": "work",
+    "mode": "build",
+    "tags": ["morale", "recognition", "team", "rituals", "progress"],
+    "chapter": 15,
+    "principle": "Add an instant reward",
+    "ideas": ["15.4", "15.1"],
+    "scene": "Picture this: the big product launch is five months out. Until then, every day is tickets, bugs and reviews, and the only celebration on the calendar is far away. Daily effort gets no immediate reward, so energy fades and people quietly coast. The brain repeats what feels good now. Give the team something satisfying at the end of each meaningful step: a wins channel, a ring of a bell, a two-minute demo at Friday standup. Small, immediate rewards make long projects feel like progress instead of a slog.",
+    "moves": [
+      { "title": "Define small wins", "detail": "Agree with the team what counts as a win worth marking: a feature merged, a nasty bug fixed, a customer problem solved. Make the bar low enough that wins happen several times a week." },
+      { "title": "Create an instant ritual", "detail": "Set up a simple immediate reward, such as posting in a wins channel with a specific emoji, ringing a desk bell or a quick round of applause in standup. Speed matters more than size." },
+      { "title": "Show progress visually", "detail": "Keep a visible board of completed milestones toward launch. Moving a card to done is a small, satisfying moment that connects daily work to the big goal." },
+      { "title": "Close the week with demos", "detail": "Spend ten minutes on Friday letting people show what they finished. Being seen by peers is a powerful immediate reward and builds pride in the work." }
+    ],
+    "script": { "label": "Team message", "text": "Team, launch is a long way off, so let us celebrate progress as it happens. From today, post any win in [wins channel]: a merge, a fix, a happy customer. Fridays we will take ten minutes for quick demos. Small wins add up to the big one, and I want us to feel that along the way." },
+    "backfire": "Celebrations feel fake if they reward trivial tasks or always spotlight the same people. Do not let the ritual replace honest feedback when things go wrong. Some people dislike public attention; offer private recognition as well.",
+    "signals": "The wins channel gets posts most days, people start celebrating each other's work unprompted, and engagement in Friday demos stays high for a month.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "the-skipped-coffee-fund",
+    "title": "The Skipped-Coffee Fund",
+    "situation": "You are cutting back on daily café coffees, but not buying one feels like a loss with nothing to show for it.",
+    "domain": "self",
+    "mode": "break",
+    "tags": ["spending", "coffee", "savings", "avoidance", "reward"],
+    "chapter": 15,
+    "principle": "Make avoidance visible",
+    "ideas": ["15.5", "15.3"],
+    "scene": "Picture this: you walk past your favourite café on the way to work, and you have promised yourself to skip the daily latte. Skipping it feels like losing a small pleasure, and there is nothing to show for the sacrifice. By Thursday you give in. The problem is that avoidance is invisible. Make it visible. Every time you skip the coffee, move the exact price into a savings pot named after something you want. Watching that pot grow gives your brain the immediate reward that not buying never could.",
+    "moves": [
+      { "title": "Name the pot", "detail": "Create a separate savings pot in your banking app and name it after a specific goal, such as a weekend away. A named goal makes each transfer feel meaningful." },
+      { "title": "Transfer on the spot", "detail": "Each time you skip the coffee, transfer the exact price immediately, standing outside the café if you like. The speed of the transfer is what makes it a reward." },
+      { "title": "Make good coffee easy", "detail": "Keep a decent option at work or bring a flask from home, so skipping does not mean going without. Removing a pleasure works better when a cheaper version replaces it." },
+      { "title": "Check the total weekly", "detail": "Look at the pot every Friday and note the total. Watching it climb toward the goal reinforces the habit more than any rule about spending." }
+    ],
+    "script": { "label": "Savings pot name", "text": "[Weekend in Lisbon] fund. Every skipped café coffee = [price] in here. Target: [amount] by [month]. Current total: [ ]." },
+    "backfire": "If small treats are what keep you going through a hard week, cutting them can backfire on mood; skip some, keep some. Do not let one coffee become a source of guilt. Focus on bigger spending leaks first if money is tight.",
+    "signals": "You transfer money most workdays for a month, the pot grows visibly, and walking past the café without stopping becomes easy.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "reward-the-follow-up",
+    "title": "Reward the Same-Day Follow-Up",
+    "situation": "You meet good prospects at events, but your follow-up emails slip by a week and the leads go cold.",
+    "domain": "business",
+    "mode": "build",
+    "tags": ["sales", "follow-up", "leads", "events", "networking"],
+    "chapter": 15,
+    "principle": "Add an instant reward",
+    "ideas": ["15.4", "15.2"],
+    "scene": "Picture this: you leave a conference with fifteen business cards and a phone full of notes. The follow-up emails would take an hour, but they pay off weeks later, if at all. Meanwhile, your inbox offers instant gratification. A week passes and the leads have forgotten you. The payoff for following up is delayed, so your brain does not value it. Add an instant reward: each same-day follow-up earns a tick on a visible board, and when the board is full you get something you genuinely want.",
+    "moves": [
+      { "title": "Prepare templates before events", "detail": "Write two short follow-up templates before each event, one for warm leads and one for general contacts. With the words ready, follow-up takes minutes instead of an hour." },
+      { "title": "Follow up the same day", "detail": "Block thirty minutes at the end of each event day to send every follow-up from your phone or laptop. Same-day messages are remembered; week-old ones rarely are." },
+      { "title": "Tick a visible board", "detail": "Keep a simple board or sheet where every follow-up earns a tick. The instant tick gives the brain the immediate satisfaction the delayed sales outcome does not." },
+      { "title": "Pick a meaningful reward", "detail": "Set a reward for every 25 ticks, such as a book, a nice dinner or a half-day off. It should fit who you want to be and arrive soon enough to matter." }
+    ],
+    "script": { "label": "Follow-up email", "text": "Hi [Name], great to meet you at [event] today. I enjoyed our chat about [specific topic]. As promised, here is [resource / link / summary]. If it would help, I would be happy to set up a 20-minute call next week to explore [their problem]. Would [day] or [day] work?" },
+    "backfire": "Speed without relevance feels spammy; personalise each message with something you actually discussed. Respect privacy and marketing laws, such as not adding people to mailing lists without consent. Do not reward volume over quality.",
+    "signals": "Most follow-ups go out the same day for a month, reply rates rise, and more event conversations turn into meetings.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  }
+]

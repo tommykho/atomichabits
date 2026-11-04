@@ -1,0 +1,16 @@
+---
+// One key idea (original summary written for this site), rendered from data by ID. Never hand-typed.
+import { getIdea, ideaHref, ideaAnchor, chapterOf } from '../lib/content.js';
+const { id, compact = false, anchor = false } = Astro.props;
+const i = getIdea(id);
+const ch = i ? chapterOf(i.ch) : null;
+---
+{i && (
+  <figure class="idea" id={anchor ? ideaAnchor(id) : undefined} data-reveal>
+    <a class="idea-id" href={ideaHref(id)} aria-label={`Idea ${id}`}>{id}</a>
+    <p class="idea-name">{i.name}</p>
+    <p class="idea-text">{i.text}</p>
+    {!compact && <p class="idea-try">{i.try}</p>}
+    {!anchor && <cite>Chapter {ch.n} · <a href={ideaHref(id)}>{ch.short}</a> · {ch.part.label}</cite>}
+  </figure>
+)}

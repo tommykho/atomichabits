@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "stack-it-on-standup",
+    "title": "Stack It on Standup",
+    "situation": "You want to recognise your team's work more often, but praise only happens at the quarterly review.",
+    "domain": "work",
+    "mode": "build",
+    "tags": ["recognition", "team", "standup", "habit-stacking", "morale"],
+    "chapter": 5,
+    "principle": "Habit stacking",
+    "ideas": ["5.3", "5.4"],
+    "scene": "Picture this: your team works hard, ships good work, and hears about it twice a year in a performance review. You mean to say thanks more often, but by the time you think of it, the moment has passed and the week is gone. Good intentions need an anchor. You already run a standup every morning at 9:30 without fail. Stack the new habit onto it: right after standup ends, write one specific thank-you in the team channel. The meeting is the cue, the message takes two minutes, and in a month your team hears about their wins while they still matter.",
+    "moves": [
+      { "title": "Write the stack sentence", "detail": "Write it down exactly: After standup ends, I will post one specific thank-you in the team channel. Put it in the standup calendar invite description so you see it every day." },
+      { "title": "Make the praise specific", "detail": "Each message names the person, what they did and the effect, such as: Thanks Priya for fixing the import bug yesterday; support tickets dropped by half. Specific praise takes the same two minutes and means far more." },
+      { "title": "Keep a running wins list", "detail": "During the day, add any good work you notice to a simple list. The next morning after standup, pick one item. The list removes the effort of remembering and keeps the habit easy." },
+      { "title": "Spread it fairly", "detail": "Track who you have thanked each week. Make sure quieter people and behind-the-scenes work get recognised, not just the most visible wins. Fair recognition builds trust; uneven recognition erodes it." }
+    ],
+    "script": { "label": "Thank-you template", "text": "Shout-out to [Name] for [specific action] [yesterday / this week]. Because of that, [specific effect on customers, the team or the project]. Thank you, it made a real difference." },
+    "backfire": "Recognition feels hollow if it is generic, always goes to the same people, or replaces fair pay and promotion. Some people prefer private thanks; ask them. Do not use praise to soften criticism you are avoiding.",
+    "signals": "You post a specific thank-you on most working days for a month, teammates start recognising each other too, and people mention the messages in one-to-ones.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": true
+  },
+  {
+    "slug": "book-the-habit",
+    "title": "Book the Habit Like a Meeting",
+    "situation": "You keep promising yourself you will study for a certification, but weeks pass and the book stays closed.",
+    "domain": "career",
+    "mode": "build",
+    "tags": ["study", "certification", "calendar", "planning", "learning"],
+    "chapter": 5,
+    "principle": "Implementation intentions",
+    "ideas": ["5.1", "5.2"],
+    "scene": "Picture this: the certification would open doors, your manager supports it, and the study guide sits on your desk looking reproachful. Every week you think, I will study when I get some free time. Free time never arrives. The problem is not motivation; it is that the plan has no time or place. A study session that is not booked is competing with everything else that is. Write a precise plan, book it in your calendar like a client meeting, and show up because the meeting says so, not because you feel like it.",
+    "moves": [
+      { "title": "Write the precise plan", "detail": "Fill in: I will study [topic] for [30] minutes at [7:30am] on [Tuesday and Thursday] at [kitchen table / library]. Specific time and place remove the daily decision about whether and when." },
+      { "title": "Book it as a meeting", "detail": "Create recurring calendar events with the plan as the title and the chapter or practice set in the description. Set them as busy so colleagues cannot book over them." },
+      { "title": "Prepare the next session", "detail": "At the end of each session, write in the next calendar entry exactly where to start: page 112, practice set 4. Starting is easier when you know the first step." },
+      { "title": "Move, never delete", "detail": "If a session clashes, move it to another slot in the same week instead of deleting it. Keep a simple count of sessions completed toward the number you need before the exam." }
+    ],
+    "script": { "label": "Calendar entry", "text": "Study: [certification], chapter [X], 30 minutes. Location: [place]. Start with: [page / practice set]. If this clashes, move it to another slot this week; do not delete it." },
+    "backfire": "A rigid schedule can backfire in weeks with genuine crises or caring duties; adjust the plan rather than abandoning it. Do not book so many sessions that you fail on day one. Studying should not cost you sleep for weeks on end.",
+    "signals": "You complete at least 80% of booked sessions for four weeks, the session count rises steadily, and practice test scores start improving.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  },
+  {
+    "slug": "dinner-table-stack",
+    "title": "The Dinner-Table Stack",
+    "situation": "Your family eats together, but everyone looks at screens and nobody talks about their day.",
+    "domain": "family",
+    "mode": "build",
+    "tags": ["family", "dinner", "connection", "conversation", "stacking"],
+    "chapter": 5,
+    "principle": "Habit stacking",
+    "ideas": ["5.3", "5.5"],
+    "scene": "Picture this: dinner is on the table, everyone is present, and you learn nothing about anyone's day because the phones and the TV get all the attention. Asking how was your day gets a shrug. Family dinner already happens every evening, so it is a perfect anchor. Stack one small ritual onto it: once the plates are down, each person shares one good thing and one hard thing from their day. It takes five minutes, needs no planning, and often sets off the next good habit, such as phones staying in the basket for the rest of the meal.",
+    "moves": [
+      { "title": "Pick the anchor moment", "detail": "Choose a moment that happens every day without fail, such as when everyone has sat down with food. Write the stack: After we all sit down, each of us shares one good thing and one hard thing." },
+      { "title": "Model it first", "detail": "Go first every evening for the first week, keeping your answers honest and short. Children and partners copy what you do more than what you ask, and a light tone makes it easy to join in." },
+      { "title": "Park the screens nearby", "detail": "Put a basket by the table for phones during the ritual. Once the conversation flows, the basket tends to stay full for the whole meal; one habit pulls the next along." },
+      { "title": "Keep it low-pressure", "detail": "Allow a pass, never punish a short answer, and do not turn hard things into lectures. The goal is a daily habit of sharing, not a therapy session." }
+    ],
+    "script": { "label": "Family announcement", "text": "New dinner game starting tonight: once we all sit down, everyone shares one good thing and one hard thing from their day. Phones go in the basket while we do it. You can pass if you want. I will go first." },
+    "backfire": "Some children and teenagers resist anything that feels forced; keep it light and allow passes. Do not use the hard thing to start discipline conversations at the table. If a serious issue comes up, follow up privately later.",
+    "signals": "The ritual happens on most evenings for three weeks, family members start sharing without being asked, and conversations continue after the round ends.",
+    "effort": "minutes",
+    "difficulty": 1,
+    "featured": false
+  }
+]

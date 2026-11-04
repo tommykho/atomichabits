@@ -1,0 +1,14 @@
+{
+  "n": 13,
+  "short": "Start in two minutes",
+  "essence": "Scale every new habit down to a two-minute start.",
+  "modern_lens": "Chapter 13 shows that each day hinges on small decisive moments, such as whether you change into gym clothes or sink into the sofa. The Two-Minute Rule shrinks a habit until it is easy to start: read one page, write one sentence, open the CRM. Master the start before improving the rest.",
+  "key_idea": "13.2",
+  "ideas": [
+    { "id": "13.1", "name": "Decisive Moments", "text": "A few small choices each day act as forks in the road: what you do when you get home, whether you open email or the document first. Each choice sets up the next hour. Habits shape these moments, so they shape much of the day.", "try": "Identify your three most decisive daily moments and decide in advance what you will do in each." },
+    { "id": "13.2", "name": "The Two-Minute Rule", "text": "When you start a new habit, make it take less than two minutes. Read before bed becomes read one page. Do yoga becomes roll out the mat. The point is to make starting so easy that you cannot say no.", "try": "Shrink one habit you keep postponing to a version that takes under two minutes, and do it now." },
+    { "id": "13.3", "name": "Master Showing Up", "text": "A habit must exist before it can be improved. A two-minute version may look trivial, but it reinforces the identity of someone who shows up. Once showing up is automatic, you can extend the time.", "try": "For the next seven days, judge yourself only on whether you started, not on how much you did." },
+    { "id": "13.4", "name": "Habit Shaping", "text": "Grow a habit in stages, mastering each before moving on: first put on the running shoes, then walk ten minutes, then jog one kilometre. Each phase is only slightly harder than the last, so momentum carries you forward.", "try": "Write a five-step ladder for one habit, from a two-minute start to the full version." },
+    { "id": "13.5", "name": "Standardise Before You Optimise", "text": "You cannot improve a habit that does not exist yet. Make the routine stable and repeatable first, even if it is small. Optimising too early turns a fragile habit into a project and gives you a reason to quit.", "try": "Pause any tweaks to a new habit until you have done the basic version twenty times." }
+  ]
+}

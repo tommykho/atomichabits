@@ -1,0 +1,14 @@
+{
+  "n": 3,
+  "short": "The habit loop",
+  "essence": "Every habit runs on a loop: cue, craving, response, reward.",
+  "modern_lens": "Chapter 3 explains how a habit forms and gives a four-part toolkit to shape it. Whether the habit is checking Slack, snacking at 3pm or reviewing a sales pipeline, the same loop is at work. Change any of the four parts and the behaviour changes.",
+  "key_idea": "3.3",
+  "ideas": [
+    { "id": "3.1", "name": "The Habit Loop", "text": "A habit has four stages. A cue signals a possible reward, a craving supplies the motivation, a response is the action you take, and a reward satisfies the craving and teaches the brain to repeat it. Weaken any stage and the habit weakens.", "try": "Pick one habit and write its cue, craving, response and reward in four short lines." },
+    { "id": "3.2", "name": "Problem and Solution Phases", "text": "Cue and craving form the problem phase: you notice something and want to feel different. Response and reward form the solution phase: you act and get relief. Seeing both phases lets you swap the solution without fighting the underlying want.", "try": "For one bad habit, name the problem it solves for you, then list one healthier solution." },
+    { "id": "3.3", "name": "The Four Laws", "text": "To build a good habit, make the cue obvious, the craving attractive, the response easy and the reward satisfying. Each law maps to one stage of the loop, so the four laws work as a checklist whenever a habit is not sticking.", "try": "Score a struggling habit from 1 to 5 on each law and fix the lowest score first." },
+    { "id": "3.4", "name": "The Inversion", "text": "To break a bad habit, reverse the laws: make the cue invisible, the craving unattractive, the response difficult and the reward unsatisfying. Removing a trigger usually works better than resisting it every day.", "try": "Choose one bad habit and write one inversion move for each of the four laws." },
+    { "id": "3.5", "name": "Habits Free Your Attention", "text": "Once a behaviour is automatic, it costs almost no thought, which frees attention for harder problems. Good habits are not restrictions; they create freedom, because the basics no longer need a daily decision.", "try": "List three daily decisions you could make once and turn into defaults." }
+  ]
+}

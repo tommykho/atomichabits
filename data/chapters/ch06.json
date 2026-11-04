@@ -1,0 +1,14 @@
+{
+  "n": 6,
+  "short": "Design your space",
+  "essence": "Arrange the room so the right choice is the obvious one.",
+  "modern_lens": "Chapter 6 argues that environment often shapes behaviour more than motivation does. People eat what is in front of them and work on whatever is on screen. Rearranging desks, home screens, kitchens and shared drives is one of the cheapest ways to change what a person or a team does every day.",
+  "key_idea": "6.2",
+  "ideas": [
+    { "id": "6.1", "name": "Environment Drives Behaviour", "text": "Behaviour depends on the person and on the setting around them. People who believe they lack willpower are often surrounded by cues for the wrong habit. Change what you see and you change what you do, without needing more discipline.", "try": "Walk through one room you use daily and note every cue it gives you, good or bad." },
+    { "id": "6.2", "name": "Make Good Cues Visible", "text": "Put cues for good habits where you cannot miss them: the water bottle on the desk, the guitar on a stand in the living room, the key dashboard pinned as the first browser tab. Visual cues are among the strongest triggers of behaviour.", "try": "Move one object linked to a good habit into the place you look at most each morning." },
+    { "id": "6.3", "name": "One Space, One Use", "text": "Habits attach to places. If the bed is only for sleep and the desk is only for focused work, each space cues one behaviour. When a space mixes uses, such as working from the sofa, the cues compete and the easiest habit wins.", "try": "Assign one corner, chair or device to a single habit and use it for nothing else." },
+    { "id": "6.4", "name": "Context Is the Cue", "text": "We link habits to whole situations rather than single triggers: the train ride, the late-night kitchen, the Friday afternoon meeting. To change a habit, change the context or create a new one so that old associations do not interfere.", "try": "Name the situation where your unwanted habit happens and change one element of it this week." },
+    { "id": "6.5", "name": "Fresh Start, Fresh Space", "text": "A new environment carries no old cues, which makes it easier to build a new habit there. A different desk, a new notebook, another café or rearranged furniture can be enough to begin cleanly.", "try": "Do your new habit in a place where you have never done the old one." }
+  ]
+}
