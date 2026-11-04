@@ -3,16 +3,16 @@ import { u } from '../../lib/url.js';
 import Base from '../../layouts/Base.astro';
 import Tape from '../../components/Tape.astro';
 import Num from '../../components/Num.astro';
-import { chapters, parts, ideaMap, tactics, BOOK } from '../../lib/content.js';
+import { chapters, parts, ideaMap, tactics } from '../../lib/content.js';
 ---
-<Base title="The twenty chapters" description={`A map of the ${chapters.length} chapters of ${BOOK.title}: the Fundamentals, the Four Laws and Advanced Tactics, each with key ideas in plain words and practical tactics.`}>
+<Base title="The twenty chapters" description={`A map of all ${chapters.length} Hopbit chapters: the fundamentals, the four laws and advanced tactics, each with key ideas in plain words and practical tactics.`}>
   <header class="wrap map-hero">
-    <p class="eyebrow" data-reveal>The book, mapped</p>
+    <p class="eyebrow" data-reveal>The chapters, mapped</p>
     <h1 data-reveal>Twenty chapters. <span class="mark">One loop.</span></h1>
     <p class="lede" data-reveal>
-      {ideaMap.size} key ideas and {tactics.length} tactics, organised the way the book is: the fundamentals, one part for each of the four laws, and the advanced tactics that keep you improving.
+      {ideaMap.size} key ideas and {tactics.length} tactics, in six parts: the fundamentals, one part for each of the four laws, and the advanced tactics that keep you improving.
     </p>
-    <p class="hint" data-reveal>Chapter titles are listed for navigation. Every summary on this site is original writing, not text from the book. <a href={u('/about/#sources')}>Why</a></p>
+    <p class="hint" data-reveal>Every title and summary on this site is original writing. <a href={u('/about/#credits')}>Credits</a></p>
   </header>
 
   <section class="wrap map" aria-label="Chapters by part">

@@ -1,36 +1,161 @@
 {
-  "book": "Atomic Habits",
-  "author": "James Clear",
-  "year": 2018,
-  "note": "Chapter titles are listed for navigation only. All summaries, ideas and tactics on this site are original writing; no text from the book is reproduced.",
+  "note": "Original chapter titles and part names for Hopbit. Chapter numbers follow the source book credited in the footer; no text from it is reproduced.",
   "parts": [
-    { "id": "fundamentals", "label": "The Fundamentals", "rule": "Why tiny changes add up", "inverse": "", "color": "ink", "chapters": [1, 2, 3] },
-    { "id": "law1", "label": "1st Law", "rule": "Make It Obvious", "inverse": "Make It Invisible", "color": "blue", "chapters": [4, 5, 6, 7] },
-    { "id": "law2", "label": "2nd Law", "rule": "Make It Attractive", "inverse": "Make It Unattractive", "color": "pink", "chapters": [8, 9, 10] },
-    { "id": "law3", "label": "3rd Law", "rule": "Make It Easy", "inverse": "Make It Difficult", "color": "green", "chapters": [11, 12, 13, 14] },
-    { "id": "law4", "label": "4th Law", "rule": "Make It Satisfying", "inverse": "Make It Unsatisfying", "color": "amber", "chapters": [15, 16, 17] },
-    { "id": "advanced", "label": "Advanced Tactics", "rule": "Staying great after the novelty fades", "inverse": "", "color": "violet", "chapters": [18, 19, 20] }
+    {
+      "id": "fundamentals",
+      "label": "The Fundamentals",
+      "rule": "Why tiny changes add up",
+      "inverse": "",
+      "color": "ink",
+      "chapters": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "law1",
+      "label": "1st Law",
+      "rule": "Make It Obvious",
+      "inverse": "Make It Invisible",
+      "color": "blue",
+      "chapters": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "law2",
+      "label": "2nd Law",
+      "rule": "Make It Attractive",
+      "inverse": "Make It Unattractive",
+      "color": "pink",
+      "chapters": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "law3",
+      "label": "3rd Law",
+      "rule": "Make It Easy",
+      "inverse": "Make It Difficult",
+      "color": "green",
+      "chapters": [
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "law4",
+      "label": "4th Law",
+      "rule": "Make It Satisfying",
+      "inverse": "Make It Unsatisfying",
+      "color": "amber",
+      "chapters": [
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "Advanced Tactics",
+      "rule": "Staying great after the novelty fades",
+      "inverse": "",
+      "color": "violet",
+      "chapters": [
+        18,
+        19,
+        20
+      ]
+    }
   ],
   "chapters": [
-    { "n": 1, "title": "The Surprising Power of Atomic Habits" },
-    { "n": 2, "title": "How Your Habits Shape Your Identity (and Vice Versa)" },
-    { "n": 3, "title": "How to Build Better Habits in 4 Simple Steps" },
-    { "n": 4, "title": "The Man Who Didn't Look Right" },
-    { "n": 5, "title": "The Best Way to Start a New Habit" },
-    { "n": 6, "title": "Motivation Is Overrated; Environment Often Matters More" },
-    { "n": 7, "title": "The Secret to Self-Control" },
-    { "n": 8, "title": "How to Make a Habit Irresistible" },
-    { "n": 9, "title": "The Role of Family and Friends in Shaping Your Habits" },
-    { "n": 10, "title": "How to Find and Fix the Causes of Your Bad Habits" },
-    { "n": 11, "title": "Walk Slowly, but Never Backward" },
-    { "n": 12, "title": "The Law of Least Effort" },
-    { "n": 13, "title": "How to Stop Procrastinating by Using the Two-Minute Rule" },
-    { "n": 14, "title": "How to Make Good Habits Inevitable and Bad Habits Impossible" },
-    { "n": 15, "title": "The Cardinal Rule of Behavior Change" },
-    { "n": 16, "title": "How to Stick with Good Habits Every Day" },
-    { "n": 17, "title": "How an Accountability Partner Can Change Everything" },
-    { "n": 18, "title": "The Truth About Talent (When Genes Matter and When They Don't)" },
-    { "n": 19, "title": "The Goldilocks Rule: How to Stay Motivated in Life and Work" },
-    { "n": 20, "title": "The Downside of Creating Good Habits" }
+    {
+      "n": 1,
+      "title": "Why do tiny changes add up?"
+    },
+    {
+      "n": 2,
+      "title": "Who are you becoming?"
+    },
+    {
+      "n": 3,
+      "title": "How does a habit actually work?"
+    },
+    {
+      "n": 4,
+      "title": "What do you do on autopilot?"
+    },
+    {
+      "n": 5,
+      "title": "When and where will you do it?"
+    },
+    {
+      "n": 6,
+      "title": "What is your room telling you to do?"
+    },
+    {
+      "n": 7,
+      "title": "How do you avoid temptation instead of fighting it?"
+    },
+    {
+      "n": 8,
+      "title": "How do you make a habit something you want?"
+    },
+    {
+      "n": 9,
+      "title": "Who are you copying?"
+    },
+    {
+      "n": 10,
+      "title": "What need is the bad habit meeting?"
+    },
+    {
+      "n": 11,
+      "title": "Are you planning or practising?"
+    },
+    {
+      "n": 12,
+      "title": "How many steps stand in the way?"
+    },
+    {
+      "n": 13,
+      "title": "What is the two-minute version?"
+    },
+    {
+      "n": 14,
+      "title": "What can you decide once, for good?"
+    },
+    {
+      "n": 15,
+      "title": "What do you get right now?"
+    },
+    {
+      "n": 16,
+      "title": "How do you keep the streak alive?"
+    },
+    {
+      "n": 17,
+      "title": "Who is keeping you honest?"
+    },
+    {
+      "n": 18,
+      "title": "Which game suits you?"
+    },
+    {
+      "n": 19,
+      "title": "How do you stay at the edge?"
+    },
+    {
+      "n": 20,
+      "title": "Are you still improving?"
+    }
   ]
 }

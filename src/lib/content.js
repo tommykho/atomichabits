@@ -1,13 +1,14 @@
-// Build-time content loader. Merges the book outline, chapter ideas (original summaries) and tactics.
-// Nothing here reproduces the book: ideas and tactics are original writing, cited by idea ID ("5.3").
+// Build-time content loader. Merges the outline (parts + original chapter titles), chapter ideas and tactics.
+// All of it is original writing, cited by idea ID ("5.3"). The source book is credited once (footer + About).
 import book from '../../data/book.json';
+import { SITE } from '../site.config.js';
 import { u } from './url.js';
 
 const chapterFiles = import.meta.glob('../../data/chapters/ch*.json', { eager: true, import: 'default' });
 const tacticFiles = import.meta.glob('../../data/tactics/ch*.json', { eager: true, import: 'default' });
 const lensByN = new Map(Object.values(chapterFiles).map((c) => [c.n, c]));
 
-export const BOOK = { title: book.book, author: book.author, year: book.year, note: book.note };
+export const BOOK = SITE.book; // credit only: footer and About → Credits
 
 export const DOMAINS = {
   work: { label: 'Work' },

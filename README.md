@@ -1,10 +1,10 @@
 # Hopbit: Micro incremental habits
 
-*Hop one small step a day.* An unofficial companion to the ideas in **Atomic Habits** by James Clear (2018).
+*Hop one small step a day.* Micro-habit ideas for work, business and home.
 
-A static website that turns the book's 20 chapters into practical habit tactics for work, career, business, health, family and self. It is a sister project of [Sun Tzu · Modern Field Manual](https://github.com/tommykho/suntze) and uses the same stack, features and deployment model. It includes:
+A static website that turns 20 chapters of habit ideas into practical habit tactics for work, career, business, health, family and self. It is a sister project of [Sun Tzu · Modern Field Manual](https://github.com/tommykho/suntze) and uses the same stack, features and deployment model. It includes:
 
-- **The book, mapped**: the Fundamentals, the Four Laws (and their inversions) and Advanced Tactics. Every chapter has 5 numbered **key ideas** (100 in total), written in plain words for this project, each with a one-line "Try" exercise.
+- **Chapters, mapped**: the Fundamentals, the Four Laws (and their inversions) and Advanced Tactics. Every chapter has an original title and 5 numbered **key ideas** (100 in total), written in plain words for this project, each with a one-line "Try" exercise.
 - **Tactic library**: 60 tactics (3 per chapter), filterable by chapter, domain and build/break. Each has a scene, idea citations, a step-by-step system with tickable steps, a ready-to-use script, a backfire check and signs that it is working.
 - **Habit Coach (AI)**: describe a habit to start or stop and get your habit loop, a four-law system, a script and a backfire check. Every `[chapter.idea]` citation is checked against the dataset: exact phrases, paraphrases and invented IDs are labelled.
 - **30-second podcast**: the plan becomes a spoken script, voiced on your device (Kokoro-82M) or with your own TTS key, with a soft chime intro, and downloaded as an MP3.
@@ -14,14 +14,15 @@ A static website that turns the book's 20 chapters into practical habit tactics 
 
 **Cost to the site owner: $0.** The site is static. AI and voice run on the visitor's device or on the visitor's own provider key. The only server code is a small stateless CORS relay.
 
-## Copyright and trademark
+## Credits, copyright and trademark
 
-*Atomic Habits* is a copyrighted book, and the name is the author's mark. This project:
+Hopbit is inspired by the ideas in *Atomic Habits* by James Clear (2018); chapter numbers follow that book. Hopbit is
+independent and not affiliated with or endorsed by the author or publisher. The book is copyrighted and its title is the
+author's mark, so this project:
 
-- does **not** reproduce any text from the book (chapter titles are listed for navigation only);
-- writes all chapter summaries, key ideas and tactics in original words, and cites them by ID;
-- uses its own brand (*Hopbit*) and states that it is unofficial and unaffiliated;
-- tells the AI never to quote the book, and only verifies citations against this project's own idea summaries.
+- names the book **only** in the site footer credit and on About → Credits (and here); everywhere else the UI says "micro-habits";
+- does **not** reproduce any text from the book: chapter titles, key ideas and tactics are original writing, cited by ID;
+- tells the AI never to quote or name any book, and verifies citations only against Hopbit's own idea summaries.
 
 Do not add book excerpts, scans or PDFs to this repository. See [docs/CONTENT-GUIDE.md](docs/CONTENT-GUIDE.md).
 
@@ -55,7 +56,7 @@ Podcast voice: Kokoro-82M on the device (default, free) · Gemini TTS · OpenAI 
 ## Project layout
 
 ```
-data/            book.json (parts + chapter titles), chapters/ (ideas), tactics/, community-demo.json
+data/            book.json (parts + original chapter titles), chapters/ (ideas), tactics/, community-demo.json
 scripts/         validate-content.mjs (schema, idea-ID and no-long-quote checks)
 src/pages/       index, chapters/, chapters/[n], tactics/, tactics/[slug], coach, community, about, corpus.json
 src/scripts/     motion.js (GSAP + Lenis, theme) · field/* (providers, retrieval, prompt, tts, worker) · community.js

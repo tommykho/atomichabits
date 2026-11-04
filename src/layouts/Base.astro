@@ -9,7 +9,7 @@ const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name}: ${SITE.ta
 const path = Astro.url.pathname;
 const canonical = new URL(path, Astro.site || SITE.url).href;
 const nav = [
-  { href: '/chapters/', label: 'The Book', match: '/chapters' },
+  { href: '/chapters/', label: 'Chapters', match: '/chapters' },
   { href: '/tactics/', label: 'Tactics', match: '/tactics' },
   { href: '/coach/', label: 'Habit Coach', match: '/coach' },
   { href: '/community/', label: 'Community', match: '/community' },
@@ -96,15 +96,15 @@ const nav = [
           <div>
             <h4>Project</h4>
             <ul>
-              <li><a href={u('/about/')}>Sources &amp; method</a></li>
+              <li><a href={u('/about/#credits')}>Credits &amp; method</a></li>
               <li><a href={u('/about/#privacy')}>Privacy &amp; your API keys</a></li>
               <li><a href={SITE.repo} rel="noopener">Source code</a></li>
             </ul>
           </div>
         </div>
         <p class="footer-legal">
-          An unofficial, independent companion to the ideas in <em>{SITE.book.title}</em> by {SITE.book.author} ({SITE.book.year}). Not affiliated with or endorsed by the author or publisher.
-          All summaries and tactics are original writing; no text from the book is reproduced. Please buy the book to read it in full.
+          <strong>Credits:</strong> inspired by the ideas in <em>{SITE.book.title}</em> by {SITE.book.author} ({SITE.book.year}); chapter numbers follow that book. Hopbit is independent and not affiliated with or endorsed by the author or publisher.
+          All titles, summaries and tactics are original writing. <a href={u('/about/#credits')}>Full credits</a>.
           Tactics are general guidance, not medical, legal or financial advice.
         </p>
       </div>

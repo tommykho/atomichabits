@@ -2,14 +2,14 @@
 
 All content is JSON in `data/`. Run `npm run validate` after every change; it must print `OK`.
 
-**Golden rule: never copy text from the book.** *Atomic Habits* is copyrighted. Write every summary, idea and
-tactic in your own words. Content cites ideas by ID (`"5.3"`); the site renders the idea from `data/chapters/`.
+**Golden rule: never copy text from a published book.** The source book (credited in `src/site.config.js`) is copyrighted. Write every title, summary, idea and
+tactic in your own words, and do not name the book or its author anywhere except the footer credit and About → Credits. Content cites ideas by ID (`"5.3"`); the site renders the idea from `data/chapters/`.
 The validator rejects double-quoted passages longer than 12 words.
 
-## 1. Book outline — `data/book.json`
+## 1. Outline — `data/book.json`
 
 Parts (`fundamentals`, `law1`–`law4`, `advanced`) with `label`, `rule`, `inverse` (for the four laws), `color`
-(`ink | blue | pink | green | amber | violet`) and their chapter numbers; plus the 20 chapter titles (navigation only).
+(`ink | blue | pink | green | amber | violet`) and their chapter numbers; plus 20 original chapter titles (questions, e.g. "Who are you copying?").
 
 ## 2. Chapter — `data/chapters/chNN.json` (NN = 01..20)
 

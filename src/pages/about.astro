@@ -4,21 +4,20 @@ import Base from '../layouts/Base.astro';
 import Tape from '../components/Tape.astro';
 import { chapters, tactics, ideaMap, BOOK } from '../lib/content.js';
 ---
-<Base title="Sources, privacy & method" description="What this manual is (and is not), how AI answers are checked against it, how your API keys are handled, and what is coming next.">
+<Base title="About, credits & privacy" description="What Hopbit is, who it credits, how AI answers are checked, how your API keys are handled, and what is coming next.">
   <header class="wrap a-hero">
     <p class="eyebrow" data-reveal>About</p>
-    <h1 data-reveal>A study guide, <span class="mark">not a copy.</span></h1>
-    <p class="lede" data-reveal>This manual applies the ideas in <em>{BOOK.title}</em> to everyday work, business and home life. It favours tiny, repeatable steps over big plans, and it keeps every AI citation traceable to a numbered idea.</p>
+    <h1 data-reveal>Tiny hops, <span class="mark">every day.</span></h1>
+    <p class="lede" data-reveal>Hopbit turns proven habit science into micro, incremental steps for everyday work, business and home life. It favours tiny, repeatable steps over big plans, and it keeps every AI citation traceable to a numbered idea.</p>
   </header>
 
   <div class="narrow prose">
-    <section id="sources">
-      <h2>Sources and copyright</h2>
+    <section id="credits">
+      <h2>Credits and copyright</h2>
       <ul>
-        <li><strong>The book:</strong> <em>{BOOK.title}</em> by {BOOK.author} ({BOOK.year}) is a copyrighted work. This site is an independent, unofficial companion. It is not affiliated with or endorsed by the author or publisher, and the book's name is used only to describe what this guide is about.</li>
-        <li><strong>No book text is reproduced.</strong> The {chapters.length} chapter titles are listed for navigation only. The {ideaMap.size} key ideas are original summaries written for this project, in our own words, and numbered (<code>chapter.idea</code>, e.g. <code>5.3</code>) so they can be cited. Ideas and concepts are free to discuss; the author's expression is not ours to copy.</li>
-        <li><strong>Tactics:</strong> {tactics.length} original tactics written for this project. Each cites idea IDs only, and the summary you see is always rendered from the dataset, never typed by hand.</li>
-        <li><strong>Read the original.</strong> The stories, research and nuance are in the book. If this guide helps you, please buy it or borrow it from a library.</li>
+        <li><strong>Inspiration:</strong> Hopbit is inspired by the ideas in <em>{BOOK.title}</em> by {BOOK.author} ({BOOK.year}), and its {chapters.length} chapter numbers follow that book. The book is a copyrighted work. Hopbit is independent and is not affiliated with or endorsed by the author or publisher. The title is mentioned here and in the footer only to credit the source.</li>
+        <li><strong>Original writing.</strong> All chapter titles, the {ideaMap.size} key ideas and the {tactics.length} tactics are written for Hopbit in our own words. No text from the book is reproduced. Ideas are numbered (<code>chapter.idea</code>, e.g. <code>5.3</code>) so they can be cited, and every idea you see is rendered from the dataset, never typed by hand.</li>
+        <li><strong>Read the original.</strong> The stories, research and nuance are in the book. If Hopbit helps you, please buy it or borrow it from a library.</li>
       </ul>
     </section>
 
@@ -26,7 +25,7 @@ import { chapters, tactics, ideaMap, BOOK } from '../lib/content.js';
       <h2>How AI answers are checked</h2>
       <ol>
         <li>Your habit is matched against the ideas and the tactic library <strong>in your browser</strong>.</li>
-        <li>The AI receives a short list of ideas it is allowed to cite, with their IDs, and is told never to quote the book.</li>
+        <li>The AI receives a short list of ideas it is allowed to cite, with their IDs, and is told never to quote or name any book.</li>
         <li>After it answers, every <code>[chapter.idea]</code> citation is checked against the dataset. Real ideas are shown in full; invented IDs are struck through; quoted phrases that do not match the idea exactly are labelled “paraphrased”.</li>
       </ol>
       <p>AI can still be wrong about people and situations. Treat answers as a second opinion, not as medical, legal or financial advice. For addiction, eating, mood or safety concerns, talk to a qualified professional first.</p>

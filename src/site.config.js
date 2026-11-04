@@ -4,7 +4,8 @@ export const SITE = {
   short: 'Hopbit',
   tagline: 'Micro incremental habits',
   description:
-    'Hopbit: micro incremental habits. An unofficial companion to the ideas in Atomic Habits: twenty chapters turned into practical habit tactics for work, business, health and family, with an AI habit coach and a 30-second podcast you can download.',
+    'Hopbit: micro incremental habits. Twenty chapters of micro-habit ideas turned into practical tactics for work, business, health and family, with an AI habit coach and a 30-second podcast you can download.',
+  // Source credit. Shown only in the footer and on About → Credits; keep it out of the rest of the UI.
   book: { title: 'Atomic Habits', author: 'James Clear', year: 2018 },
   url: 'https://atomichabits.pages.dev',
   repo: 'https://github.com/tommykho/atomichabits',

@@ -22,7 +22,7 @@ GitHub Pages has no functions, so that build sets `PUBLIC_RELAY_URL` to the Verc
 |---|---|
 | 383 public-domain verses (Giles + 原文) | 100 original **key ideas** (`data/chapters/chNN.json`, IDs `chapter.idea`) |
 | Verse IDs `3.18` | Idea IDs `5.3` (same citation format) |
-| 13 chapters | 20 chapters in 6 parts (`data/book.json`) |
+| 13 chapters | 20 chapters in 6 parts, original titles (`data/book.json`) |
 | 52 tactics | 60 tactics, each with `mode: build | break` |
 
 No book text is stored. `scripts/validate-content.mjs` rejects long quoted passages.

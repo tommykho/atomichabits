@@ -5,7 +5,7 @@ import Tape from '../../components/Tape.astro';
 import Num from '../../components/Num.astro';
 import TacticCard from '../../components/TacticCard.astro';
 import PenDivider from '../../components/PenDivider.astro';
-import { chapters, ideaAnchor, BOOK } from '../../lib/content.js';
+import { chapters, ideaAnchor } from '../../lib/content.js';
 
 export function getStaticPaths() {
   return chapters.map((c) => ({ params: { n: String(c.n) }, props: { c } }));
@@ -24,7 +24,7 @@ const partIdx = c.part.chapters.indexOf(c.n) + 1;
       <div>
         <p class="eyebrow" data-reveal>Chapter {c.n} of {chapters.length} · {c.part.label}{c.part.inverse ? ` · ${c.part.rule}` : ''}</p>
         <h1 data-reveal>{c.short}</h1>
-        <p class="ch-title" data-reveal>Book chapter: <em>{c.title}</em></p>
+        <p class="ch-title hand" data-reveal>{c.title}</p>
         <p class="lede" data-reveal>{c.essence}</p>
         <p class="ch-lens" data-reveal>{c.modern_lens}</p>
       </div>
@@ -56,7 +56,7 @@ const partIdx = c.part.chapters.indexOf(c.n) + 1;
         </li>
       ))}
     </ol>
-    <p class="hint" style="margin-top:16px">Want the full argument, stories and research? Read <em>{BOOK.title}</em> by {BOOK.author}. This page is an independent study guide, not a substitute.</p>
+    <p class="hint" style="margin-top:16px">Original summaries written for Hopbit. <a href={u('/about/#credits')}>Credits</a></p>
   </section>
 
   <PenDivider />
@@ -73,7 +73,7 @@ const partIdx = c.part.chapters.indexOf(c.n) + 1;
 
   <nav class="wrap ch-nav" aria-label="Chapter navigation">
     {prev ? <a class="card" data-color={prev.part.color} href={u(`/chapters/${prev.n}/`)}><span class="eyebrow">← Chapter {prev.n}</span><h3>{prev.short}</h3></a> : <a class="card" href={u('/chapters/')}><span class="eyebrow">← All chapters</span><h3>The book, mapped</h3></a>}
-    {next ? <a class="card next" data-color={next.part.color} href={u(`/chapters/${next.n}/`)}><span class="eyebrow">Chapter {next.n} →</span><h3>{next.short}</h3></a> : <a class="card next" href={u('/coach/')}><span class="eyebrow">Finished the book →</span><h3>Bring your own habit to the coach</h3></a>}
+    {next ? <a class="card next" data-color={next.part.color} href={u(`/chapters/${next.n}/`)}><span class="eyebrow">Chapter {next.n} →</span><h3>{next.short}</h3></a> : <a class="card next" href={u('/coach/')}><span class="eyebrow">Finished all 20 →</span><h3>Bring your own habit to the coach</h3></a>}
   </nav>
 </Base>
 
@@ -83,7 +83,7 @@ const partIdx = c.part.chapters.indexOf(c.n) + 1;
   .ch-hero { padding: 140px 0 56px; }
   .ch-hero-grid { display: grid; grid-template-columns: 1.4fr 0.6fr; gap: 40px; align-items: center; }
   .ch-hero h1 { color: var(--law); }
-  .ch-title { font: 500 0.9rem var(--f-ui); color: var(--ink-3); margin-top: -6px; }
+  .ch-title { font-size: clamp(1.5rem, 1vw + 1.1rem, 2rem); line-height: 1.15; color: var(--ink-2); margin-top: -6px; }
   .ch-lens { color: var(--ink-2); max-width: 62ch; }
   .ch-hero-side { display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center; }
   .ch-hero-side :global(.num) { --size: 150px; }
