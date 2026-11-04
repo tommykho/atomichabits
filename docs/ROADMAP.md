@@ -7,10 +7,10 @@
 - [x] Habit Coach: 12 AI options (bring your own key, no key, on device, self-hosted), local retrieval, idea-citation verification, manual-only mode
 - [x] 30-second podcast: Kokoro on device plus Gemini/OpenAI/ElevenLabs keys, chime intro, MP3 download
 - [x] Community habit journals preview (stored in the browser), relay with tests
-- [x] Deploy configs: Cloudflare Pages (Function relay), Vercel (relay project `atomichabits-relay`), GitHub Pages workflow
+- [x] Deploy configs: Cloudflare Pages (Function relay), Vercel (relay project `hopbit-relay`), GitHub Pages workflow
 
 ## Decisions needed from the owner
-1. **Repo, URLs and domain.** Brand is *Hopbit: Micro incremental habits*. The repo, GitHub Pages path, Cloudflare project and Vercel relay are still named `atomichabits`; rename them (e.g. `hopbit-habits`) so the source book's title is not used as a name. Keep the book's title to the footer credit and About → Credits.
+1. **Repo, URLs and domain (done).** The repo was renamed from `atomichabits` to `tommykho/hopbit`; GitHub Pages is at `https://tommykho.github.io/hopbit/`, the Vercel relay is `hopbit-relay`, and the Cloudflare Pages project is `hopbit`. Brand is *Hopbit: Micro incremental habits*. Remaining choice: an optional custom domain.
 2. **Hopbit palette and fonts (optional).** The site keeps the habit-journal theme; the Hopbit kit's navy/sunshine palette and Fredoka/Nunito fonts could replace it.
 3. **Code licence** (MIT or AGPL, for example) before accepting contributions.
 4. **Monetisation** (Cloudflare allows commercial use). Do not sell summaries as a substitute for the source book; link to it from the credits instead.

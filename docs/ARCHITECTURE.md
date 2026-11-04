@@ -14,7 +14,7 @@
 ```
 
 GitHub Pages has no functions, so that build sets `PUBLIC_RELAY_URL` to the Vercel relay
-(`https://atomichabits-relay.vercel.app/api/relay`).
+(`https://hopbit-relay.vercel.app/api/relay`).
 
 ## Content model
 

@@ -1,6 +1,7 @@
-# Build the static site for GitHub Pages (project site: https://tommykho.github.io/atomichabits/) and deploy it
-# with the official Pages actions (no gh-pages branch). The AI relay lives on Vercel because GitHub Pages
-# has no server functions.
+# Build the static site for GitHub Pages and deploy it with the official Pages actions.
+# The base path and origin come from actions/configure-pages, so the build follows the repo name
+# (https://tommykho.github.io/hopbit/) or a custom domain automatically. The AI relay lives on Vercel
+# because GitHub Pages has no server functions.
 # One-time setup: repo Settings → Pages → Build and deployment → Source: "GitHub Actions".
 name: Deploy GitHub Pages
 
@@ -27,15 +28,16 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - id: pages
+        uses: actions/configure-pages@v5
       - run: npm ci
       - run: npm test
       - name: Build for GitHub Pages
         run: npm run build
         env:
-          SITE_URL: https://tommykho.github.io
-          BASE_PATH: /atomichabits
-          PUBLIC_RELAY_URL: https://atomichabits-relay.vercel.app/api/relay
-      - uses: actions/configure-pages@v5
+          SITE_URL: ${{ steps.pages.outputs.origin }}
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          PUBLIC_RELAY_URL: https://hopbit-relay.vercel.app/api/relay
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist

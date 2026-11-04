@@ -1,5 +1,5 @@
 # Cloudflare Pages project config (used by `wrangler pages dev` / `wrangler pages deploy`).
-name = "atomichabits"
+name = "hopbit"
 pages_build_output_dir = "./dist"
 compatibility_date = "2026-10-01"
 
